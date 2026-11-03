@@ -1,0 +1,13 @@
+\begin{table}[htbp]\centering
+\caption{多模态对比实验（测试集 288 样本）}
+\label{tab:modality}
+\begin{tabular}{lccccr}
+\toprule
+实验设置 & Accuracy(\%) & Precision(\%) & F1(\%) & 论文(\%) & 差值(pp) \\
+\midrule
+A 仅应变/压力 & 98.26 & 98.44 & 98.26 & 83.75 & 14.51 \\
+B 仅 sEMG & 91.32 & 92.09 & 91.36 & 88.02 & 3.30 \\
+C 融合（应变/压力+sEMG） & 98.61 & 98.66 & 98.61 & 99.65 & -1.04 \\
+\bottomrule
+\end{tabular}
+\end{table}

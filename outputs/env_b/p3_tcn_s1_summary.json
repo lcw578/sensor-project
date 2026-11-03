@@ -1,0 +1,22 @@
+{
+  "tag": "p3_tcn_s1",
+  "model": "tcn",
+  "modality": "both",
+  "n_params": 295576,
+  "best_epoch": 6,
+  "best_val_acc": 1.0,
+  "test_accuracy": 0.9965277777777778,
+  "test_precision_macro": 0.9967948717948718,
+  "test_recall_macro": 0.9965277777777777,
+  "test_f1_macro": 0.9965217391304347,
+  "test_precision_weighted": 0.9967948717948718,
+  "train_time_sec": 63.30253028869629,
+  "config": {
+    "batch_size": 50,
+    "epochs": 60,
+    "lr": 0.001,
+    "weight_decay": 0.005,
+    "dropout": 0.3,
+    "augment": false
+  }
+}

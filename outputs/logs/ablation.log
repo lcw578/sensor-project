@@ -1,0 +1,310 @@
+
+===== [ablation] 1/5: abl_A0_full =====
+[abl_A0_full] model=bilstm modality=both 参数量=16,151,320 设备=cuda train/val/test=2304/288/288
+  ep  1 | train_loss 3.0785 acc 0.1111 | val_loss 2.7144 acc 0.1806 *best
+  ep  2 | train_loss 2.5707 acc 0.2053 | val_loss 2.3209 acc 0.2535 *best
+  ep  3 | train_loss 2.1513 acc 0.2613 | val_loss 1.9045 acc 0.3194 *best
+  ep  4 | train_loss 1.7879 acc 0.3733 | val_loss 1.5049 acc 0.4410 *best
+  ep  5 | train_loss 1.5335 acc 0.4605 | val_loss 1.2787 acc 0.5729 *best
+  ep  6 | train_loss 1.2498 acc 0.5321 | val_loss 1.0301 acc 0.6319 *best
+  ep  7 | train_loss 0.9959 acc 0.6324 | val_loss 0.8708 acc 0.7118 *best
+  ep  8 | train_loss 0.9455 acc 0.6684 | val_loss 0.7306 acc 0.7465 *best
+  ep  9 | train_loss 0.7876 acc 0.7283 | val_loss 0.5516 acc 0.7951 *best
+  ep 10 | train_loss 0.7194 acc 0.7344 | val_loss 0.4814 acc 0.8299 *best
+  ep 11 | train_loss 0.5960 acc 0.7726 | val_loss 0.4376 acc 0.8160
+  ep 12 | train_loss 0.5242 acc 0.8082 | val_loss 0.3236 acc 0.8819 *best
+  ep 13 | train_loss 0.4318 acc 0.8416 | val_loss 0.2720 acc 0.9028 *best
+  ep 14 | train_loss 0.3770 acc 0.8819 | val_loss 0.2230 acc 0.9410 *best
+  ep 15 | train_loss 0.3138 acc 0.9071 | val_loss 0.1965 acc 0.9479 *best
+  ep 16 | train_loss 0.2629 acc 0.9293 | val_loss 0.1463 acc 0.9653 *best
+  ep 17 | train_loss 0.2061 acc 0.9588 | val_loss 0.1487 acc 0.9618
+  ep 18 | train_loss 0.1530 acc 0.9627 | val_loss 0.1080 acc 0.9688 *best
+  ep 19 | train_loss 0.1629 acc 0.9622 | val_loss 0.1373 acc 0.9618
+  ep 20 | train_loss 0.1453 acc 0.9701 | val_loss 0.0902 acc 0.9792 *best
+  ep 21 | train_loss 0.1597 acc 0.9648 | val_loss 0.1390 acc 0.9722
+  ep 22 | train_loss 0.1156 acc 0.9800 | val_loss 0.1214 acc 0.9722
+  ep 23 | train_loss 0.0820 acc 0.9818 | val_loss 0.0904 acc 0.9826 *best
+  ep 24 | train_loss 0.0721 acc 0.9813 | val_loss 0.0661 acc 0.9861 *best
+  ep 25 | train_loss 0.0713 acc 0.9844 | val_loss 0.0519 acc 0.9896 *best
+  ep 26 | train_loss 0.0612 acc 0.9887 | val_loss 0.0580 acc 0.9861
+  ep 27 | train_loss 0.0699 acc 0.9844 | val_loss 0.0417 acc 0.9861
+  ep 28 | train_loss 0.0555 acc 0.9848 | val_loss 0.0311 acc 0.9896
+  ep 29 | train_loss 0.0365 acc 0.9913 | val_loss 0.0234 acc 0.9931 *best
+  ep 30 | train_loss 0.0415 acc 0.9905 | val_loss 0.0408 acc 0.9931
+  ep 31 | train_loss 0.0413 acc 0.9896 | val_loss 0.0606 acc 0.9896
+  ep 32 | train_loss 0.0357 acc 0.9952 | val_loss 0.0634 acc 0.9896
+  ep 33 | train_loss 0.0293 acc 0.9931 | val_loss 0.0689 acc 0.9861
+  ep 34 | train_loss 0.0199 acc 0.9952 | val_loss 0.0434 acc 0.9931
+  ep 35 | train_loss 0.0237 acc 0.9952 | val_loss 0.0342 acc 0.9896
+  ep 36 | train_loss 0.0175 acc 0.9957 | val_loss 0.0369 acc 0.9896
+  ep 37 | train_loss 0.0230 acc 0.9952 | val_loss 0.0289 acc 0.9931
+  ep 38 | train_loss 0.0158 acc 0.9961 | val_loss 0.0354 acc 0.9931
+  ep 39 | train_loss 0.0232 acc 0.9948 | val_loss 0.0344 acc 0.9931
+  ep 40 | train_loss 0.0136 acc 0.9965 | val_loss 0.0403 acc 0.9931
+  ep 41 | train_loss 0.0169 acc 0.9965 | val_loss 0.0420 acc 0.9931
+  ep 42 | train_loss 0.0101 acc 0.9983 | val_loss 0.0397 acc 0.9931
+  ep 43 | train_loss 0.0125 acc 0.9961 | val_loss 0.0428 acc 0.9931
+  ep 44 | train_loss 0.0104 acc 0.9987 | val_loss 0.0450 acc 0.9931
+  ep 45 | train_loss 0.0086 acc 0.9996 | val_loss 0.0446 acc 0.9931
+  ep 46 | train_loss 0.0089 acc 0.9987 | val_loss 0.0395 acc 0.9931
+  ep 47 | train_loss 0.0150 acc 0.9983 | val_loss 0.0788 acc 0.9896
+  ep 48 | train_loss 0.0185 acc 0.9978 | val_loss 0.0405 acc 0.9931
+  ep 49 | train_loss 0.0110 acc 0.9978 | val_loss 0.0374 acc 0.9931
+  早停于 epoch 49（20 轮无提升）
+
+[abl_A0_full] 测试集 Accuracy=0.9896 Precision(macro)=0.9901 F1(macro)=0.9896 | 最优epoch=29 用时=1752.0s
+
+===== [ablation] 2/5: abl_A1_no_fc =====
+[abl_A1_no_fc] model=bilstm modality=both 参数量=15,781,912 设备=cuda train/val/test=2304/288/288
+  ep  1 | train_loss 2.7578 acc 0.1979 | val_loss 2.4430 acc 0.2500 *best
+  ep  2 | train_loss 1.8602 acc 0.4219 | val_loss 1.8618 acc 0.4097 *best
+  ep  3 | train_loss 1.3538 acc 0.5768 | val_loss 1.1185 acc 0.6632 *best
+  ep  4 | train_loss 0.8681 acc 0.7274 | val_loss 0.7840 acc 0.7569 *best
+  ep  5 | train_loss 0.6765 acc 0.7882 | val_loss 0.8190 acc 0.7431
+  ep  6 | train_loss 0.4145 acc 0.8789 | val_loss 0.4257 acc 0.8854 *best
+  ep  7 | train_loss 0.2750 acc 0.9245 | val_loss 0.4514 acc 0.8472
+  ep  8 | train_loss 0.3127 acc 0.9132 | val_loss 0.5856 acc 0.7778
+  ep  9 | train_loss 0.3906 acc 0.8780 | val_loss 0.3891 acc 0.8958 *best
+  ep 10 | train_loss 0.2073 acc 0.9423 | val_loss 0.3255 acc 0.9062 *best
+  ep 11 | train_loss 0.0994 acc 0.9757 | val_loss 0.2404 acc 0.9167 *best
+  ep 12 | train_loss 0.0642 acc 0.9865 | val_loss 0.2038 acc 0.9375 *best
+  ep 13 | train_loss 0.0492 acc 0.9891 | val_loss 0.3091 acc 0.8993
+  ep 14 | train_loss 0.0658 acc 0.9818 | val_loss 0.2017 acc 0.9444 *best
+  ep 15 | train_loss 0.0194 acc 0.9991 | val_loss 0.1912 acc 0.9375
+  ep 16 | train_loss 0.0335 acc 0.9926 | val_loss 0.1837 acc 0.9444
+  ep 17 | train_loss 0.0149 acc 0.9978 | val_loss 0.1346 acc 0.9618 *best
+  ep 18 | train_loss 0.0071 acc 1.0000 | val_loss 0.1454 acc 0.9653 *best
+  ep 19 | train_loss 0.0043 acc 0.9996 | val_loss 0.1442 acc 0.9549
+  ep 20 | train_loss 0.0037 acc 1.0000 | val_loss 0.1463 acc 0.9583
+  ep 21 | train_loss 0.0028 acc 1.0000 | val_loss 0.1463 acc 0.9549
+  ep 22 | train_loss 0.0027 acc 1.0000 | val_loss 0.1428 acc 0.9549
+  ep 23 | train_loss 0.0021 acc 1.0000 | val_loss 0.1343 acc 0.9549
+  ep 24 | train_loss 0.0020 acc 1.0000 | val_loss 0.1419 acc 0.9618
+  ep 25 | train_loss 0.0018 acc 1.0000 | val_loss 0.1379 acc 0.9618
+  ep 26 | train_loss 0.0018 acc 1.0000 | val_loss 0.1375 acc 0.9583
+  ep 27 | train_loss 0.0015 acc 1.0000 | val_loss 0.1381 acc 0.9583
+  ep 28 | train_loss 0.0015 acc 1.0000 | val_loss 0.1419 acc 0.9583
+  ep 29 | train_loss 0.0014 acc 1.0000 | val_loss 0.1437 acc 0.9583
+  ep 30 | train_loss 0.0013 acc 1.0000 | val_loss 0.1399 acc 0.9583
+  ep 31 | train_loss 0.0012 acc 1.0000 | val_loss 0.1469 acc 0.9618
+  ep 32 | train_loss 0.0012 acc 1.0000 | val_loss 0.1475 acc 0.9549
+  ep 33 | train_loss 0.0010 acc 1.0000 | val_loss 0.1460 acc 0.9583
+  ep 34 | train_loss 0.0010 acc 1.0000 | val_loss 0.1456 acc 0.9583
+  ep 35 | train_loss 0.0010 acc 1.0000 | val_loss 0.1487 acc 0.9583
+  ep 36 | train_loss 0.0009 acc 1.0000 | val_loss 0.1480 acc 0.9583
+  ep 37 | train_loss 0.0010 acc 1.0000 | val_loss 0.1447 acc 0.9618
+  ep 38 | train_loss 0.0010 acc 1.0000 | val_loss 0.1456 acc 0.9618
+  早停于 epoch 38（20 轮无提升）
+
+[abl_A1_no_fc] 测试集 Accuracy=0.9653 Precision(macro)=0.9667 F1(macro)=0.9649 | 最优epoch=18 用时=1308.9s
+
+===== [ablation] 3/5: abl_A2_uni_lstm =====
+[abl_A2_uni_lstm] model=bilstm modality=both 参数量=5,883,672 设备=cuda train/val/test=2304/288/288
+  ep  1 | train_loss 3.1121 acc 0.0660 | val_loss 2.8778 acc 0.1458 *best
+  ep  2 | train_loss 2.8145 acc 0.1428 | val_loss 2.7612 acc 0.1319
+  ep  3 | train_loss 2.6113 acc 0.1623 | val_loss 2.5585 acc 0.1771 *best
+  ep  4 | train_loss 2.3749 acc 0.2010 | val_loss 2.1135 acc 0.2500 *best
+  ep  5 | train_loss 2.1319 acc 0.2452 | val_loss 1.9511 acc 0.2569 *best
+  ep  6 | train_loss 1.9982 acc 0.2378 | val_loss 1.9321 acc 0.2292
+  ep  7 | train_loss 1.9116 acc 0.2444 | val_loss 1.8528 acc 0.2569
+  ep  8 | train_loss 1.7884 acc 0.2912 | val_loss 1.6369 acc 0.3403 *best
+  ep  9 | train_loss 1.7346 acc 0.2925 | val_loss 1.6345 acc 0.3194
+  ep 10 | train_loss 1.6946 acc 0.3216 | val_loss 1.6341 acc 0.3750 *best
+  ep 11 | train_loss 1.6604 acc 0.3312 | val_loss 1.5575 acc 0.3576
+  ep 12 | train_loss 1.6516 acc 0.3294 | val_loss 1.7021 acc 0.3333
+  ep 13 | train_loss 1.6402 acc 0.3468 | val_loss 1.5457 acc 0.4201 *best
+  ep 14 | train_loss 1.5807 acc 0.3785 | val_loss 1.5811 acc 0.3333
+  ep 15 | train_loss 1.5861 acc 0.3767 | val_loss 1.8976 acc 0.3576
+  ep 16 | train_loss 1.6286 acc 0.3728 | val_loss 1.5405 acc 0.3819
+  ep 17 | train_loss 1.4914 acc 0.3859 | val_loss 1.4082 acc 0.3993
+  ep 18 | train_loss 1.4681 acc 0.4097 | val_loss 1.4248 acc 0.4236 *best
+  ep 19 | train_loss 1.4735 acc 0.4097 | val_loss 1.4535 acc 0.4132
+  ep 20 | train_loss 1.4003 acc 0.4379 | val_loss 1.3366 acc 0.4757 *best
+  ep 21 | train_loss 1.3437 acc 0.4523 | val_loss 1.3112 acc 0.4583
+  ep 22 | train_loss 1.3366 acc 0.4588 | val_loss 1.4157 acc 0.4549
+  ep 23 | train_loss 1.3037 acc 0.4796 | val_loss 1.2630 acc 0.5312 *best
+  ep 24 | train_loss 1.2733 acc 0.5143 | val_loss 1.3154 acc 0.5278
+  ep 25 | train_loss 1.3149 acc 0.4918 | val_loss 1.3485 acc 0.5278
+  ep 26 | train_loss 1.3103 acc 0.5182 | val_loss 1.2334 acc 0.5590 *best
+  ep 27 | train_loss 1.1841 acc 0.5469 | val_loss 1.1977 acc 0.5590
+  ep 28 | train_loss 1.2251 acc 0.5239 | val_loss 1.2506 acc 0.5625 *best
+  ep 29 | train_loss 1.2036 acc 0.5312 | val_loss 1.1932 acc 0.5451
+  ep 30 | train_loss 1.2633 acc 0.5052 | val_loss 1.2113 acc 0.5417
+  ep 31 | train_loss 1.2258 acc 0.5326 | val_loss 1.1974 acc 0.5417
+  ep 32 | train_loss 1.1935 acc 0.5326 | val_loss 1.1897 acc 0.5451
+  ep 33 | train_loss 1.1346 acc 0.5534 | val_loss 1.1587 acc 0.5590
+  ep 34 | train_loss 1.1369 acc 0.5482 | val_loss 1.2515 acc 0.5521
+  ep 35 | train_loss 1.1291 acc 0.5525 | val_loss 1.1662 acc 0.5590
+  ep 36 | train_loss 1.0985 acc 0.5516 | val_loss 1.2328 acc 0.5660 *best
+  ep 37 | train_loss 1.1282 acc 0.5577 | val_loss 1.1675 acc 0.5660
+  ep 38 | train_loss 1.0964 acc 0.5595 | val_loss 1.0965 acc 0.5694 *best
+  ep 39 | train_loss 1.0834 acc 0.5625 | val_loss 1.1120 acc 0.5660
+  ep 40 | train_loss 1.0670 acc 0.5608 | val_loss 1.0868 acc 0.5729 *best
+  ep 41 | train_loss 1.0526 acc 0.5677 | val_loss 1.0732 acc 0.5660
+  ep 42 | train_loss 1.0491 acc 0.5747 | val_loss 1.0560 acc 0.5729
+  ep 43 | train_loss 1.0558 acc 0.5712 | val_loss 1.0312 acc 0.5729
+  ep 44 | train_loss 1.0504 acc 0.5668 | val_loss 1.0313 acc 0.5764 *best
+  ep 45 | train_loss 1.0581 acc 0.5582 | val_loss 1.0266 acc 0.5764
+  ep 46 | train_loss 1.0482 acc 0.5734 | val_loss 1.0357 acc 0.5729
+  ep 47 | train_loss 1.0328 acc 0.5738 | val_loss 1.0239 acc 0.5764
+  ep 48 | train_loss 1.0451 acc 0.5725 | val_loss 1.0473 acc 0.5694
+  ep 49 | train_loss 1.0450 acc 0.5734 | val_loss 1.0441 acc 0.5694
+  ep 50 | train_loss 1.0473 acc 0.5786 | val_loss 1.0274 acc 0.5729
+  ep 51 | train_loss 1.0253 acc 0.5829 | val_loss 1.0255 acc 0.5729
+  ep 52 | train_loss 1.0349 acc 0.5738 | val_loss 1.0390 acc 0.5694
+  ep 53 | train_loss 1.0435 acc 0.5760 | val_loss 1.0385 acc 0.5694
+  ep 54 | train_loss 1.0355 acc 0.5794 | val_loss 1.0383 acc 0.5729
+  ep 55 | train_loss 1.0398 acc 0.5781 | val_loss 1.0358 acc 0.5729
+  ep 56 | train_loss 1.0391 acc 0.5838 | val_loss 1.0364 acc 0.5729
+  ep 57 | train_loss 1.0395 acc 0.5716 | val_loss 1.0356 acc 0.5799 *best
+  ep 58 | train_loss 1.0401 acc 0.5751 | val_loss 1.0359 acc 0.5799
+  ep 59 | train_loss 1.0355 acc 0.5755 | val_loss 1.0363 acc 0.5799
+  ep 60 | train_loss 1.0347 acc 0.5786 | val_loss 1.0363 acc 0.5799
+
+[abl_A2_uni_lstm] 测试集 Accuracy=0.5868 Precision(macro)=0.5598 F1(macro)=0.5478 | 最优epoch=57 用时=1697.3s
+
+===== [ablation] 4/5: abl_A3_layers1 =====
+[abl_A3_layers1] model=bilstm modality=both 参数量=2,761,496 设备=cuda train/val/test=2304/288/288
+  ep  1 | train_loss 3.0184 acc 0.1615 | val_loss 2.5332 acc 0.2639 *best
+  ep  2 | train_loss 2.2623 acc 0.3186 | val_loss 1.9002 acc 0.4201 *best
+  ep  3 | train_loss 1.8218 acc 0.4184 | val_loss 1.6437 acc 0.4583 *best
+  ep  4 | train_loss 1.4673 acc 0.5282 | val_loss 1.3755 acc 0.5486 *best
+  ep  5 | train_loss 1.3578 acc 0.5773 | val_loss 1.3380 acc 0.5868 *best
+  ep  6 | train_loss 1.1302 acc 0.6441 | val_loss 1.2004 acc 0.6319 *best
+  ep  7 | train_loss 0.9749 acc 0.6905 | val_loss 0.9923 acc 0.6597 *best
+  ep  8 | train_loss 0.7924 acc 0.7487 | val_loss 0.7535 acc 0.7604 *best
+  ep  9 | train_loss 0.7269 acc 0.7778 | val_loss 0.8045 acc 0.7639 *best
+  ep 10 | train_loss 0.6513 acc 0.7856 | val_loss 0.7921 acc 0.7743 *best
+  ep 11 | train_loss 0.5546 acc 0.8372 | val_loss 0.6691 acc 0.7604
+  ep 12 | train_loss 0.5678 acc 0.8242 | val_loss 0.6505 acc 0.7743
+  ep 13 | train_loss 0.4527 acc 0.8533 | val_loss 0.5832 acc 0.8403 *best
+  ep 14 | train_loss 0.3594 acc 0.8893 | val_loss 0.5117 acc 0.8160
+  ep 15 | train_loss 0.3426 acc 0.8902 | val_loss 0.5372 acc 0.8472 *best
+  ep 16 | train_loss 0.3213 acc 0.8958 | val_loss 0.6256 acc 0.8056
+  ep 17 | train_loss 0.2625 acc 0.9275 | val_loss 0.5232 acc 0.8681 *best
+  ep 18 | train_loss 0.3023 acc 0.9076 | val_loss 0.4653 acc 0.8611
+  ep 19 | train_loss 0.2290 acc 0.9336 | val_loss 0.4285 acc 0.8646
+  ep 20 | train_loss 0.1802 acc 0.9488 | val_loss 0.3679 acc 0.8993 *best
+  ep 21 | train_loss 0.1717 acc 0.9505 | val_loss 0.3424 acc 0.8785
+  ep 22 | train_loss 0.1315 acc 0.9575 | val_loss 0.3962 acc 0.8681
+  ep 23 | train_loss 0.1270 acc 0.9635 | val_loss 0.3748 acc 0.9062 *best
+  ep 24 | train_loss 0.0995 acc 0.9709 | val_loss 0.3479 acc 0.9028
+  ep 25 | train_loss 0.1342 acc 0.9644 | val_loss 0.3403 acc 0.8993
+  ep 26 | train_loss 0.0906 acc 0.9761 | val_loss 0.3254 acc 0.9062
+  ep 27 | train_loss 0.0665 acc 0.9800 | val_loss 0.2781 acc 0.9167 *best
+  ep 28 | train_loss 0.0627 acc 0.9878 | val_loss 0.3209 acc 0.9028
+  ep 29 | train_loss 0.0516 acc 0.9883 | val_loss 0.2541 acc 0.9132
+  ep 30 | train_loss 0.0656 acc 0.9835 | val_loss 0.3196 acc 0.8958
+  ep 31 | train_loss 0.0495 acc 0.9874 | val_loss 0.3310 acc 0.9167
+  ep 32 | train_loss 0.0400 acc 0.9887 | val_loss 0.3685 acc 0.9167
+  ep 33 | train_loss 0.0354 acc 0.9913 | val_loss 0.3272 acc 0.9236 *best
+  ep 34 | train_loss 0.0223 acc 0.9944 | val_loss 0.3632 acc 0.9132
+  ep 35 | train_loss 0.0298 acc 0.9926 | val_loss 0.3592 acc 0.9097
+  ep 36 | train_loss 0.0215 acc 0.9939 | val_loss 0.3837 acc 0.9201
+  ep 37 | train_loss 0.0212 acc 0.9944 | val_loss 0.2951 acc 0.9340 *best
+  ep 38 | train_loss 0.0148 acc 0.9974 | val_loss 0.2886 acc 0.9340
+  ep 39 | train_loss 0.0132 acc 0.9978 | val_loss 0.2961 acc 0.9306
+  ep 40 | train_loss 0.0186 acc 0.9978 | val_loss 0.2701 acc 0.9375 *best
+  ep 41 | train_loss 0.0149 acc 0.9965 | val_loss 0.2990 acc 0.9306
+  ep 42 | train_loss 0.0123 acc 0.9983 | val_loss 0.2887 acc 0.9340
+  ep 43 | train_loss 0.0088 acc 0.9991 | val_loss 0.2903 acc 0.9375
+  ep 44 | train_loss 0.0070 acc 0.9983 | val_loss 0.2912 acc 0.9375
+  ep 45 | train_loss 0.0079 acc 0.9983 | val_loss 0.2953 acc 0.9375
+  ep 46 | train_loss 0.0085 acc 0.9987 | val_loss 0.2831 acc 0.9340
+  ep 47 | train_loss 0.0068 acc 0.9991 | val_loss 0.2608 acc 0.9375
+  ep 48 | train_loss 0.0094 acc 0.9983 | val_loss 0.2748 acc 0.9375
+  ep 49 | train_loss 0.0074 acc 0.9991 | val_loss 0.2702 acc 0.9410 *best
+  ep 50 | train_loss 0.0055 acc 1.0000 | val_loss 0.2675 acc 0.9410
+  ep 51 | train_loss 0.0057 acc 0.9991 | val_loss 0.2646 acc 0.9410
+  ep 52 | train_loss 0.0056 acc 0.9996 | val_loss 0.2632 acc 0.9410
+  ep 53 | train_loss 0.0068 acc 0.9987 | val_loss 0.2665 acc 0.9410
+  ep 54 | train_loss 0.0046 acc 1.0000 | val_loss 0.2685 acc 0.9410
+  ep 55 | train_loss 0.0060 acc 0.9987 | val_loss 0.2681 acc 0.9410
+  ep 56 | train_loss 0.0051 acc 0.9996 | val_loss 0.2675 acc 0.9410
+  ep 57 | train_loss 0.0088 acc 0.9970 | val_loss 0.2668 acc 0.9410
+  ep 58 | train_loss 0.0056 acc 0.9996 | val_loss 0.2666 acc 0.9410
+  ep 59 | train_loss 0.0094 acc 0.9974 | val_loss 0.2664 acc 0.9410
+  ep 60 | train_loss 0.0053 acc 0.9996 | val_loss 0.2664 acc 0.9410
+
+[abl_A3_layers1] 测试集 Accuracy=0.9514 Precision(macro)=0.9533 F1(macro)=0.9508 | 最优epoch=49 用时=732.8s
+
+===== [ablation] 5/5: abl_A4_fusion_sum =====
+[abl_A4_fusion_sum] model=bilstm modality=both 参数量=16,148,248 设备=cuda train/val/test=2304/288/288
+  ep  1 | train_loss 3.1039 acc 0.0859 | val_loss 2.9060 acc 0.1285 *best
+  ep  2 | train_loss 2.7489 acc 0.1636 | val_loss 2.6181 acc 0.1979 *best
+  ep  3 | train_loss 2.4961 acc 0.2300 | val_loss 2.1668 acc 0.3403 *best
+  ep  4 | train_loss 2.1375 acc 0.3056 | val_loss 1.9325 acc 0.3090
+  ep  5 | train_loss 1.8895 acc 0.3550 | val_loss 1.8029 acc 0.3611 *best
+  ep  6 | train_loss 1.7311 acc 0.4123 | val_loss 1.5410 acc 0.5000 *best
+  ep  7 | train_loss 1.5756 acc 0.4588 | val_loss 1.2219 acc 0.5625 *best
+  ep  8 | train_loss 1.2821 acc 0.5286 | val_loss 1.2055 acc 0.5486
+  ep  9 | train_loss 1.1239 acc 0.5803 | val_loss 1.0232 acc 0.6493 *best
+  ep 10 | train_loss 0.9919 acc 0.6411 | val_loss 0.8317 acc 0.7222 *best
+  ep 11 | train_loss 0.8958 acc 0.6649 | val_loss 0.6974 acc 0.7292 *best
+  ep 12 | train_loss 0.7398 acc 0.7057 | val_loss 0.5360 acc 0.7639 *best
+  ep 13 | train_loss 0.6368 acc 0.7418 | val_loss 0.4858 acc 0.7882 *best
+  ep 14 | train_loss 0.5625 acc 0.7769 | val_loss 0.4973 acc 0.7812
+  ep 15 | train_loss 0.5144 acc 0.7999 | val_loss 0.3906 acc 0.8472 *best
+  ep 16 | train_loss 0.4554 acc 0.8268 | val_loss 0.3886 acc 0.8542 *best
+  ep 17 | train_loss 0.4196 acc 0.8420 | val_loss 0.4424 acc 0.8472
+  ep 18 | train_loss 0.4220 acc 0.8555 | val_loss 0.3038 acc 0.8750 *best
+  ep 19 | train_loss 0.3396 acc 0.8780 | val_loss 0.2651 acc 0.8785 *best
+  ep 20 | train_loss 0.3087 acc 0.8798 | val_loss 0.2922 acc 0.9028 *best
+  ep 21 | train_loss 0.3390 acc 0.8950 | val_loss 0.2461 acc 0.9062 *best
+  ep 22 | train_loss 0.2637 acc 0.9123 | val_loss 0.2864 acc 0.9062
+  ep 23 | train_loss 0.2276 acc 0.9162 | val_loss 0.1702 acc 0.9236 *best
+  ep 24 | train_loss 0.1996 acc 0.9323 | val_loss 0.1175 acc 0.9444 *best
+  ep 25 | train_loss 0.2093 acc 0.9314 | val_loss 0.2168 acc 0.9201
+  ep 26 | train_loss 0.1940 acc 0.9310 | val_loss 0.1265 acc 0.9479 *best
+  ep 27 | train_loss 0.1748 acc 0.9366 | val_loss 0.1707 acc 0.9306
+  ep 28 | train_loss 0.1542 acc 0.9410 | val_loss 0.1305 acc 0.9444
+  ep 29 | train_loss 0.1441 acc 0.9527 | val_loss 0.1386 acc 0.9410
+  ep 30 | train_loss 0.1422 acc 0.9444 | val_loss 0.1334 acc 0.9514 *best
+  ep 31 | train_loss 0.1342 acc 0.9540 | val_loss 0.1265 acc 0.9444
+  ep 32 | train_loss 0.1028 acc 0.9666 | val_loss 0.1149 acc 0.9479
+  ep 33 | train_loss 0.0896 acc 0.9705 | val_loss 0.1412 acc 0.9444
+  ep 34 | train_loss 0.0879 acc 0.9753 | val_loss 0.1200 acc 0.9618 *best
+  ep 35 | train_loss 0.0778 acc 0.9822 | val_loss 0.0919 acc 0.9688 *best
+  ep 36 | train_loss 0.0703 acc 0.9848 | val_loss 0.1112 acc 0.9688
+  ep 37 | train_loss 0.0638 acc 0.9852 | val_loss 0.0844 acc 0.9757 *best
+  ep 38 | train_loss 0.0773 acc 0.9835 | val_loss 0.0881 acc 0.9722
+  ep 39 | train_loss 0.0584 acc 0.9883 | val_loss 0.0730 acc 0.9792 *best
+  ep 40 | train_loss 0.0529 acc 0.9905 | val_loss 0.0640 acc 0.9861 *best
+  ep 41 | train_loss 0.0419 acc 0.9922 | val_loss 0.0395 acc 0.9896 *best
+  ep 42 | train_loss 0.0491 acc 0.9891 | val_loss 0.0728 acc 0.9792
+  ep 43 | train_loss 0.0379 acc 0.9922 | val_loss 0.0545 acc 0.9861
+  ep 44 | train_loss 0.0368 acc 0.9948 | val_loss 0.0522 acc 0.9861
+  ep 45 | train_loss 0.0305 acc 0.9939 | val_loss 0.0382 acc 0.9896
+  ep 46 | train_loss 0.0270 acc 0.9944 | val_loss 0.0580 acc 0.9826
+  ep 47 | train_loss 0.0245 acc 0.9948 | val_loss 0.0566 acc 0.9826
+  ep 48 | train_loss 0.0238 acc 0.9935 | val_loss 0.0417 acc 0.9826
+  ep 49 | train_loss 0.0271 acc 0.9957 | val_loss 0.0381 acc 0.9861
+  ep 50 | train_loss 0.0229 acc 0.9961 | val_loss 0.0439 acc 0.9826
+  ep 51 | train_loss 0.0243 acc 0.9935 | val_loss 0.0439 acc 0.9861
+  ep 52 | train_loss 0.0239 acc 0.9961 | val_loss 0.0447 acc 0.9861
+  ep 53 | train_loss 0.0187 acc 0.9970 | val_loss 0.0445 acc 0.9861
+  ep 54 | train_loss 0.0191 acc 0.9970 | val_loss 0.0426 acc 0.9826
+  ep 55 | train_loss 0.0164 acc 0.9974 | val_loss 0.0411 acc 0.9826
+  ep 56 | train_loss 0.0135 acc 0.9974 | val_loss 0.0406 acc 0.9826
+  ep 57 | train_loss 0.0200 acc 0.9952 | val_loss 0.0397 acc 0.9826
+  ep 58 | train_loss 0.0181 acc 0.9970 | val_loss 0.0394 acc 0.9826
+  ep 59 | train_loss 0.0209 acc 0.9948 | val_loss 0.0399 acc 0.9826
+  ep 60 | train_loss 0.0184 acc 0.9970 | val_loss 0.0400 acc 0.9826
+
+[abl_A4_fusion_sum] 测试集 Accuracy=0.9792 Precision(macro)=0.9802 F1(macro)=0.9790 | 最优epoch=41 用时=2074.7s
+
+结果已保存: outputs/results\ablation.csv
+              tag  model modality  n_params  best_epoch  best_val_acc  test_accuracy  test_precision_macro  test_f1_macro  cfg_batch_size  cfg_epochs  cfg_lr  cfg_dropout  test_recall_macro  test_precision_weighted  train_time_sec  cfg_weight_decay  cfg_augment
+      abl_A0_full bilstm     both  16151320          29      0.993056       0.989583              0.990118       0.989571              50          60   0.001          0.3           0.989583                 0.990118     1751.961400             0.005        False
+     abl_A1_no_fc bilstm     both  15781912          18      0.965278       0.965278              0.966737       0.964855              50          60   0.001          0.3           0.965278                 0.966737     1308.892570             0.005        False
+  abl_A2_uni_lstm bilstm     both   5883672          57      0.579861       0.586806              0.559788       0.547842              50          60   0.001          0.3           0.586806                 0.559788     1697.298368             0.005        False
+   abl_A3_layers1 bilstm     both   2761496          49      0.940972       0.951389              0.953334       0.950777              50          60   0.001          0.3           0.951389                 0.953334      732.801481             0.005        False
+abl_A4_fusion_sum bilstm     both  16148248          41      0.989583       0.979167              0.980186       0.978986              50          60   0.001          0.3           0.979167                 0.980186     2074.691244             0.005        False
+图已保存: outputs/figures\ablation.png
+
+=== 消融结果（相对基准的下降）===
+  A0 完整模型(基准)            acc=0.9896  Δ=+0.0000
+  A1 去掉分支内 FC            acc=0.9653  Δ=-0.0243
+  A2 双向→单向 LSTM          acc=0.5868  Δ=-0.4028
+  A3 层数 3→1              acc=0.9514  Δ=-0.0382
+  A4 融合 concat→sum       acc=0.9792  Δ=-0.0104

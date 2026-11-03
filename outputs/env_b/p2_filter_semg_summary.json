@@ -1,0 +1,22 @@
+{
+  "tag": "p2_filter_semg",
+  "model": "bilstm",
+  "modality": "semg",
+  "n_params": 16148248,
+  "best_epoch": 40,
+  "best_val_acc": 0.7395833333333334,
+  "test_accuracy": 0.7569444444444444,
+  "test_precision_macro": 0.7777111777111777,
+  "test_recall_macro": 0.7569444444444443,
+  "test_f1_macro": 0.7551119268364186,
+  "test_precision_weighted": 0.7777111777111777,
+  "train_time_sec": 3405.68523311615,
+  "config": {
+    "batch_size": 50,
+    "epochs": 60,
+    "lr": 0.001,
+    "weight_decay": 0.005,
+    "dropout": 0.3,
+    "augment": false
+  }
+}

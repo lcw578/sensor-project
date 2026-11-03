@@ -1,0 +1,21 @@
+{
+  "tag": "smoke",
+  "modality": "both",
+  "n_params": 16151320,
+  "best_epoch": 2,
+  "best_val_acc": 0.2465277777777778,
+  "test_accuracy": 0.2534722222222222,
+  "test_precision_macro": 0.18308034180280694,
+  "test_recall_macro": 0.2534722222222222,
+  "test_f1_macro": 0.18068601166978449,
+  "test_precision_weighted": 0.18308034180280694,
+  "train_time_sec": 54.063427686691284,
+  "config": {
+    "batch_size": 50,
+    "epochs": 2,
+    "lr": 0.001,
+    "weight_decay": 0.005,
+    "dropout": 0.3,
+    "augment": false
+  }
+}

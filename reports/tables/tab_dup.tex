@@ -1,0 +1,14 @@
+\begin{table}[htbp]\centering
+\caption{测试集按“在训练集中是否存在近重复样本”分层的准确率}
+\label{tab:dup}
+\begin{tabular}{lccc}
+\toprule
+子集 & 样本数 & 融合模型(\%) & 仅 sEMG(\%) \\
+\midrule
+存在近重复（$\cos\ge 0.999$） & 79 & 100.00 & 100.00 \\
+不存在近重复 & 209 & 98.09 & 89.50 \\
+\midrule
+全体 & 288 & 98.61 & 91.32 \\
+\bottomrule
+\end{tabular}
+\end{table}

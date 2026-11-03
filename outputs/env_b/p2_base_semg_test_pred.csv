@@ -1,0 +1,289 @@
+﻿y_true,y_pred,y_true_name,y_pred_name
+0,0,Afternoon,Afternoon
+0,0,Afternoon,Afternoon
+0,0,Afternoon,Afternoon
+0,23,Afternoon,Weather
+0,0,Afternoon,Afternoon
+0,21,Afternoon,Tomorrow
+0,0,Afternoon,Afternoon
+0,0,Afternoon,Afternoon
+0,0,Afternoon,Afternoon
+0,0,Afternoon,Afternoon
+0,0,Afternoon,Afternoon
+0,0,Afternoon,Afternoon
+1,1,Always,Always
+1,1,Always,Always
+1,14,Always,Sorry
+1,1,Always,Always
+1,1,Always,Always
+1,15,Always,South
+1,14,Always,Sorry
+1,1,Always,Always
+1,1,Always,Always
+1,1,Always,Always
+1,1,Always,Always
+1,1,Always,Always
+2,2,China,China
+2,2,China,China
+2,2,China,China
+2,2,China,China
+2,2,China,China
+2,12,China,Never mind
+2,2,China,China
+2,2,China,China
+2,2,China,China
+2,2,China,China
+2,2,China,China
+2,2,China,China
+3,3,Delight,Delight
+3,3,Delight,Delight
+3,3,Delight,Delight
+3,3,Delight,Delight
+3,3,Delight,Delight
+3,3,Delight,Delight
+3,3,Delight,Delight
+3,3,Delight,Delight
+3,3,Delight,Delight
+3,3,Delight,Delight
+3,22,Delight,University
+3,3,Delight,Delight
+4,9,Dine,Good bye
+4,4,Dine,Dine
+4,4,Dine,Dine
+4,4,Dine,Dine
+4,4,Dine,Dine
+4,4,Dine,Dine
+4,4,Dine,Dine
+4,4,Dine,Dine
+4,4,Dine,Dine
+4,4,Dine,Dine
+4,4,Dine,Dine
+4,4,Dine,Dine
+5,0,Drink,Afternoon
+5,5,Drink,Drink
+5,5,Drink,Drink
+5,5,Drink,Drink
+5,5,Drink,Drink
+5,5,Drink,Drink
+5,5,Drink,Drink
+5,5,Drink,Drink
+5,0,Drink,Afternoon
+5,5,Drink,Drink
+5,5,Drink,Drink
+5,5,Drink,Drink
+6,6,Friend,Friend
+6,6,Friend,Friend
+6,6,Friend,Friend
+6,6,Friend,Friend
+6,6,Friend,Friend
+6,6,Friend,Friend
+6,15,Friend,South
+6,6,Friend,Friend
+6,6,Friend,Friend
+6,6,Friend,Friend
+6,6,Friend,Friend
+6,6,Friend,Friend
+7,7,Go,Go
+7,7,Go,Go
+7,7,Go,Go
+7,7,Go,Go
+7,7,Go,Go
+7,7,Go,Go
+7,7,Go,Go
+7,7,Go,Go
+7,7,Go,Go
+7,7,Go,Go
+7,7,Go,Go
+7,7,Go,Go
+8,8,Go home,Go home
+8,8,Go home,Go home
+8,8,Go home,Go home
+8,8,Go home,Go home
+8,8,Go home,Go home
+8,8,Go home,Go home
+8,8,Go home,Go home
+8,8,Go home,Go home
+8,8,Go home,Go home
+8,8,Go home,Go home
+8,8,Go home,Go home
+8,8,Go home,Go home
+9,4,Good bye,Dine
+9,9,Good bye,Good bye
+9,9,Good bye,Good bye
+9,9,Good bye,Good bye
+9,9,Good bye,Good bye
+9,9,Good bye,Good bye
+9,9,Good bye,Good bye
+9,9,Good bye,Good bye
+9,9,Good bye,Good bye
+9,9,Good bye,Good bye
+9,9,Good bye,Good bye
+9,9,Good bye,Good bye
+10,10,Like,Like
+10,10,Like,Like
+10,10,Like,Like
+10,10,Like,Like
+10,10,Like,Like
+10,10,Like,Like
+10,10,Like,Like
+10,10,Like,Like
+10,10,Like,Like
+10,10,Like,Like
+10,10,Like,Like
+10,10,Like,Like
+11,11,Love,Love
+11,11,Love,Love
+11,11,Love,Love
+11,11,Love,Love
+11,11,Love,Love
+11,11,Love,Love
+11,11,Love,Love
+11,11,Love,Love
+11,11,Love,Love
+11,11,Love,Love
+11,11,Love,Love
+11,11,Love,Love
+12,6,Never mind,Friend
+12,12,Never mind,Never mind
+12,12,Never mind,Never mind
+12,12,Never mind,Never mind
+12,12,Never mind,Never mind
+12,12,Never mind,Never mind
+12,12,Never mind,Never mind
+12,12,Never mind,Never mind
+12,12,Never mind,Never mind
+12,12,Never mind,Never mind
+12,12,Never mind,Never mind
+12,7,Never mind,Go
+13,13,Run,Run
+13,15,Run,South
+13,13,Run,Run
+13,13,Run,Run
+13,13,Run,Run
+13,13,Run,Run
+13,18,Run,Television
+13,13,Run,Run
+13,13,Run,Run
+13,14,Run,Sorry
+13,13,Run,Run
+13,13,Run,Run
+14,14,Sorry,Sorry
+14,14,Sorry,Sorry
+14,14,Sorry,Sorry
+14,14,Sorry,Sorry
+14,14,Sorry,Sorry
+14,14,Sorry,Sorry
+14,14,Sorry,Sorry
+14,14,Sorry,Sorry
+14,14,Sorry,Sorry
+14,1,Sorry,Always
+14,14,Sorry,Sorry
+14,14,Sorry,Sorry
+15,15,South,South
+15,15,South,South
+15,15,South,South
+15,15,South,South
+15,15,South,South
+15,15,South,South
+15,15,South,South
+15,15,South,South
+15,1,South,Always
+15,15,South,South
+15,14,South,Sorry
+15,15,South,South
+16,16,Teacher,Teacher
+16,16,Teacher,Teacher
+16,16,Teacher,Teacher
+16,16,Teacher,Teacher
+16,16,Teacher,Teacher
+16,16,Teacher,Teacher
+16,16,Teacher,Teacher
+16,16,Teacher,Teacher
+16,16,Teacher,Teacher
+16,16,Teacher,Teacher
+16,16,Teacher,Teacher
+16,16,Teacher,Teacher
+17,17,Technology,Technology
+17,18,Technology,Television
+17,3,Technology,Delight
+17,17,Technology,Technology
+17,17,Technology,Technology
+17,18,Technology,Television
+17,17,Technology,Technology
+17,17,Technology,Technology
+17,17,Technology,Technology
+17,17,Technology,Technology
+17,17,Technology,Technology
+17,17,Technology,Technology
+18,22,Television,University
+18,18,Television,Television
+18,18,Television,Television
+18,14,Television,Sorry
+18,18,Television,Television
+18,18,Television,Television
+18,18,Television,Television
+18,18,Television,Television
+18,18,Television,Television
+18,18,Television,Television
+18,14,Television,Sorry
+18,22,Television,University
+19,19,Thanks,Thanks
+19,19,Thanks,Thanks
+19,19,Thanks,Thanks
+19,19,Thanks,Thanks
+19,19,Thanks,Thanks
+19,19,Thanks,Thanks
+19,19,Thanks,Thanks
+19,19,Thanks,Thanks
+19,19,Thanks,Thanks
+19,19,Thanks,Thanks
+19,19,Thanks,Thanks
+19,19,Thanks,Thanks
+20,20,Time,Time
+20,20,Time,Time
+20,20,Time,Time
+20,20,Time,Time
+20,20,Time,Time
+20,20,Time,Time
+20,20,Time,Time
+20,20,Time,Time
+20,20,Time,Time
+20,20,Time,Time
+20,20,Time,Time
+20,20,Time,Time
+21,21,Tomorrow,Tomorrow
+21,21,Tomorrow,Tomorrow
+21,21,Tomorrow,Tomorrow
+21,21,Tomorrow,Tomorrow
+21,21,Tomorrow,Tomorrow
+21,21,Tomorrow,Tomorrow
+21,21,Tomorrow,Tomorrow
+21,21,Tomorrow,Tomorrow
+21,21,Tomorrow,Tomorrow
+21,21,Tomorrow,Tomorrow
+21,21,Tomorrow,Tomorrow
+21,21,Tomorrow,Tomorrow
+22,22,University,University
+22,17,University,Technology
+22,22,University,University
+22,22,University,University
+22,22,University,University
+22,22,University,University
+22,22,University,University
+22,22,University,University
+22,22,University,University
+22,22,University,University
+22,17,University,Technology
+22,22,University,University
+23,23,Weather,Weather
+23,21,Weather,Tomorrow
+23,23,Weather,Weather
+23,23,Weather,Weather
+23,23,Weather,Weather
+23,23,Weather,Weather
+23,23,Weather,Weather
+23,23,Weather,Weather
+23,23,Weather,Weather
+23,0,Weather,Afternoon
+23,23,Weather,Weather
+23,23,Weather,Weather

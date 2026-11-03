@@ -1,0 +1,51 @@
+# ============================================================
+# 数据集（不入库）：需自行放置到 24手语数据/data/<类别名>/<1..120>.pkl
+# ============================================================
+24手语数据/
+24手语数据.zip
+
+# 本地记忆 / IDE 数据
+.workbuddy/
+
+# 机器间传输残留（bat/ps1/tar/zip/日志）
+_xfer/
+
+# 机器专属配置与运维笔记（另一台 GPU 主机的环境/配置，含主机名）
+configs/config_remote.yaml
+docs/remote_host_analysis.md
+
+# 第三方版权 PDF（源论文、教材章节、任务书），留本地查阅
+/*.pdf
+
+# ============================================================
+# outputs/：只保留 results / figures / logs 及小型文本产物
+# ============================================================
+# 预处理张量缓存（数百 MB，可由 src/data/preprocess.py 重新生成）
+outputs/cache/*.npy
+outputs/cache/*.npz
+# 模型权重（outputs/checkpoints/*.pt，可由训练重新生成）
+outputs/checkpoints/
+# 本地下载的 torch 安装包（体积大）
+outputs/_wheels/
+
+# 临时 / scratch
+tools/_tmp/
+tools/_tex/
+deck/chrome_out.txt
+deck/chrome_err.txt
+
+# ============================================================
+# 通用忽略
+# ============================================================
+__pycache__/
+*.pyc
+
+# LaTeX 中间产物（保留 .tex 与成品 .pdf）
+reports/*.aux
+reports/*.log
+reports/*.out
+reports/*.toc
+reports/*.synctex.gz
+reports/build*.log
+reports/b1.log
+reports/b2.log

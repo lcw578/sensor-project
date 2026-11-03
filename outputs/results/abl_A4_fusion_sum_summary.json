@@ -1,0 +1,22 @@
+{
+  "tag": "abl_A4_fusion_sum",
+  "model": "bilstm",
+  "modality": "both",
+  "n_params": 16148248,
+  "best_epoch": 41,
+  "best_val_acc": 0.9895833333333334,
+  "test_accuracy": 0.9791666666666666,
+  "test_precision_macro": 0.9801864801864802,
+  "test_recall_macro": 0.9791666666666666,
+  "test_f1_macro": 0.9789855072463768,
+  "test_precision_weighted": 0.9801864801864801,
+  "train_time_sec": 2074.691244125366,
+  "config": {
+    "batch_size": 50,
+    "epochs": 60,
+    "lr": 0.001,
+    "weight_decay": 0.005,
+    "dropout": 0.3,
+    "augment": false
+  }
+}

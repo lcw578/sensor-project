@@ -1,0 +1,77 @@
+{
+  "data_root": "E:\\传感器技术\\24手语数据\\data",
+  "cache_dir": "E:\\传感器技术\\outputs\\cache",
+  "num_classes": 24,
+  "num_samples": 2880,
+  "classes": [
+    "Afternoon",
+    "Always",
+    "China",
+    "Delight",
+    "Dine",
+    "Drink",
+    "Friend",
+    "Go",
+    "Go home",
+    "Good bye",
+    "Like",
+    "Love",
+    "Never mind",
+    "Run",
+    "Sorry",
+    "South",
+    "Teacher",
+    "Technology",
+    "Television",
+    "Thanks",
+    "Time",
+    "Tomorrow",
+    "University",
+    "Weather"
+  ],
+  "shapes": {
+    "glove": [
+      2880,
+      400,
+      40
+    ],
+    "semg": [
+      2880,
+      1950,
+      20
+    ]
+  },
+  "split": {
+    "train": 2304,
+    "val": 288,
+    "test": 288,
+    "ratio": [
+      0.8,
+      0.1,
+      0.1
+    ],
+    "seed": 42
+  },
+  "norm": {
+    "mode": "global_train",
+    "clip": true,
+    "clip_quantile": [
+      0.01,
+      0.99
+    ],
+    "dead_std_thr": 0.05,
+    "glove_dead_ch": [
+      14,
+      15,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22
+    ],
+    "semg_dead_ch": [],
+    "glove_near_const_ch": [],
+    "semg_near_const_ch": []
+  }
+}

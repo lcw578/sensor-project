@@ -1,0 +1,22 @@
+{
+  "tag": "abl_A3_layers1",
+  "model": "bilstm",
+  "modality": "both",
+  "n_params": 2761496,
+  "best_epoch": 49,
+  "best_val_acc": 0.9409722222222222,
+  "test_accuracy": 0.9513888888888888,
+  "test_precision_macro": 0.9533341658341659,
+  "test_recall_macro": 0.951388888888889,
+  "test_f1_macro": 0.9507768318637884,
+  "test_precision_weighted": 0.9533341658341659,
+  "train_time_sec": 732.8014814853668,
+  "config": {
+    "batch_size": 50,
+    "epochs": 60,
+    "lr": 0.001,
+    "weight_decay": 0.005,
+    "dropout": 0.3,
+    "augment": false
+  }
+}

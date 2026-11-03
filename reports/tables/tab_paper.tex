@@ -1,0 +1,15 @@
+\begin{table}[htbp]\centering
+\caption{与源论文结果的对照}
+\label{tab:paper}
+\begin{tabular}{lccc}
+\toprule
+项目 & 源论文 & 本复现 & 判定 \\
+\midrule
+融合准确率 & 99.65\% & 98.61\%（Bi-LSTM）/ 99.65\%（TCN） & 复现成功 \\
+仅应变/压力 & 83.75\% & 98.26\% & 显著分歧 \\
+仅 sEMG & 88.02\% & 91.32\% & 接近 \\
+参考架构 & 双分支 Bi-LSTM 融合 & 已复现 & 一致 \\
+训练超参 & AdamW/50/$10^{-3}$/0.3 & 已复现 & 一致 \\
+\bottomrule
+\end{tabular}
+\end{table}

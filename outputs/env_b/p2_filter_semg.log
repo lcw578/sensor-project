@@ -1,0 +1,64 @@
+[p2_filter_semg] model=bilstm modality=semg 参数量=16,148,248 设备=cuda train/val/test=2304/288/288
+  ep  1 | train_loss 3.1313 acc 0.0582 | val_loss 3.0230 acc 0.0903 *best
+  ep  2 | train_loss 2.8689 acc 0.1246 | val_loss 2.7267 acc 0.1285 *best
+  ep  3 | train_loss 2.6288 acc 0.1814 | val_loss 2.5772 acc 0.2188 *best
+  ep  4 | train_loss 2.4649 acc 0.2309 | val_loss 2.3744 acc 0.2743 *best
+  ep  5 | train_loss 2.2426 acc 0.2752 | val_loss 2.1275 acc 0.3507 *best
+  ep  6 | train_loss 2.0196 acc 0.3377 | val_loss 1.9526 acc 0.3507
+  ep  7 | train_loss 1.8849 acc 0.3880 | val_loss 1.9340 acc 0.3611 *best
+  ep  8 | train_loss 1.6954 acc 0.4384 | val_loss 1.7860 acc 0.4410 *best
+  ep  9 | train_loss 1.5255 acc 0.4796 | val_loss 1.7097 acc 0.4410
+  ep 10 | train_loss 1.3581 acc 0.5265 | val_loss 1.6175 acc 0.5000 *best
+  ep 11 | train_loss 1.2375 acc 0.5760 | val_loss 1.5620 acc 0.5243 *best
+  ep 12 | train_loss 1.0746 acc 0.6280 | val_loss 1.5639 acc 0.5382 *best
+  ep 13 | train_loss 0.9093 acc 0.6758 | val_loss 1.5645 acc 0.5625 *best
+  ep 14 | train_loss 0.7986 acc 0.7192 | val_loss 1.5902 acc 0.6076 *best
+  ep 15 | train_loss 0.6983 acc 0.7591 | val_loss 1.5412 acc 0.6250 *best
+  ep 16 | train_loss 0.6128 acc 0.7791 | val_loss 1.7047 acc 0.6042
+  ep 17 | train_loss 0.5494 acc 0.8199 | val_loss 1.4535 acc 0.6840 *best
+  ep 18 | train_loss 0.4276 acc 0.8607 | val_loss 1.6576 acc 0.6597
+  ep 19 | train_loss 0.3640 acc 0.8850 | val_loss 1.6688 acc 0.6875 *best
+  ep 20 | train_loss 0.3240 acc 0.8893 | val_loss 1.7417 acc 0.6667
+  ep 21 | train_loss 0.2707 acc 0.9136 | val_loss 1.6278 acc 0.7049 *best
+  ep 22 | train_loss 0.2041 acc 0.9301 | val_loss 1.7967 acc 0.6910
+  ep 23 | train_loss 0.1987 acc 0.9392 | val_loss 2.1731 acc 0.6562
+  ep 24 | train_loss 0.1876 acc 0.9436 | val_loss 1.9776 acc 0.7118 *best
+  ep 25 | train_loss 0.1598 acc 0.9583 | val_loss 1.9911 acc 0.7118
+  ep 26 | train_loss 0.1061 acc 0.9688 | val_loss 2.2104 acc 0.6840
+  ep 27 | train_loss 0.0858 acc 0.9735 | val_loss 2.0789 acc 0.6979
+  ep 28 | train_loss 0.0739 acc 0.9800 | val_loss 2.2405 acc 0.7118
+  ep 29 | train_loss 0.0598 acc 0.9883 | val_loss 2.1498 acc 0.7257 *best
+  ep 30 | train_loss 0.0476 acc 0.9870 | val_loss 2.2568 acc 0.7083
+  ep 31 | train_loss 0.0328 acc 0.9931 | val_loss 2.3877 acc 0.7049
+  ep 32 | train_loss 0.0365 acc 0.9909 | val_loss 2.4301 acc 0.7014
+  ep 33 | train_loss 0.0410 acc 0.9887 | val_loss 2.3936 acc 0.6979
+  ep 34 | train_loss 0.0239 acc 0.9939 | val_loss 2.3406 acc 0.7153
+  ep 35 | train_loss 0.0100 acc 0.9991 | val_loss 2.4150 acc 0.7118
+  ep 36 | train_loss 0.0124 acc 0.9987 | val_loss 2.4003 acc 0.7188
+  ep 37 | train_loss 0.0110 acc 0.9970 | val_loss 2.4506 acc 0.7153
+  ep 38 | train_loss 0.0093 acc 0.9987 | val_loss 2.4932 acc 0.7292 *best
+  ep 39 | train_loss 0.0094 acc 0.9983 | val_loss 2.4940 acc 0.7222
+  ep 40 | train_loss 0.0086 acc 0.9991 | val_loss 2.5226 acc 0.7396 *best
+  ep 41 | train_loss 0.0077 acc 0.9978 | val_loss 2.6165 acc 0.7326
+  ep 42 | train_loss 0.0075 acc 0.9991 | val_loss 2.5801 acc 0.7361
+  ep 43 | train_loss 0.0072 acc 0.9987 | val_loss 2.6155 acc 0.7326
+  ep 44 | train_loss 0.0079 acc 0.9974 | val_loss 2.6044 acc 0.7361
+  ep 45 | train_loss 0.0057 acc 0.9991 | val_loss 2.6233 acc 0.7361
+  ep 46 | train_loss 0.0060 acc 0.9983 | val_loss 2.6419 acc 0.7396
+  ep 47 | train_loss 0.0111 acc 0.9965 | val_loss 2.6256 acc 0.7292
+  ep 48 | train_loss 0.0056 acc 0.9996 | val_loss 2.6436 acc 0.7257
+  ep 49 | train_loss 0.0078 acc 0.9987 | val_loss 2.6403 acc 0.7292
+  ep 50 | train_loss 0.0047 acc 0.9987 | val_loss 2.6554 acc 0.7292
+  ep 51 | train_loss 0.0050 acc 1.0000 | val_loss 2.6751 acc 0.7292
+  ep 52 | train_loss 0.0084 acc 0.9978 | val_loss 2.6750 acc 0.7326
+  ep 53 | train_loss 0.0046 acc 1.0000 | val_loss 2.6711 acc 0.7361
+  ep 54 | train_loss 0.0048 acc 0.9987 | val_loss 2.6741 acc 0.7361
+  ep 55 | train_loss 0.0056 acc 0.9987 | val_loss 2.6764 acc 0.7361
+  ep 56 | train_loss 0.0046 acc 0.9987 | val_loss 2.6776 acc 0.7292
+  ep 57 | train_loss 0.0054 acc 0.9996 | val_loss 2.6814 acc 0.7257
+  ep 58 | train_loss 0.0055 acc 0.9983 | val_loss 2.6832 acc 0.7257
+  ep 59 | train_loss 0.0058 acc 0.9991 | val_loss 2.6835 acc 0.7257
+  ep 60 | train_loss 0.0039 acc 1.0000 | val_loss 2.6836 acc 0.7257
+  早停于 epoch 60（20 轮无提升）
+
+[p2_filter_semg] 测试集 Accuracy=0.7569 Precision(macro)=0.7777 F1(macro)=0.7551 | 最优epoch=40 用时=3405.7s

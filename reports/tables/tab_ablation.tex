@@ -1,0 +1,15 @@
+\begin{table}[htbp]\centering
+\caption{消融实验（基准为完整双分支 Bi-LSTM 融合模型）}
+\label{tab:ablation}
+\begin{tabular}{lcccr}
+\toprule
+消融项 & Accuracy(\%) & Precision(\%) & $\Delta$(pp) & 参数量(M) \\
+\midrule
+A0 完整模型（基准） & 98.96 & 99.01 & -- & 16.15 \\
+A1 去掉分支内 2 层 FC & 96.53 & 96.67 & -2.43 & 15.78 \\
+A2 双向 $\rightarrow$ 单向 LSTM & 58.68 & 55.98 & -40.28 & 5.88 \\
+A3 堆叠层数 $3\rightarrow1$ & 95.14 & 95.33 & -3.82 & 2.76 \\
+A4 融合 concat $\rightarrow$ sum & 97.92 & 98.02 & -1.04 & 16.15 \\
+\bottomrule
+\end{tabular}
+\end{table}

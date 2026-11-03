@@ -1,0 +1,2881 @@
+﻿index,label,class,file,split
+0,0,Afternoon,1.pkl,train
+1,0,Afternoon,2.pkl,train
+2,0,Afternoon,3.pkl,train
+3,0,Afternoon,4.pkl,train
+4,0,Afternoon,5.pkl,train
+5,0,Afternoon,6.pkl,train
+6,0,Afternoon,7.pkl,val
+7,0,Afternoon,8.pkl,train
+8,0,Afternoon,9.pkl,test
+9,0,Afternoon,10.pkl,train
+10,0,Afternoon,11.pkl,train
+11,0,Afternoon,12.pkl,val
+12,0,Afternoon,13.pkl,test
+13,0,Afternoon,14.pkl,test
+14,0,Afternoon,15.pkl,test
+15,0,Afternoon,16.pkl,train
+16,0,Afternoon,17.pkl,train
+17,0,Afternoon,18.pkl,train
+18,0,Afternoon,19.pkl,train
+19,0,Afternoon,20.pkl,val
+20,0,Afternoon,21.pkl,train
+21,0,Afternoon,22.pkl,train
+22,0,Afternoon,23.pkl,val
+23,0,Afternoon,24.pkl,train
+24,0,Afternoon,25.pkl,train
+25,0,Afternoon,26.pkl,train
+26,0,Afternoon,27.pkl,train
+27,0,Afternoon,28.pkl,train
+28,0,Afternoon,29.pkl,train
+29,0,Afternoon,30.pkl,train
+30,0,Afternoon,31.pkl,train
+31,0,Afternoon,32.pkl,train
+32,0,Afternoon,33.pkl,train
+33,0,Afternoon,34.pkl,train
+34,0,Afternoon,35.pkl,train
+35,0,Afternoon,36.pkl,val
+36,0,Afternoon,37.pkl,test
+37,0,Afternoon,38.pkl,train
+38,0,Afternoon,39.pkl,train
+39,0,Afternoon,40.pkl,train
+40,0,Afternoon,41.pkl,train
+41,0,Afternoon,42.pkl,val
+42,0,Afternoon,43.pkl,train
+43,0,Afternoon,44.pkl,train
+44,0,Afternoon,45.pkl,train
+45,0,Afternoon,46.pkl,train
+46,0,Afternoon,47.pkl,train
+47,0,Afternoon,48.pkl,test
+48,0,Afternoon,49.pkl,train
+49,0,Afternoon,50.pkl,val
+50,0,Afternoon,51.pkl,train
+51,0,Afternoon,52.pkl,train
+52,0,Afternoon,53.pkl,train
+53,0,Afternoon,54.pkl,test
+54,0,Afternoon,55.pkl,val
+55,0,Afternoon,56.pkl,train
+56,0,Afternoon,57.pkl,train
+57,0,Afternoon,58.pkl,train
+58,0,Afternoon,59.pkl,train
+59,0,Afternoon,60.pkl,train
+60,0,Afternoon,61.pkl,train
+61,0,Afternoon,62.pkl,train
+62,0,Afternoon,63.pkl,train
+63,0,Afternoon,64.pkl,train
+64,0,Afternoon,65.pkl,val
+65,0,Afternoon,66.pkl,test
+66,0,Afternoon,67.pkl,test
+67,0,Afternoon,68.pkl,train
+68,0,Afternoon,69.pkl,train
+69,0,Afternoon,70.pkl,train
+70,0,Afternoon,71.pkl,train
+71,0,Afternoon,72.pkl,train
+72,0,Afternoon,73.pkl,train
+73,0,Afternoon,74.pkl,train
+74,0,Afternoon,75.pkl,train
+75,0,Afternoon,76.pkl,train
+76,0,Afternoon,77.pkl,train
+77,0,Afternoon,78.pkl,test
+78,0,Afternoon,79.pkl,train
+79,0,Afternoon,80.pkl,train
+80,0,Afternoon,81.pkl,train
+81,0,Afternoon,82.pkl,train
+82,0,Afternoon,83.pkl,train
+83,0,Afternoon,84.pkl,train
+84,0,Afternoon,85.pkl,train
+85,0,Afternoon,86.pkl,train
+86,0,Afternoon,87.pkl,train
+87,0,Afternoon,88.pkl,train
+88,0,Afternoon,89.pkl,train
+89,0,Afternoon,90.pkl,train
+90,0,Afternoon,91.pkl,train
+91,0,Afternoon,92.pkl,train
+92,0,Afternoon,93.pkl,train
+93,0,Afternoon,94.pkl,train
+94,0,Afternoon,95.pkl,train
+95,0,Afternoon,96.pkl,train
+96,0,Afternoon,97.pkl,train
+97,0,Afternoon,98.pkl,test
+98,0,Afternoon,99.pkl,train
+99,0,Afternoon,100.pkl,train
+100,0,Afternoon,101.pkl,train
+101,0,Afternoon,102.pkl,train
+102,0,Afternoon,103.pkl,train
+103,0,Afternoon,104.pkl,val
+104,0,Afternoon,105.pkl,train
+105,0,Afternoon,106.pkl,train
+106,0,Afternoon,107.pkl,train
+107,0,Afternoon,108.pkl,test
+108,0,Afternoon,109.pkl,val
+109,0,Afternoon,110.pkl,train
+110,0,Afternoon,111.pkl,train
+111,0,Afternoon,112.pkl,train
+112,0,Afternoon,113.pkl,train
+113,0,Afternoon,114.pkl,train
+114,0,Afternoon,115.pkl,train
+115,0,Afternoon,116.pkl,train
+116,0,Afternoon,117.pkl,train
+117,0,Afternoon,118.pkl,train
+118,0,Afternoon,119.pkl,val
+119,0,Afternoon,120.pkl,train
+120,1,Always,1.pkl,val
+121,1,Always,2.pkl,train
+122,1,Always,3.pkl,train
+123,1,Always,4.pkl,train
+124,1,Always,5.pkl,train
+125,1,Always,6.pkl,train
+126,1,Always,7.pkl,train
+127,1,Always,8.pkl,train
+128,1,Always,9.pkl,train
+129,1,Always,10.pkl,train
+130,1,Always,11.pkl,val
+131,1,Always,12.pkl,val
+132,1,Always,13.pkl,val
+133,1,Always,14.pkl,test
+134,1,Always,15.pkl,val
+135,1,Always,16.pkl,train
+136,1,Always,17.pkl,train
+137,1,Always,18.pkl,train
+138,1,Always,19.pkl,train
+139,1,Always,20.pkl,test
+140,1,Always,21.pkl,train
+141,1,Always,22.pkl,val
+142,1,Always,23.pkl,train
+143,1,Always,24.pkl,train
+144,1,Always,25.pkl,train
+145,1,Always,26.pkl,train
+146,1,Always,27.pkl,train
+147,1,Always,28.pkl,train
+148,1,Always,29.pkl,val
+149,1,Always,30.pkl,train
+150,1,Always,31.pkl,train
+151,1,Always,32.pkl,train
+152,1,Always,33.pkl,train
+153,1,Always,34.pkl,train
+154,1,Always,35.pkl,train
+155,1,Always,36.pkl,train
+156,1,Always,37.pkl,train
+157,1,Always,38.pkl,train
+158,1,Always,39.pkl,train
+159,1,Always,40.pkl,test
+160,1,Always,41.pkl,train
+161,1,Always,42.pkl,train
+162,1,Always,43.pkl,train
+163,1,Always,44.pkl,train
+164,1,Always,45.pkl,train
+165,1,Always,46.pkl,train
+166,1,Always,47.pkl,train
+167,1,Always,48.pkl,train
+168,1,Always,49.pkl,train
+169,1,Always,50.pkl,train
+170,1,Always,51.pkl,train
+171,1,Always,52.pkl,train
+172,1,Always,53.pkl,train
+173,1,Always,54.pkl,train
+174,1,Always,55.pkl,train
+175,1,Always,56.pkl,train
+176,1,Always,57.pkl,train
+177,1,Always,58.pkl,train
+178,1,Always,59.pkl,test
+179,1,Always,60.pkl,train
+180,1,Always,61.pkl,test
+181,1,Always,62.pkl,test
+182,1,Always,63.pkl,test
+183,1,Always,64.pkl,train
+184,1,Always,65.pkl,train
+185,1,Always,66.pkl,test
+186,1,Always,67.pkl,train
+187,1,Always,68.pkl,train
+188,1,Always,69.pkl,train
+189,1,Always,70.pkl,train
+190,1,Always,71.pkl,train
+191,1,Always,72.pkl,train
+192,1,Always,73.pkl,train
+193,1,Always,74.pkl,train
+194,1,Always,75.pkl,val
+195,1,Always,76.pkl,train
+196,1,Always,77.pkl,train
+197,1,Always,78.pkl,train
+198,1,Always,79.pkl,train
+199,1,Always,80.pkl,train
+200,1,Always,81.pkl,train
+201,1,Always,82.pkl,val
+202,1,Always,83.pkl,test
+203,1,Always,84.pkl,test
+204,1,Always,85.pkl,train
+205,1,Always,86.pkl,train
+206,1,Always,87.pkl,val
+207,1,Always,88.pkl,train
+208,1,Always,89.pkl,train
+209,1,Always,90.pkl,train
+210,1,Always,91.pkl,val
+211,1,Always,92.pkl,test
+212,1,Always,93.pkl,train
+213,1,Always,94.pkl,train
+214,1,Always,95.pkl,train
+215,1,Always,96.pkl,train
+216,1,Always,97.pkl,train
+217,1,Always,98.pkl,train
+218,1,Always,99.pkl,train
+219,1,Always,100.pkl,train
+220,1,Always,101.pkl,train
+221,1,Always,102.pkl,train
+222,1,Always,103.pkl,train
+223,1,Always,104.pkl,train
+224,1,Always,105.pkl,train
+225,1,Always,106.pkl,val
+226,1,Always,107.pkl,train
+227,1,Always,108.pkl,train
+228,1,Always,109.pkl,train
+229,1,Always,110.pkl,train
+230,1,Always,111.pkl,train
+231,1,Always,112.pkl,train
+232,1,Always,113.pkl,train
+233,1,Always,114.pkl,train
+234,1,Always,115.pkl,test
+235,1,Always,116.pkl,train
+236,1,Always,117.pkl,train
+237,1,Always,118.pkl,train
+238,1,Always,119.pkl,train
+239,1,Always,120.pkl,train
+240,2,China,1.pkl,train
+241,2,China,2.pkl,train
+242,2,China,3.pkl,train
+243,2,China,4.pkl,train
+244,2,China,5.pkl,train
+245,2,China,6.pkl,train
+246,2,China,7.pkl,train
+247,2,China,8.pkl,val
+248,2,China,9.pkl,train
+249,2,China,10.pkl,val
+250,2,China,11.pkl,train
+251,2,China,12.pkl,train
+252,2,China,13.pkl,train
+253,2,China,14.pkl,train
+254,2,China,15.pkl,train
+255,2,China,16.pkl,train
+256,2,China,17.pkl,train
+257,2,China,18.pkl,train
+258,2,China,19.pkl,train
+259,2,China,20.pkl,train
+260,2,China,21.pkl,train
+261,2,China,22.pkl,train
+262,2,China,23.pkl,train
+263,2,China,24.pkl,train
+264,2,China,25.pkl,train
+265,2,China,26.pkl,val
+266,2,China,27.pkl,train
+267,2,China,28.pkl,train
+268,2,China,29.pkl,test
+269,2,China,30.pkl,train
+270,2,China,31.pkl,val
+271,2,China,32.pkl,train
+272,2,China,33.pkl,train
+273,2,China,34.pkl,train
+274,2,China,35.pkl,train
+275,2,China,36.pkl,test
+276,2,China,37.pkl,train
+277,2,China,38.pkl,train
+278,2,China,39.pkl,train
+279,2,China,40.pkl,train
+280,2,China,41.pkl,test
+281,2,China,42.pkl,test
+282,2,China,43.pkl,train
+283,2,China,44.pkl,train
+284,2,China,45.pkl,train
+285,2,China,46.pkl,train
+286,2,China,47.pkl,train
+287,2,China,48.pkl,train
+288,2,China,49.pkl,val
+289,2,China,50.pkl,val
+290,2,China,51.pkl,train
+291,2,China,52.pkl,train
+292,2,China,53.pkl,train
+293,2,China,54.pkl,test
+294,2,China,55.pkl,train
+295,2,China,56.pkl,train
+296,2,China,57.pkl,train
+297,2,China,58.pkl,train
+298,2,China,59.pkl,train
+299,2,China,60.pkl,train
+300,2,China,61.pkl,train
+301,2,China,62.pkl,train
+302,2,China,63.pkl,train
+303,2,China,64.pkl,train
+304,2,China,65.pkl,train
+305,2,China,66.pkl,train
+306,2,China,67.pkl,val
+307,2,China,68.pkl,train
+308,2,China,69.pkl,train
+309,2,China,70.pkl,train
+310,2,China,71.pkl,train
+311,2,China,72.pkl,train
+312,2,China,73.pkl,train
+313,2,China,74.pkl,train
+314,2,China,75.pkl,train
+315,2,China,76.pkl,test
+316,2,China,77.pkl,train
+317,2,China,78.pkl,train
+318,2,China,79.pkl,train
+319,2,China,80.pkl,train
+320,2,China,81.pkl,train
+321,2,China,82.pkl,train
+322,2,China,83.pkl,train
+323,2,China,84.pkl,train
+324,2,China,85.pkl,train
+325,2,China,86.pkl,train
+326,2,China,87.pkl,train
+327,2,China,88.pkl,train
+328,2,China,89.pkl,test
+329,2,China,90.pkl,train
+330,2,China,91.pkl,train
+331,2,China,92.pkl,val
+332,2,China,93.pkl,val
+333,2,China,94.pkl,test
+334,2,China,95.pkl,train
+335,2,China,96.pkl,train
+336,2,China,97.pkl,train
+337,2,China,98.pkl,train
+338,2,China,99.pkl,train
+339,2,China,100.pkl,test
+340,2,China,101.pkl,train
+341,2,China,102.pkl,train
+342,2,China,103.pkl,val
+343,2,China,104.pkl,train
+344,2,China,105.pkl,test
+345,2,China,106.pkl,test
+346,2,China,107.pkl,train
+347,2,China,108.pkl,train
+348,2,China,109.pkl,train
+349,2,China,110.pkl,test
+350,2,China,111.pkl,val
+351,2,China,112.pkl,val
+352,2,China,113.pkl,train
+353,2,China,114.pkl,train
+354,2,China,115.pkl,train
+355,2,China,116.pkl,train
+356,2,China,117.pkl,train
+357,2,China,118.pkl,train
+358,2,China,119.pkl,train
+359,2,China,120.pkl,train
+360,3,Delight,1.pkl,train
+361,3,Delight,2.pkl,train
+362,3,Delight,3.pkl,train
+363,3,Delight,4.pkl,train
+364,3,Delight,5.pkl,train
+365,3,Delight,6.pkl,test
+366,3,Delight,7.pkl,test
+367,3,Delight,8.pkl,train
+368,3,Delight,9.pkl,test
+369,3,Delight,10.pkl,train
+370,3,Delight,11.pkl,train
+371,3,Delight,12.pkl,train
+372,3,Delight,13.pkl,train
+373,3,Delight,14.pkl,train
+374,3,Delight,15.pkl,train
+375,3,Delight,16.pkl,train
+376,3,Delight,17.pkl,train
+377,3,Delight,18.pkl,train
+378,3,Delight,19.pkl,train
+379,3,Delight,20.pkl,train
+380,3,Delight,21.pkl,train
+381,3,Delight,22.pkl,test
+382,3,Delight,23.pkl,train
+383,3,Delight,24.pkl,val
+384,3,Delight,25.pkl,train
+385,3,Delight,26.pkl,train
+386,3,Delight,27.pkl,train
+387,3,Delight,28.pkl,train
+388,3,Delight,29.pkl,train
+389,3,Delight,30.pkl,train
+390,3,Delight,31.pkl,train
+391,3,Delight,32.pkl,train
+392,3,Delight,33.pkl,train
+393,3,Delight,34.pkl,train
+394,3,Delight,35.pkl,test
+395,3,Delight,36.pkl,train
+396,3,Delight,37.pkl,train
+397,3,Delight,38.pkl,train
+398,3,Delight,39.pkl,train
+399,3,Delight,40.pkl,train
+400,3,Delight,41.pkl,train
+401,3,Delight,42.pkl,train
+402,3,Delight,43.pkl,train
+403,3,Delight,44.pkl,train
+404,3,Delight,45.pkl,train
+405,3,Delight,46.pkl,train
+406,3,Delight,47.pkl,test
+407,3,Delight,48.pkl,train
+408,3,Delight,49.pkl,train
+409,3,Delight,50.pkl,train
+410,3,Delight,51.pkl,train
+411,3,Delight,52.pkl,train
+412,3,Delight,53.pkl,test
+413,3,Delight,54.pkl,train
+414,3,Delight,55.pkl,train
+415,3,Delight,56.pkl,val
+416,3,Delight,57.pkl,train
+417,3,Delight,58.pkl,train
+418,3,Delight,59.pkl,train
+419,3,Delight,60.pkl,train
+420,3,Delight,61.pkl,train
+421,3,Delight,62.pkl,train
+422,3,Delight,63.pkl,train
+423,3,Delight,64.pkl,val
+424,3,Delight,65.pkl,test
+425,3,Delight,66.pkl,train
+426,3,Delight,67.pkl,val
+427,3,Delight,68.pkl,train
+428,3,Delight,69.pkl,train
+429,3,Delight,70.pkl,val
+430,3,Delight,71.pkl,train
+431,3,Delight,72.pkl,train
+432,3,Delight,73.pkl,train
+433,3,Delight,74.pkl,train
+434,3,Delight,75.pkl,train
+435,3,Delight,76.pkl,train
+436,3,Delight,77.pkl,train
+437,3,Delight,78.pkl,train
+438,3,Delight,79.pkl,test
+439,3,Delight,80.pkl,train
+440,3,Delight,81.pkl,train
+441,3,Delight,82.pkl,val
+442,3,Delight,83.pkl,train
+443,3,Delight,84.pkl,train
+444,3,Delight,85.pkl,train
+445,3,Delight,86.pkl,train
+446,3,Delight,87.pkl,train
+447,3,Delight,88.pkl,train
+448,3,Delight,89.pkl,train
+449,3,Delight,90.pkl,train
+450,3,Delight,91.pkl,train
+451,3,Delight,92.pkl,test
+452,3,Delight,93.pkl,train
+453,3,Delight,94.pkl,train
+454,3,Delight,95.pkl,train
+455,3,Delight,96.pkl,train
+456,3,Delight,97.pkl,train
+457,3,Delight,98.pkl,test
+458,3,Delight,99.pkl,train
+459,3,Delight,100.pkl,train
+460,3,Delight,101.pkl,train
+461,3,Delight,102.pkl,train
+462,3,Delight,103.pkl,train
+463,3,Delight,104.pkl,val
+464,3,Delight,105.pkl,train
+465,3,Delight,106.pkl,train
+466,3,Delight,107.pkl,train
+467,3,Delight,108.pkl,train
+468,3,Delight,109.pkl,val
+469,3,Delight,110.pkl,train
+470,3,Delight,111.pkl,train
+471,3,Delight,112.pkl,val
+472,3,Delight,113.pkl,val
+473,3,Delight,114.pkl,train
+474,3,Delight,115.pkl,test
+475,3,Delight,116.pkl,train
+476,3,Delight,117.pkl,train
+477,3,Delight,118.pkl,val
+478,3,Delight,119.pkl,train
+479,3,Delight,120.pkl,val
+480,4,Dine,1.pkl,val
+481,4,Dine,2.pkl,test
+482,4,Dine,3.pkl,train
+483,4,Dine,4.pkl,train
+484,4,Dine,5.pkl,train
+485,4,Dine,6.pkl,val
+486,4,Dine,7.pkl,train
+487,4,Dine,8.pkl,train
+488,4,Dine,9.pkl,train
+489,4,Dine,10.pkl,train
+490,4,Dine,11.pkl,train
+491,4,Dine,12.pkl,train
+492,4,Dine,13.pkl,train
+493,4,Dine,14.pkl,train
+494,4,Dine,15.pkl,train
+495,4,Dine,16.pkl,train
+496,4,Dine,17.pkl,train
+497,4,Dine,18.pkl,val
+498,4,Dine,19.pkl,train
+499,4,Dine,20.pkl,val
+500,4,Dine,21.pkl,test
+501,4,Dine,22.pkl,train
+502,4,Dine,23.pkl,train
+503,4,Dine,24.pkl,train
+504,4,Dine,25.pkl,train
+505,4,Dine,26.pkl,train
+506,4,Dine,27.pkl,train
+507,4,Dine,28.pkl,train
+508,4,Dine,29.pkl,test
+509,4,Dine,30.pkl,train
+510,4,Dine,31.pkl,val
+511,4,Dine,32.pkl,train
+512,4,Dine,33.pkl,train
+513,4,Dine,34.pkl,train
+514,4,Dine,35.pkl,train
+515,4,Dine,36.pkl,train
+516,4,Dine,37.pkl,train
+517,4,Dine,38.pkl,train
+518,4,Dine,39.pkl,train
+519,4,Dine,40.pkl,train
+520,4,Dine,41.pkl,train
+521,4,Dine,42.pkl,train
+522,4,Dine,43.pkl,train
+523,4,Dine,44.pkl,train
+524,4,Dine,45.pkl,train
+525,4,Dine,46.pkl,train
+526,4,Dine,47.pkl,train
+527,4,Dine,48.pkl,train
+528,4,Dine,49.pkl,train
+529,4,Dine,50.pkl,train
+530,4,Dine,51.pkl,test
+531,4,Dine,52.pkl,train
+532,4,Dine,53.pkl,train
+533,4,Dine,54.pkl,train
+534,4,Dine,55.pkl,train
+535,4,Dine,56.pkl,train
+536,4,Dine,57.pkl,train
+537,4,Dine,58.pkl,test
+538,4,Dine,59.pkl,train
+539,4,Dine,60.pkl,train
+540,4,Dine,61.pkl,train
+541,4,Dine,62.pkl,train
+542,4,Dine,63.pkl,val
+543,4,Dine,64.pkl,train
+544,4,Dine,65.pkl,train
+545,4,Dine,66.pkl,train
+546,4,Dine,67.pkl,train
+547,4,Dine,68.pkl,train
+548,4,Dine,69.pkl,test
+549,4,Dine,70.pkl,train
+550,4,Dine,71.pkl,train
+551,4,Dine,72.pkl,train
+552,4,Dine,73.pkl,test
+553,4,Dine,74.pkl,train
+554,4,Dine,75.pkl,train
+555,4,Dine,76.pkl,train
+556,4,Dine,77.pkl,train
+557,4,Dine,78.pkl,train
+558,4,Dine,79.pkl,train
+559,4,Dine,80.pkl,train
+560,4,Dine,81.pkl,val
+561,4,Dine,82.pkl,train
+562,4,Dine,83.pkl,test
+563,4,Dine,84.pkl,train
+564,4,Dine,85.pkl,test
+565,4,Dine,86.pkl,test
+566,4,Dine,87.pkl,val
+567,4,Dine,88.pkl,train
+568,4,Dine,89.pkl,train
+569,4,Dine,90.pkl,val
+570,4,Dine,91.pkl,test
+571,4,Dine,92.pkl,train
+572,4,Dine,93.pkl,train
+573,4,Dine,94.pkl,train
+574,4,Dine,95.pkl,train
+575,4,Dine,96.pkl,train
+576,4,Dine,97.pkl,train
+577,4,Dine,98.pkl,train
+578,4,Dine,99.pkl,train
+579,4,Dine,100.pkl,train
+580,4,Dine,101.pkl,train
+581,4,Dine,102.pkl,train
+582,4,Dine,103.pkl,train
+583,4,Dine,104.pkl,train
+584,4,Dine,105.pkl,val
+585,4,Dine,106.pkl,train
+586,4,Dine,107.pkl,val
+587,4,Dine,108.pkl,train
+588,4,Dine,109.pkl,test
+589,4,Dine,110.pkl,train
+590,4,Dine,111.pkl,train
+591,4,Dine,112.pkl,train
+592,4,Dine,113.pkl,train
+593,4,Dine,114.pkl,train
+594,4,Dine,115.pkl,train
+595,4,Dine,116.pkl,train
+596,4,Dine,117.pkl,train
+597,4,Dine,118.pkl,val
+598,4,Dine,119.pkl,train
+599,4,Dine,120.pkl,train
+600,5,Drink,1.pkl,val
+601,5,Drink,2.pkl,train
+602,5,Drink,3.pkl,train
+603,5,Drink,4.pkl,train
+604,5,Drink,5.pkl,train
+605,5,Drink,6.pkl,test
+606,5,Drink,7.pkl,train
+607,5,Drink,8.pkl,train
+608,5,Drink,9.pkl,val
+609,5,Drink,10.pkl,train
+610,5,Drink,11.pkl,train
+611,5,Drink,12.pkl,train
+612,5,Drink,13.pkl,train
+613,5,Drink,14.pkl,train
+614,5,Drink,15.pkl,val
+615,5,Drink,16.pkl,train
+616,5,Drink,17.pkl,train
+617,5,Drink,18.pkl,train
+618,5,Drink,19.pkl,train
+619,5,Drink,20.pkl,train
+620,5,Drink,21.pkl,train
+621,5,Drink,22.pkl,val
+622,5,Drink,23.pkl,train
+623,5,Drink,24.pkl,train
+624,5,Drink,25.pkl,train
+625,5,Drink,26.pkl,train
+626,5,Drink,27.pkl,test
+627,5,Drink,28.pkl,train
+628,5,Drink,29.pkl,train
+629,5,Drink,30.pkl,train
+630,5,Drink,31.pkl,train
+631,5,Drink,32.pkl,val
+632,5,Drink,33.pkl,train
+633,5,Drink,34.pkl,test
+634,5,Drink,35.pkl,train
+635,5,Drink,36.pkl,train
+636,5,Drink,37.pkl,train
+637,5,Drink,38.pkl,train
+638,5,Drink,39.pkl,train
+639,5,Drink,40.pkl,train
+640,5,Drink,41.pkl,train
+641,5,Drink,42.pkl,train
+642,5,Drink,43.pkl,test
+643,5,Drink,44.pkl,train
+644,5,Drink,45.pkl,train
+645,5,Drink,46.pkl,train
+646,5,Drink,47.pkl,train
+647,5,Drink,48.pkl,train
+648,5,Drink,49.pkl,train
+649,5,Drink,50.pkl,train
+650,5,Drink,51.pkl,val
+651,5,Drink,52.pkl,train
+652,5,Drink,53.pkl,train
+653,5,Drink,54.pkl,train
+654,5,Drink,55.pkl,train
+655,5,Drink,56.pkl,train
+656,5,Drink,57.pkl,train
+657,5,Drink,58.pkl,train
+658,5,Drink,59.pkl,train
+659,5,Drink,60.pkl,train
+660,5,Drink,61.pkl,test
+661,5,Drink,62.pkl,train
+662,5,Drink,63.pkl,val
+663,5,Drink,64.pkl,train
+664,5,Drink,65.pkl,train
+665,5,Drink,66.pkl,train
+666,5,Drink,67.pkl,train
+667,5,Drink,68.pkl,train
+668,5,Drink,69.pkl,train
+669,5,Drink,70.pkl,train
+670,5,Drink,71.pkl,val
+671,5,Drink,72.pkl,train
+672,5,Drink,73.pkl,train
+673,5,Drink,74.pkl,train
+674,5,Drink,75.pkl,train
+675,5,Drink,76.pkl,train
+676,5,Drink,77.pkl,train
+677,5,Drink,78.pkl,train
+678,5,Drink,79.pkl,train
+679,5,Drink,80.pkl,train
+680,5,Drink,81.pkl,train
+681,5,Drink,82.pkl,train
+682,5,Drink,83.pkl,train
+683,5,Drink,84.pkl,train
+684,5,Drink,85.pkl,train
+685,5,Drink,86.pkl,test
+686,5,Drink,87.pkl,train
+687,5,Drink,88.pkl,train
+688,5,Drink,89.pkl,test
+689,5,Drink,90.pkl,test
+690,5,Drink,91.pkl,train
+691,5,Drink,92.pkl,train
+692,5,Drink,93.pkl,train
+693,5,Drink,94.pkl,val
+694,5,Drink,95.pkl,train
+695,5,Drink,96.pkl,train
+696,5,Drink,97.pkl,train
+697,5,Drink,98.pkl,train
+698,5,Drink,99.pkl,train
+699,5,Drink,100.pkl,train
+700,5,Drink,101.pkl,test
+701,5,Drink,102.pkl,train
+702,5,Drink,103.pkl,train
+703,5,Drink,104.pkl,train
+704,5,Drink,105.pkl,train
+705,5,Drink,106.pkl,test
+706,5,Drink,107.pkl,train
+707,5,Drink,108.pkl,train
+708,5,Drink,109.pkl,test
+709,5,Drink,110.pkl,test
+710,5,Drink,111.pkl,val
+711,5,Drink,112.pkl,train
+712,5,Drink,113.pkl,train
+713,5,Drink,114.pkl,val
+714,5,Drink,115.pkl,train
+715,5,Drink,116.pkl,train
+716,5,Drink,117.pkl,train
+717,5,Drink,118.pkl,val
+718,5,Drink,119.pkl,train
+719,5,Drink,120.pkl,train
+720,6,Friend,1.pkl,test
+721,6,Friend,2.pkl,train
+722,6,Friend,3.pkl,train
+723,6,Friend,4.pkl,train
+724,6,Friend,5.pkl,train
+725,6,Friend,6.pkl,train
+726,6,Friend,7.pkl,val
+727,6,Friend,8.pkl,train
+728,6,Friend,9.pkl,train
+729,6,Friend,10.pkl,train
+730,6,Friend,11.pkl,test
+731,6,Friend,12.pkl,train
+732,6,Friend,13.pkl,val
+733,6,Friend,14.pkl,train
+734,6,Friend,15.pkl,test
+735,6,Friend,16.pkl,train
+736,6,Friend,17.pkl,train
+737,6,Friend,18.pkl,train
+738,6,Friend,19.pkl,train
+739,6,Friend,20.pkl,train
+740,6,Friend,21.pkl,train
+741,6,Friend,22.pkl,train
+742,6,Friend,23.pkl,train
+743,6,Friend,24.pkl,train
+744,6,Friend,25.pkl,train
+745,6,Friend,26.pkl,train
+746,6,Friend,27.pkl,train
+747,6,Friend,28.pkl,train
+748,6,Friend,29.pkl,test
+749,6,Friend,30.pkl,train
+750,6,Friend,31.pkl,train
+751,6,Friend,32.pkl,train
+752,6,Friend,33.pkl,train
+753,6,Friend,34.pkl,val
+754,6,Friend,35.pkl,train
+755,6,Friend,36.pkl,train
+756,6,Friend,37.pkl,train
+757,6,Friend,38.pkl,train
+758,6,Friend,39.pkl,train
+759,6,Friend,40.pkl,val
+760,6,Friend,41.pkl,train
+761,6,Friend,42.pkl,train
+762,6,Friend,43.pkl,train
+763,6,Friend,44.pkl,train
+764,6,Friend,45.pkl,train
+765,6,Friend,46.pkl,val
+766,6,Friend,47.pkl,train
+767,6,Friend,48.pkl,train
+768,6,Friend,49.pkl,train
+769,6,Friend,50.pkl,val
+770,6,Friend,51.pkl,train
+771,6,Friend,52.pkl,train
+772,6,Friend,53.pkl,test
+773,6,Friend,54.pkl,train
+774,6,Friend,55.pkl,train
+775,6,Friend,56.pkl,train
+776,6,Friend,57.pkl,val
+777,6,Friend,58.pkl,train
+778,6,Friend,59.pkl,val
+779,6,Friend,60.pkl,train
+780,6,Friend,61.pkl,train
+781,6,Friend,62.pkl,train
+782,6,Friend,63.pkl,train
+783,6,Friend,64.pkl,test
+784,6,Friend,65.pkl,train
+785,6,Friend,66.pkl,train
+786,6,Friend,67.pkl,train
+787,6,Friend,68.pkl,train
+788,6,Friend,69.pkl,val
+789,6,Friend,70.pkl,test
+790,6,Friend,71.pkl,train
+791,6,Friend,72.pkl,train
+792,6,Friend,73.pkl,train
+793,6,Friend,74.pkl,train
+794,6,Friend,75.pkl,train
+795,6,Friend,76.pkl,train
+796,6,Friend,77.pkl,train
+797,6,Friend,78.pkl,train
+798,6,Friend,79.pkl,train
+799,6,Friend,80.pkl,train
+800,6,Friend,81.pkl,test
+801,6,Friend,82.pkl,val
+802,6,Friend,83.pkl,train
+803,6,Friend,84.pkl,train
+804,6,Friend,85.pkl,train
+805,6,Friend,86.pkl,train
+806,6,Friend,87.pkl,train
+807,6,Friend,88.pkl,train
+808,6,Friend,89.pkl,train
+809,6,Friend,90.pkl,train
+810,6,Friend,91.pkl,train
+811,6,Friend,92.pkl,train
+812,6,Friend,93.pkl,train
+813,6,Friend,94.pkl,train
+814,6,Friend,95.pkl,val
+815,6,Friend,96.pkl,train
+816,6,Friend,97.pkl,train
+817,6,Friend,98.pkl,train
+818,6,Friend,99.pkl,train
+819,6,Friend,100.pkl,train
+820,6,Friend,101.pkl,train
+821,6,Friend,102.pkl,train
+822,6,Friend,103.pkl,train
+823,6,Friend,104.pkl,train
+824,6,Friend,105.pkl,test
+825,6,Friend,106.pkl,train
+826,6,Friend,107.pkl,train
+827,6,Friend,108.pkl,train
+828,6,Friend,109.pkl,train
+829,6,Friend,110.pkl,train
+830,6,Friend,111.pkl,train
+831,6,Friend,112.pkl,train
+832,6,Friend,113.pkl,test
+833,6,Friend,114.pkl,train
+834,6,Friend,115.pkl,test
+835,6,Friend,116.pkl,train
+836,6,Friend,117.pkl,val
+837,6,Friend,118.pkl,train
+838,6,Friend,119.pkl,test
+839,6,Friend,120.pkl,train
+840,7,Go,1.pkl,train
+841,7,Go,2.pkl,train
+842,7,Go,3.pkl,train
+843,7,Go,4.pkl,val
+844,7,Go,5.pkl,test
+845,7,Go,6.pkl,train
+846,7,Go,7.pkl,train
+847,7,Go,8.pkl,train
+848,7,Go,9.pkl,train
+849,7,Go,10.pkl,test
+850,7,Go,11.pkl,train
+851,7,Go,12.pkl,val
+852,7,Go,13.pkl,train
+853,7,Go,14.pkl,train
+854,7,Go,15.pkl,train
+855,7,Go,16.pkl,train
+856,7,Go,17.pkl,train
+857,7,Go,18.pkl,train
+858,7,Go,19.pkl,test
+859,7,Go,20.pkl,train
+860,7,Go,21.pkl,val
+861,7,Go,22.pkl,train
+862,7,Go,23.pkl,train
+863,7,Go,24.pkl,train
+864,7,Go,25.pkl,train
+865,7,Go,26.pkl,train
+866,7,Go,27.pkl,test
+867,7,Go,28.pkl,train
+868,7,Go,29.pkl,train
+869,7,Go,30.pkl,train
+870,7,Go,31.pkl,val
+871,7,Go,32.pkl,train
+872,7,Go,33.pkl,train
+873,7,Go,34.pkl,train
+874,7,Go,35.pkl,train
+875,7,Go,36.pkl,train
+876,7,Go,37.pkl,train
+877,7,Go,38.pkl,train
+878,7,Go,39.pkl,train
+879,7,Go,40.pkl,train
+880,7,Go,41.pkl,val
+881,7,Go,42.pkl,train
+882,7,Go,43.pkl,train
+883,7,Go,44.pkl,train
+884,7,Go,45.pkl,val
+885,7,Go,46.pkl,train
+886,7,Go,47.pkl,train
+887,7,Go,48.pkl,train
+888,7,Go,49.pkl,train
+889,7,Go,50.pkl,val
+890,7,Go,51.pkl,test
+891,7,Go,52.pkl,train
+892,7,Go,53.pkl,train
+893,7,Go,54.pkl,train
+894,7,Go,55.pkl,train
+895,7,Go,56.pkl,train
+896,7,Go,57.pkl,train
+897,7,Go,58.pkl,train
+898,7,Go,59.pkl,train
+899,7,Go,60.pkl,test
+900,7,Go,61.pkl,train
+901,7,Go,62.pkl,train
+902,7,Go,63.pkl,train
+903,7,Go,64.pkl,train
+904,7,Go,65.pkl,val
+905,7,Go,66.pkl,val
+906,7,Go,67.pkl,test
+907,7,Go,68.pkl,train
+908,7,Go,69.pkl,train
+909,7,Go,70.pkl,train
+910,7,Go,71.pkl,val
+911,7,Go,72.pkl,train
+912,7,Go,73.pkl,train
+913,7,Go,74.pkl,train
+914,7,Go,75.pkl,train
+915,7,Go,76.pkl,train
+916,7,Go,77.pkl,train
+917,7,Go,78.pkl,train
+918,7,Go,79.pkl,train
+919,7,Go,80.pkl,train
+920,7,Go,81.pkl,train
+921,7,Go,82.pkl,test
+922,7,Go,83.pkl,train
+923,7,Go,84.pkl,train
+924,7,Go,85.pkl,train
+925,7,Go,86.pkl,train
+926,7,Go,87.pkl,train
+927,7,Go,88.pkl,train
+928,7,Go,89.pkl,test
+929,7,Go,90.pkl,train
+930,7,Go,91.pkl,train
+931,7,Go,92.pkl,test
+932,7,Go,93.pkl,train
+933,7,Go,94.pkl,train
+934,7,Go,95.pkl,test
+935,7,Go,96.pkl,train
+936,7,Go,97.pkl,train
+937,7,Go,98.pkl,train
+938,7,Go,99.pkl,train
+939,7,Go,100.pkl,train
+940,7,Go,101.pkl,train
+941,7,Go,102.pkl,train
+942,7,Go,103.pkl,train
+943,7,Go,104.pkl,train
+944,7,Go,105.pkl,train
+945,7,Go,106.pkl,train
+946,7,Go,107.pkl,train
+947,7,Go,108.pkl,val
+948,7,Go,109.pkl,train
+949,7,Go,110.pkl,train
+950,7,Go,111.pkl,train
+951,7,Go,112.pkl,train
+952,7,Go,113.pkl,train
+953,7,Go,114.pkl,train
+954,7,Go,115.pkl,train
+955,7,Go,116.pkl,train
+956,7,Go,117.pkl,val
+957,7,Go,118.pkl,train
+958,7,Go,119.pkl,train
+959,7,Go,120.pkl,test
+960,8,Go home,1.pkl,train
+961,8,Go home,2.pkl,train
+962,8,Go home,3.pkl,train
+963,8,Go home,4.pkl,train
+964,8,Go home,5.pkl,train
+965,8,Go home,6.pkl,train
+966,8,Go home,7.pkl,train
+967,8,Go home,8.pkl,val
+968,8,Go home,9.pkl,train
+969,8,Go home,10.pkl,val
+970,8,Go home,11.pkl,train
+971,8,Go home,12.pkl,train
+972,8,Go home,13.pkl,val
+973,8,Go home,14.pkl,train
+974,8,Go home,15.pkl,train
+975,8,Go home,16.pkl,train
+976,8,Go home,17.pkl,train
+977,8,Go home,18.pkl,train
+978,8,Go home,19.pkl,train
+979,8,Go home,20.pkl,train
+980,8,Go home,21.pkl,train
+981,8,Go home,22.pkl,train
+982,8,Go home,23.pkl,test
+983,8,Go home,24.pkl,train
+984,8,Go home,25.pkl,val
+985,8,Go home,26.pkl,train
+986,8,Go home,27.pkl,test
+987,8,Go home,28.pkl,train
+988,8,Go home,29.pkl,train
+989,8,Go home,30.pkl,train
+990,8,Go home,31.pkl,train
+991,8,Go home,32.pkl,train
+992,8,Go home,33.pkl,train
+993,8,Go home,34.pkl,train
+994,8,Go home,35.pkl,val
+995,8,Go home,36.pkl,test
+996,8,Go home,37.pkl,train
+997,8,Go home,38.pkl,train
+998,8,Go home,39.pkl,train
+999,8,Go home,40.pkl,train
+1000,8,Go home,41.pkl,train
+1001,8,Go home,42.pkl,train
+1002,8,Go home,43.pkl,train
+1003,8,Go home,44.pkl,train
+1004,8,Go home,45.pkl,train
+1005,8,Go home,46.pkl,train
+1006,8,Go home,47.pkl,train
+1007,8,Go home,48.pkl,train
+1008,8,Go home,49.pkl,train
+1009,8,Go home,50.pkl,train
+1010,8,Go home,51.pkl,train
+1011,8,Go home,52.pkl,train
+1012,8,Go home,53.pkl,train
+1013,8,Go home,54.pkl,train
+1014,8,Go home,55.pkl,train
+1015,8,Go home,56.pkl,test
+1016,8,Go home,57.pkl,test
+1017,8,Go home,58.pkl,train
+1018,8,Go home,59.pkl,val
+1019,8,Go home,60.pkl,train
+1020,8,Go home,61.pkl,train
+1021,8,Go home,62.pkl,test
+1022,8,Go home,63.pkl,val
+1023,8,Go home,64.pkl,test
+1024,8,Go home,65.pkl,train
+1025,8,Go home,66.pkl,train
+1026,8,Go home,67.pkl,train
+1027,8,Go home,68.pkl,test
+1028,8,Go home,69.pkl,train
+1029,8,Go home,70.pkl,test
+1030,8,Go home,71.pkl,train
+1031,8,Go home,72.pkl,val
+1032,8,Go home,73.pkl,train
+1033,8,Go home,74.pkl,train
+1034,8,Go home,75.pkl,train
+1035,8,Go home,76.pkl,train
+1036,8,Go home,77.pkl,train
+1037,8,Go home,78.pkl,train
+1038,8,Go home,79.pkl,train
+1039,8,Go home,80.pkl,train
+1040,8,Go home,81.pkl,train
+1041,8,Go home,82.pkl,train
+1042,8,Go home,83.pkl,train
+1043,8,Go home,84.pkl,test
+1044,8,Go home,85.pkl,train
+1045,8,Go home,86.pkl,train
+1046,8,Go home,87.pkl,train
+1047,8,Go home,88.pkl,train
+1048,8,Go home,89.pkl,train
+1049,8,Go home,90.pkl,train
+1050,8,Go home,91.pkl,val
+1051,8,Go home,92.pkl,train
+1052,8,Go home,93.pkl,train
+1053,8,Go home,94.pkl,train
+1054,8,Go home,95.pkl,train
+1055,8,Go home,96.pkl,train
+1056,8,Go home,97.pkl,train
+1057,8,Go home,98.pkl,train
+1058,8,Go home,99.pkl,test
+1059,8,Go home,100.pkl,train
+1060,8,Go home,101.pkl,train
+1061,8,Go home,102.pkl,train
+1062,8,Go home,103.pkl,train
+1063,8,Go home,104.pkl,train
+1064,8,Go home,105.pkl,train
+1065,8,Go home,106.pkl,train
+1066,8,Go home,107.pkl,train
+1067,8,Go home,108.pkl,train
+1068,8,Go home,109.pkl,train
+1069,8,Go home,110.pkl,val
+1070,8,Go home,111.pkl,train
+1071,8,Go home,112.pkl,train
+1072,8,Go home,113.pkl,train
+1073,8,Go home,114.pkl,train
+1074,8,Go home,115.pkl,test
+1075,8,Go home,116.pkl,train
+1076,8,Go home,117.pkl,val
+1077,8,Go home,118.pkl,val
+1078,8,Go home,119.pkl,train
+1079,8,Go home,120.pkl,train
+1080,9,Good bye,1.pkl,train
+1081,9,Good bye,2.pkl,train
+1082,9,Good bye,3.pkl,train
+1083,9,Good bye,4.pkl,train
+1084,9,Good bye,5.pkl,train
+1085,9,Good bye,6.pkl,train
+1086,9,Good bye,7.pkl,train
+1087,9,Good bye,8.pkl,train
+1088,9,Good bye,9.pkl,train
+1089,9,Good bye,10.pkl,train
+1090,9,Good bye,11.pkl,train
+1091,9,Good bye,12.pkl,train
+1092,9,Good bye,13.pkl,train
+1093,9,Good bye,14.pkl,test
+1094,9,Good bye,15.pkl,train
+1095,9,Good bye,16.pkl,train
+1096,9,Good bye,17.pkl,train
+1097,9,Good bye,18.pkl,train
+1098,9,Good bye,19.pkl,train
+1099,9,Good bye,20.pkl,train
+1100,9,Good bye,21.pkl,train
+1101,9,Good bye,22.pkl,val
+1102,9,Good bye,23.pkl,train
+1103,9,Good bye,24.pkl,train
+1104,9,Good bye,25.pkl,train
+1105,9,Good bye,26.pkl,train
+1106,9,Good bye,27.pkl,train
+1107,9,Good bye,28.pkl,train
+1108,9,Good bye,29.pkl,test
+1109,9,Good bye,30.pkl,train
+1110,9,Good bye,31.pkl,train
+1111,9,Good bye,32.pkl,train
+1112,9,Good bye,33.pkl,train
+1113,9,Good bye,34.pkl,train
+1114,9,Good bye,35.pkl,train
+1115,9,Good bye,36.pkl,train
+1116,9,Good bye,37.pkl,train
+1117,9,Good bye,38.pkl,train
+1118,9,Good bye,39.pkl,train
+1119,9,Good bye,40.pkl,train
+1120,9,Good bye,41.pkl,train
+1121,9,Good bye,42.pkl,train
+1122,9,Good bye,43.pkl,train
+1123,9,Good bye,44.pkl,train
+1124,9,Good bye,45.pkl,train
+1125,9,Good bye,46.pkl,train
+1126,9,Good bye,47.pkl,train
+1127,9,Good bye,48.pkl,train
+1128,9,Good bye,49.pkl,val
+1129,9,Good bye,50.pkl,train
+1130,9,Good bye,51.pkl,train
+1131,9,Good bye,52.pkl,train
+1132,9,Good bye,53.pkl,train
+1133,9,Good bye,54.pkl,train
+1134,9,Good bye,55.pkl,train
+1135,9,Good bye,56.pkl,test
+1136,9,Good bye,57.pkl,train
+1137,9,Good bye,58.pkl,train
+1138,9,Good bye,59.pkl,train
+1139,9,Good bye,60.pkl,train
+1140,9,Good bye,61.pkl,train
+1141,9,Good bye,62.pkl,train
+1142,9,Good bye,63.pkl,train
+1143,9,Good bye,64.pkl,val
+1144,9,Good bye,65.pkl,train
+1145,9,Good bye,66.pkl,train
+1146,9,Good bye,67.pkl,train
+1147,9,Good bye,68.pkl,train
+1148,9,Good bye,69.pkl,train
+1149,9,Good bye,70.pkl,train
+1150,9,Good bye,71.pkl,train
+1151,9,Good bye,72.pkl,test
+1152,9,Good bye,73.pkl,train
+1153,9,Good bye,74.pkl,val
+1154,9,Good bye,75.pkl,train
+1155,9,Good bye,76.pkl,test
+1156,9,Good bye,77.pkl,train
+1157,9,Good bye,78.pkl,test
+1158,9,Good bye,79.pkl,train
+1159,9,Good bye,80.pkl,train
+1160,9,Good bye,81.pkl,train
+1161,9,Good bye,82.pkl,train
+1162,9,Good bye,83.pkl,test
+1163,9,Good bye,84.pkl,train
+1164,9,Good bye,85.pkl,train
+1165,9,Good bye,86.pkl,train
+1166,9,Good bye,87.pkl,train
+1167,9,Good bye,88.pkl,test
+1168,9,Good bye,89.pkl,train
+1169,9,Good bye,90.pkl,val
+1170,9,Good bye,91.pkl,train
+1171,9,Good bye,92.pkl,val
+1172,9,Good bye,93.pkl,train
+1173,9,Good bye,94.pkl,val
+1174,9,Good bye,95.pkl,train
+1175,9,Good bye,96.pkl,train
+1176,9,Good bye,97.pkl,train
+1177,9,Good bye,98.pkl,val
+1178,9,Good bye,99.pkl,train
+1179,9,Good bye,100.pkl,test
+1180,9,Good bye,101.pkl,train
+1181,9,Good bye,102.pkl,val
+1182,9,Good bye,103.pkl,train
+1183,9,Good bye,104.pkl,train
+1184,9,Good bye,105.pkl,train
+1185,9,Good bye,106.pkl,train
+1186,9,Good bye,107.pkl,train
+1187,9,Good bye,108.pkl,train
+1188,9,Good bye,109.pkl,val
+1189,9,Good bye,110.pkl,val
+1190,9,Good bye,111.pkl,train
+1191,9,Good bye,112.pkl,train
+1192,9,Good bye,113.pkl,val
+1193,9,Good bye,114.pkl,train
+1194,9,Good bye,115.pkl,test
+1195,9,Good bye,116.pkl,test
+1196,9,Good bye,117.pkl,test
+1197,9,Good bye,118.pkl,train
+1198,9,Good bye,119.pkl,train
+1199,9,Good bye,120.pkl,train
+1200,10,Like,1.pkl,train
+1201,10,Like,2.pkl,train
+1202,10,Like,3.pkl,train
+1203,10,Like,4.pkl,train
+1204,10,Like,5.pkl,train
+1205,10,Like,6.pkl,test
+1206,10,Like,7.pkl,train
+1207,10,Like,8.pkl,train
+1208,10,Like,9.pkl,train
+1209,10,Like,10.pkl,train
+1210,10,Like,11.pkl,train
+1211,10,Like,12.pkl,test
+1212,10,Like,13.pkl,train
+1213,10,Like,14.pkl,train
+1214,10,Like,15.pkl,train
+1215,10,Like,16.pkl,train
+1216,10,Like,17.pkl,train
+1217,10,Like,18.pkl,test
+1218,10,Like,19.pkl,val
+1219,10,Like,20.pkl,train
+1220,10,Like,21.pkl,train
+1221,10,Like,22.pkl,test
+1222,10,Like,23.pkl,val
+1223,10,Like,24.pkl,train
+1224,10,Like,25.pkl,train
+1225,10,Like,26.pkl,train
+1226,10,Like,27.pkl,train
+1227,10,Like,28.pkl,train
+1228,10,Like,29.pkl,train
+1229,10,Like,30.pkl,train
+1230,10,Like,31.pkl,train
+1231,10,Like,32.pkl,test
+1232,10,Like,33.pkl,train
+1233,10,Like,34.pkl,train
+1234,10,Like,35.pkl,val
+1235,10,Like,36.pkl,train
+1236,10,Like,37.pkl,val
+1237,10,Like,38.pkl,train
+1238,10,Like,39.pkl,test
+1239,10,Like,40.pkl,train
+1240,10,Like,41.pkl,train
+1241,10,Like,42.pkl,train
+1242,10,Like,43.pkl,train
+1243,10,Like,44.pkl,test
+1244,10,Like,45.pkl,val
+1245,10,Like,46.pkl,train
+1246,10,Like,47.pkl,train
+1247,10,Like,48.pkl,train
+1248,10,Like,49.pkl,train
+1249,10,Like,50.pkl,test
+1250,10,Like,51.pkl,train
+1251,10,Like,52.pkl,test
+1252,10,Like,53.pkl,train
+1253,10,Like,54.pkl,train
+1254,10,Like,55.pkl,train
+1255,10,Like,56.pkl,val
+1256,10,Like,57.pkl,val
+1257,10,Like,58.pkl,train
+1258,10,Like,59.pkl,train
+1259,10,Like,60.pkl,train
+1260,10,Like,61.pkl,train
+1261,10,Like,62.pkl,train
+1262,10,Like,63.pkl,train
+1263,10,Like,64.pkl,train
+1264,10,Like,65.pkl,train
+1265,10,Like,66.pkl,train
+1266,10,Like,67.pkl,test
+1267,10,Like,68.pkl,train
+1268,10,Like,69.pkl,train
+1269,10,Like,70.pkl,train
+1270,10,Like,71.pkl,train
+1271,10,Like,72.pkl,train
+1272,10,Like,73.pkl,train
+1273,10,Like,74.pkl,train
+1274,10,Like,75.pkl,train
+1275,10,Like,76.pkl,train
+1276,10,Like,77.pkl,train
+1277,10,Like,78.pkl,train
+1278,10,Like,79.pkl,train
+1279,10,Like,80.pkl,train
+1280,10,Like,81.pkl,train
+1281,10,Like,82.pkl,train
+1282,10,Like,83.pkl,train
+1283,10,Like,84.pkl,train
+1284,10,Like,85.pkl,train
+1285,10,Like,86.pkl,val
+1286,10,Like,87.pkl,train
+1287,10,Like,88.pkl,train
+1288,10,Like,89.pkl,val
+1289,10,Like,90.pkl,train
+1290,10,Like,91.pkl,train
+1291,10,Like,92.pkl,test
+1292,10,Like,93.pkl,train
+1293,10,Like,94.pkl,val
+1294,10,Like,95.pkl,val
+1295,10,Like,96.pkl,train
+1296,10,Like,97.pkl,train
+1297,10,Like,98.pkl,val
+1298,10,Like,99.pkl,train
+1299,10,Like,100.pkl,train
+1300,10,Like,101.pkl,train
+1301,10,Like,102.pkl,train
+1302,10,Like,103.pkl,train
+1303,10,Like,104.pkl,train
+1304,10,Like,105.pkl,train
+1305,10,Like,106.pkl,train
+1306,10,Like,107.pkl,train
+1307,10,Like,108.pkl,train
+1308,10,Like,109.pkl,train
+1309,10,Like,110.pkl,train
+1310,10,Like,111.pkl,train
+1311,10,Like,112.pkl,train
+1312,10,Like,113.pkl,train
+1313,10,Like,114.pkl,train
+1314,10,Like,115.pkl,train
+1315,10,Like,116.pkl,train
+1316,10,Like,117.pkl,train
+1317,10,Like,118.pkl,test
+1318,10,Like,119.pkl,train
+1319,10,Like,120.pkl,train
+1320,11,Love,1.pkl,train
+1321,11,Love,2.pkl,train
+1322,11,Love,3.pkl,val
+1323,11,Love,4.pkl,val
+1324,11,Love,5.pkl,train
+1325,11,Love,6.pkl,train
+1326,11,Love,7.pkl,train
+1327,11,Love,8.pkl,val
+1328,11,Love,9.pkl,train
+1329,11,Love,10.pkl,train
+1330,11,Love,11.pkl,train
+1331,11,Love,12.pkl,train
+1332,11,Love,13.pkl,train
+1333,11,Love,14.pkl,train
+1334,11,Love,15.pkl,train
+1335,11,Love,16.pkl,test
+1336,11,Love,17.pkl,val
+1337,11,Love,18.pkl,test
+1338,11,Love,19.pkl,train
+1339,11,Love,20.pkl,val
+1340,11,Love,21.pkl,train
+1341,11,Love,22.pkl,train
+1342,11,Love,23.pkl,train
+1343,11,Love,24.pkl,train
+1344,11,Love,25.pkl,train
+1345,11,Love,26.pkl,train
+1346,11,Love,27.pkl,train
+1347,11,Love,28.pkl,test
+1348,11,Love,29.pkl,test
+1349,11,Love,30.pkl,train
+1350,11,Love,31.pkl,train
+1351,11,Love,32.pkl,train
+1352,11,Love,33.pkl,train
+1353,11,Love,34.pkl,train
+1354,11,Love,35.pkl,test
+1355,11,Love,36.pkl,train
+1356,11,Love,37.pkl,test
+1357,11,Love,38.pkl,train
+1358,11,Love,39.pkl,train
+1359,11,Love,40.pkl,train
+1360,11,Love,41.pkl,train
+1361,11,Love,42.pkl,train
+1362,11,Love,43.pkl,train
+1363,11,Love,44.pkl,test
+1364,11,Love,45.pkl,val
+1365,11,Love,46.pkl,train
+1366,11,Love,47.pkl,train
+1367,11,Love,48.pkl,train
+1368,11,Love,49.pkl,train
+1369,11,Love,50.pkl,train
+1370,11,Love,51.pkl,train
+1371,11,Love,52.pkl,train
+1372,11,Love,53.pkl,train
+1373,11,Love,54.pkl,train
+1374,11,Love,55.pkl,train
+1375,11,Love,56.pkl,train
+1376,11,Love,57.pkl,test
+1377,11,Love,58.pkl,val
+1378,11,Love,59.pkl,train
+1379,11,Love,60.pkl,test
+1380,11,Love,61.pkl,train
+1381,11,Love,62.pkl,val
+1382,11,Love,63.pkl,train
+1383,11,Love,64.pkl,train
+1384,11,Love,65.pkl,train
+1385,11,Love,66.pkl,train
+1386,11,Love,67.pkl,train
+1387,11,Love,68.pkl,train
+1388,11,Love,69.pkl,train
+1389,11,Love,70.pkl,train
+1390,11,Love,71.pkl,train
+1391,11,Love,72.pkl,train
+1392,11,Love,73.pkl,train
+1393,11,Love,74.pkl,train
+1394,11,Love,75.pkl,train
+1395,11,Love,76.pkl,train
+1396,11,Love,77.pkl,test
+1397,11,Love,78.pkl,train
+1398,11,Love,79.pkl,train
+1399,11,Love,80.pkl,train
+1400,11,Love,81.pkl,train
+1401,11,Love,82.pkl,train
+1402,11,Love,83.pkl,val
+1403,11,Love,84.pkl,train
+1404,11,Love,85.pkl,train
+1405,11,Love,86.pkl,val
+1406,11,Love,87.pkl,train
+1407,11,Love,88.pkl,train
+1408,11,Love,89.pkl,train
+1409,11,Love,90.pkl,train
+1410,11,Love,91.pkl,test
+1411,11,Love,92.pkl,train
+1412,11,Love,93.pkl,train
+1413,11,Love,94.pkl,train
+1414,11,Love,95.pkl,train
+1415,11,Love,96.pkl,train
+1416,11,Love,97.pkl,train
+1417,11,Love,98.pkl,train
+1418,11,Love,99.pkl,train
+1419,11,Love,100.pkl,train
+1420,11,Love,101.pkl,train
+1421,11,Love,102.pkl,train
+1422,11,Love,103.pkl,train
+1423,11,Love,104.pkl,val
+1424,11,Love,105.pkl,train
+1425,11,Love,106.pkl,train
+1426,11,Love,107.pkl,train
+1427,11,Love,108.pkl,train
+1428,11,Love,109.pkl,train
+1429,11,Love,110.pkl,train
+1430,11,Love,111.pkl,train
+1431,11,Love,112.pkl,train
+1432,11,Love,113.pkl,train
+1433,11,Love,114.pkl,val
+1434,11,Love,115.pkl,test
+1435,11,Love,116.pkl,train
+1436,11,Love,117.pkl,train
+1437,11,Love,118.pkl,train
+1438,11,Love,119.pkl,train
+1439,11,Love,120.pkl,train
+1440,12,Never mind,1.pkl,test
+1441,12,Never mind,2.pkl,train
+1442,12,Never mind,3.pkl,val
+1443,12,Never mind,4.pkl,val
+1444,12,Never mind,5.pkl,train
+1445,12,Never mind,6.pkl,train
+1446,12,Never mind,7.pkl,train
+1447,12,Never mind,8.pkl,train
+1448,12,Never mind,9.pkl,test
+1449,12,Never mind,10.pkl,train
+1450,12,Never mind,11.pkl,train
+1451,12,Never mind,12.pkl,train
+1452,12,Never mind,13.pkl,train
+1453,12,Never mind,14.pkl,train
+1454,12,Never mind,15.pkl,train
+1455,12,Never mind,16.pkl,train
+1456,12,Never mind,17.pkl,train
+1457,12,Never mind,18.pkl,test
+1458,12,Never mind,19.pkl,train
+1459,12,Never mind,20.pkl,train
+1460,12,Never mind,21.pkl,train
+1461,12,Never mind,22.pkl,test
+1462,12,Never mind,23.pkl,train
+1463,12,Never mind,24.pkl,train
+1464,12,Never mind,25.pkl,train
+1465,12,Never mind,26.pkl,train
+1466,12,Never mind,27.pkl,train
+1467,12,Never mind,28.pkl,train
+1468,12,Never mind,29.pkl,train
+1469,12,Never mind,30.pkl,train
+1470,12,Never mind,31.pkl,val
+1471,12,Never mind,32.pkl,train
+1472,12,Never mind,33.pkl,train
+1473,12,Never mind,34.pkl,train
+1474,12,Never mind,35.pkl,test
+1475,12,Never mind,36.pkl,train
+1476,12,Never mind,37.pkl,train
+1477,12,Never mind,38.pkl,train
+1478,12,Never mind,39.pkl,train
+1479,12,Never mind,40.pkl,train
+1480,12,Never mind,41.pkl,train
+1481,12,Never mind,42.pkl,train
+1482,12,Never mind,43.pkl,train
+1483,12,Never mind,44.pkl,train
+1484,12,Never mind,45.pkl,test
+1485,12,Never mind,46.pkl,train
+1486,12,Never mind,47.pkl,train
+1487,12,Never mind,48.pkl,train
+1488,12,Never mind,49.pkl,train
+1489,12,Never mind,50.pkl,train
+1490,12,Never mind,51.pkl,train
+1491,12,Never mind,52.pkl,train
+1492,12,Never mind,53.pkl,val
+1493,12,Never mind,54.pkl,train
+1494,12,Never mind,55.pkl,train
+1495,12,Never mind,56.pkl,train
+1496,12,Never mind,57.pkl,train
+1497,12,Never mind,58.pkl,train
+1498,12,Never mind,59.pkl,train
+1499,12,Never mind,60.pkl,val
+1500,12,Never mind,61.pkl,train
+1501,12,Never mind,62.pkl,train
+1502,12,Never mind,63.pkl,train
+1503,12,Never mind,64.pkl,train
+1504,12,Never mind,65.pkl,test
+1505,12,Never mind,66.pkl,test
+1506,12,Never mind,67.pkl,val
+1507,12,Never mind,68.pkl,train
+1508,12,Never mind,69.pkl,train
+1509,12,Never mind,70.pkl,train
+1510,12,Never mind,71.pkl,train
+1511,12,Never mind,72.pkl,train
+1512,12,Never mind,73.pkl,train
+1513,12,Never mind,74.pkl,train
+1514,12,Never mind,75.pkl,val
+1515,12,Never mind,76.pkl,train
+1516,12,Never mind,77.pkl,train
+1517,12,Never mind,78.pkl,train
+1518,12,Never mind,79.pkl,train
+1519,12,Never mind,80.pkl,train
+1520,12,Never mind,81.pkl,train
+1521,12,Never mind,82.pkl,train
+1522,12,Never mind,83.pkl,train
+1523,12,Never mind,84.pkl,train
+1524,12,Never mind,85.pkl,train
+1525,12,Never mind,86.pkl,train
+1526,12,Never mind,87.pkl,train
+1527,12,Never mind,88.pkl,train
+1528,12,Never mind,89.pkl,val
+1529,12,Never mind,90.pkl,test
+1530,12,Never mind,91.pkl,train
+1531,12,Never mind,92.pkl,val
+1532,12,Never mind,93.pkl,train
+1533,12,Never mind,94.pkl,train
+1534,12,Never mind,95.pkl,test
+1535,12,Never mind,96.pkl,train
+1536,12,Never mind,97.pkl,train
+1537,12,Never mind,98.pkl,test
+1538,12,Never mind,99.pkl,train
+1539,12,Never mind,100.pkl,train
+1540,12,Never mind,101.pkl,train
+1541,12,Never mind,102.pkl,val
+1542,12,Never mind,103.pkl,val
+1543,12,Never mind,104.pkl,train
+1544,12,Never mind,105.pkl,val
+1545,12,Never mind,106.pkl,train
+1546,12,Never mind,107.pkl,train
+1547,12,Never mind,108.pkl,train
+1548,12,Never mind,109.pkl,train
+1549,12,Never mind,110.pkl,train
+1550,12,Never mind,111.pkl,train
+1551,12,Never mind,112.pkl,train
+1552,12,Never mind,113.pkl,train
+1553,12,Never mind,114.pkl,train
+1554,12,Never mind,115.pkl,train
+1555,12,Never mind,116.pkl,train
+1556,12,Never mind,117.pkl,train
+1557,12,Never mind,118.pkl,train
+1558,12,Never mind,119.pkl,test
+1559,12,Never mind,120.pkl,train
+1560,13,Run,1.pkl,train
+1561,13,Run,2.pkl,train
+1562,13,Run,3.pkl,train
+1563,13,Run,4.pkl,train
+1564,13,Run,5.pkl,train
+1565,13,Run,6.pkl,train
+1566,13,Run,7.pkl,train
+1567,13,Run,8.pkl,train
+1568,13,Run,9.pkl,train
+1569,13,Run,10.pkl,train
+1570,13,Run,11.pkl,train
+1571,13,Run,12.pkl,train
+1572,13,Run,13.pkl,test
+1573,13,Run,14.pkl,train
+1574,13,Run,15.pkl,train
+1575,13,Run,16.pkl,train
+1576,13,Run,17.pkl,train
+1577,13,Run,18.pkl,val
+1578,13,Run,19.pkl,train
+1579,13,Run,20.pkl,train
+1580,13,Run,21.pkl,train
+1581,13,Run,22.pkl,train
+1582,13,Run,23.pkl,train
+1583,13,Run,24.pkl,val
+1584,13,Run,25.pkl,train
+1585,13,Run,26.pkl,train
+1586,13,Run,27.pkl,val
+1587,13,Run,28.pkl,train
+1588,13,Run,29.pkl,train
+1589,13,Run,30.pkl,train
+1590,13,Run,31.pkl,train
+1591,13,Run,32.pkl,val
+1592,13,Run,33.pkl,train
+1593,13,Run,34.pkl,val
+1594,13,Run,35.pkl,train
+1595,13,Run,36.pkl,train
+1596,13,Run,37.pkl,val
+1597,13,Run,38.pkl,train
+1598,13,Run,39.pkl,train
+1599,13,Run,40.pkl,train
+1600,13,Run,41.pkl,train
+1601,13,Run,42.pkl,val
+1602,13,Run,43.pkl,test
+1603,13,Run,44.pkl,train
+1604,13,Run,45.pkl,train
+1605,13,Run,46.pkl,train
+1606,13,Run,47.pkl,train
+1607,13,Run,48.pkl,train
+1608,13,Run,49.pkl,train
+1609,13,Run,50.pkl,train
+1610,13,Run,51.pkl,val
+1611,13,Run,52.pkl,train
+1612,13,Run,53.pkl,train
+1613,13,Run,54.pkl,val
+1614,13,Run,55.pkl,train
+1615,13,Run,56.pkl,test
+1616,13,Run,57.pkl,test
+1617,13,Run,58.pkl,train
+1618,13,Run,59.pkl,train
+1619,13,Run,60.pkl,train
+1620,13,Run,61.pkl,train
+1621,13,Run,62.pkl,train
+1622,13,Run,63.pkl,train
+1623,13,Run,64.pkl,train
+1624,13,Run,65.pkl,train
+1625,13,Run,66.pkl,train
+1626,13,Run,67.pkl,train
+1627,13,Run,68.pkl,test
+1628,13,Run,69.pkl,train
+1629,13,Run,70.pkl,train
+1630,13,Run,71.pkl,train
+1631,13,Run,72.pkl,train
+1632,13,Run,73.pkl,train
+1633,13,Run,74.pkl,train
+1634,13,Run,75.pkl,train
+1635,13,Run,76.pkl,test
+1636,13,Run,77.pkl,train
+1637,13,Run,78.pkl,train
+1638,13,Run,79.pkl,train
+1639,13,Run,80.pkl,train
+1640,13,Run,81.pkl,train
+1641,13,Run,82.pkl,train
+1642,13,Run,83.pkl,train
+1643,13,Run,84.pkl,train
+1644,13,Run,85.pkl,train
+1645,13,Run,86.pkl,train
+1646,13,Run,87.pkl,val
+1647,13,Run,88.pkl,train
+1648,13,Run,89.pkl,val
+1649,13,Run,90.pkl,test
+1650,13,Run,91.pkl,test
+1651,13,Run,92.pkl,train
+1652,13,Run,93.pkl,train
+1653,13,Run,94.pkl,train
+1654,13,Run,95.pkl,train
+1655,13,Run,96.pkl,train
+1656,13,Run,97.pkl,train
+1657,13,Run,98.pkl,train
+1658,13,Run,99.pkl,train
+1659,13,Run,100.pkl,train
+1660,13,Run,101.pkl,train
+1661,13,Run,102.pkl,train
+1662,13,Run,103.pkl,train
+1663,13,Run,104.pkl,train
+1664,13,Run,105.pkl,val
+1665,13,Run,106.pkl,train
+1666,13,Run,107.pkl,train
+1667,13,Run,108.pkl,train
+1668,13,Run,109.pkl,test
+1669,13,Run,110.pkl,test
+1670,13,Run,111.pkl,train
+1671,13,Run,112.pkl,train
+1672,13,Run,113.pkl,train
+1673,13,Run,114.pkl,train
+1674,13,Run,115.pkl,test
+1675,13,Run,116.pkl,train
+1676,13,Run,117.pkl,train
+1677,13,Run,118.pkl,train
+1678,13,Run,119.pkl,test
+1679,13,Run,120.pkl,train
+1680,14,Sorry,1.pkl,test
+1681,14,Sorry,2.pkl,train
+1682,14,Sorry,3.pkl,train
+1683,14,Sorry,4.pkl,train
+1684,14,Sorry,5.pkl,test
+1685,14,Sorry,6.pkl,train
+1686,14,Sorry,7.pkl,train
+1687,14,Sorry,8.pkl,val
+1688,14,Sorry,9.pkl,train
+1689,14,Sorry,10.pkl,train
+1690,14,Sorry,11.pkl,train
+1691,14,Sorry,12.pkl,train
+1692,14,Sorry,13.pkl,train
+1693,14,Sorry,14.pkl,train
+1694,14,Sorry,15.pkl,train
+1695,14,Sorry,16.pkl,train
+1696,14,Sorry,17.pkl,train
+1697,14,Sorry,18.pkl,train
+1698,14,Sorry,19.pkl,test
+1699,14,Sorry,20.pkl,val
+1700,14,Sorry,21.pkl,train
+1701,14,Sorry,22.pkl,train
+1702,14,Sorry,23.pkl,train
+1703,14,Sorry,24.pkl,train
+1704,14,Sorry,25.pkl,train
+1705,14,Sorry,26.pkl,train
+1706,14,Sorry,27.pkl,train
+1707,14,Sorry,28.pkl,train
+1708,14,Sorry,29.pkl,train
+1709,14,Sorry,30.pkl,train
+1710,14,Sorry,31.pkl,train
+1711,14,Sorry,32.pkl,train
+1712,14,Sorry,33.pkl,val
+1713,14,Sorry,34.pkl,test
+1714,14,Sorry,35.pkl,train
+1715,14,Sorry,36.pkl,train
+1716,14,Sorry,37.pkl,train
+1717,14,Sorry,38.pkl,train
+1718,14,Sorry,39.pkl,train
+1719,14,Sorry,40.pkl,train
+1720,14,Sorry,41.pkl,train
+1721,14,Sorry,42.pkl,val
+1722,14,Sorry,43.pkl,train
+1723,14,Sorry,44.pkl,train
+1724,14,Sorry,45.pkl,train
+1725,14,Sorry,46.pkl,train
+1726,14,Sorry,47.pkl,train
+1727,14,Sorry,48.pkl,train
+1728,14,Sorry,49.pkl,train
+1729,14,Sorry,50.pkl,train
+1730,14,Sorry,51.pkl,train
+1731,14,Sorry,52.pkl,train
+1732,14,Sorry,53.pkl,train
+1733,14,Sorry,54.pkl,train
+1734,14,Sorry,55.pkl,val
+1735,14,Sorry,56.pkl,train
+1736,14,Sorry,57.pkl,train
+1737,14,Sorry,58.pkl,train
+1738,14,Sorry,59.pkl,train
+1739,14,Sorry,60.pkl,train
+1740,14,Sorry,61.pkl,train
+1741,14,Sorry,62.pkl,test
+1742,14,Sorry,63.pkl,train
+1743,14,Sorry,64.pkl,train
+1744,14,Sorry,65.pkl,train
+1745,14,Sorry,66.pkl,train
+1746,14,Sorry,67.pkl,train
+1747,14,Sorry,68.pkl,train
+1748,14,Sorry,69.pkl,test
+1749,14,Sorry,70.pkl,train
+1750,14,Sorry,71.pkl,train
+1751,14,Sorry,72.pkl,val
+1752,14,Sorry,73.pkl,train
+1753,14,Sorry,74.pkl,train
+1754,14,Sorry,75.pkl,test
+1755,14,Sorry,76.pkl,val
+1756,14,Sorry,77.pkl,train
+1757,14,Sorry,78.pkl,train
+1758,14,Sorry,79.pkl,train
+1759,14,Sorry,80.pkl,val
+1760,14,Sorry,81.pkl,train
+1761,14,Sorry,82.pkl,train
+1762,14,Sorry,83.pkl,train
+1763,14,Sorry,84.pkl,train
+1764,14,Sorry,85.pkl,test
+1765,14,Sorry,86.pkl,train
+1766,14,Sorry,87.pkl,train
+1767,14,Sorry,88.pkl,train
+1768,14,Sorry,89.pkl,val
+1769,14,Sorry,90.pkl,train
+1770,14,Sorry,91.pkl,train
+1771,14,Sorry,92.pkl,train
+1772,14,Sorry,93.pkl,test
+1773,14,Sorry,94.pkl,test
+1774,14,Sorry,95.pkl,train
+1775,14,Sorry,96.pkl,train
+1776,14,Sorry,97.pkl,train
+1777,14,Sorry,98.pkl,train
+1778,14,Sorry,99.pkl,val
+1779,14,Sorry,100.pkl,train
+1780,14,Sorry,101.pkl,train
+1781,14,Sorry,102.pkl,train
+1782,14,Sorry,103.pkl,train
+1783,14,Sorry,104.pkl,train
+1784,14,Sorry,105.pkl,train
+1785,14,Sorry,106.pkl,train
+1786,14,Sorry,107.pkl,train
+1787,14,Sorry,108.pkl,test
+1788,14,Sorry,109.pkl,train
+1789,14,Sorry,110.pkl,train
+1790,14,Sorry,111.pkl,train
+1791,14,Sorry,112.pkl,train
+1792,14,Sorry,113.pkl,val
+1793,14,Sorry,114.pkl,train
+1794,14,Sorry,115.pkl,test
+1795,14,Sorry,116.pkl,val
+1796,14,Sorry,117.pkl,train
+1797,14,Sorry,118.pkl,train
+1798,14,Sorry,119.pkl,train
+1799,14,Sorry,120.pkl,train
+1800,15,South,1.pkl,train
+1801,15,South,2.pkl,train
+1802,15,South,3.pkl,train
+1803,15,South,4.pkl,train
+1804,15,South,5.pkl,train
+1805,15,South,6.pkl,train
+1806,15,South,7.pkl,val
+1807,15,South,8.pkl,train
+1808,15,South,9.pkl,train
+1809,15,South,10.pkl,train
+1810,15,South,11.pkl,test
+1811,15,South,12.pkl,train
+1812,15,South,13.pkl,val
+1813,15,South,14.pkl,train
+1814,15,South,15.pkl,test
+1815,15,South,16.pkl,train
+1816,15,South,17.pkl,train
+1817,15,South,18.pkl,train
+1818,15,South,19.pkl,train
+1819,15,South,20.pkl,train
+1820,15,South,21.pkl,train
+1821,15,South,22.pkl,val
+1822,15,South,23.pkl,train
+1823,15,South,24.pkl,train
+1824,15,South,25.pkl,train
+1825,15,South,26.pkl,train
+1826,15,South,27.pkl,train
+1827,15,South,28.pkl,train
+1828,15,South,29.pkl,test
+1829,15,South,30.pkl,train
+1830,15,South,31.pkl,train
+1831,15,South,32.pkl,train
+1832,15,South,33.pkl,train
+1833,15,South,34.pkl,train
+1834,15,South,35.pkl,train
+1835,15,South,36.pkl,train
+1836,15,South,37.pkl,train
+1837,15,South,38.pkl,train
+1838,15,South,39.pkl,train
+1839,15,South,40.pkl,train
+1840,15,South,41.pkl,train
+1841,15,South,42.pkl,train
+1842,15,South,43.pkl,train
+1843,15,South,44.pkl,train
+1844,15,South,45.pkl,train
+1845,15,South,46.pkl,train
+1846,15,South,47.pkl,train
+1847,15,South,48.pkl,train
+1848,15,South,49.pkl,train
+1849,15,South,50.pkl,train
+1850,15,South,51.pkl,train
+1851,15,South,52.pkl,train
+1852,15,South,53.pkl,train
+1853,15,South,54.pkl,train
+1854,15,South,55.pkl,train
+1855,15,South,56.pkl,train
+1856,15,South,57.pkl,train
+1857,15,South,58.pkl,train
+1858,15,South,59.pkl,train
+1859,15,South,60.pkl,test
+1860,15,South,61.pkl,test
+1861,15,South,62.pkl,train
+1862,15,South,63.pkl,train
+1863,15,South,64.pkl,test
+1864,15,South,65.pkl,test
+1865,15,South,66.pkl,train
+1866,15,South,67.pkl,train
+1867,15,South,68.pkl,train
+1868,15,South,69.pkl,val
+1869,15,South,70.pkl,train
+1870,15,South,71.pkl,val
+1871,15,South,72.pkl,train
+1872,15,South,73.pkl,test
+1873,15,South,74.pkl,train
+1874,15,South,75.pkl,val
+1875,15,South,76.pkl,train
+1876,15,South,77.pkl,test
+1877,15,South,78.pkl,train
+1878,15,South,79.pkl,train
+1879,15,South,80.pkl,val
+1880,15,South,81.pkl,train
+1881,15,South,82.pkl,train
+1882,15,South,83.pkl,test
+1883,15,South,84.pkl,train
+1884,15,South,85.pkl,train
+1885,15,South,86.pkl,test
+1886,15,South,87.pkl,train
+1887,15,South,88.pkl,train
+1888,15,South,89.pkl,train
+1889,15,South,90.pkl,train
+1890,15,South,91.pkl,train
+1891,15,South,92.pkl,train
+1892,15,South,93.pkl,train
+1893,15,South,94.pkl,train
+1894,15,South,95.pkl,train
+1895,15,South,96.pkl,train
+1896,15,South,97.pkl,train
+1897,15,South,98.pkl,train
+1898,15,South,99.pkl,train
+1899,15,South,100.pkl,train
+1900,15,South,101.pkl,val
+1901,15,South,102.pkl,val
+1902,15,South,103.pkl,train
+1903,15,South,104.pkl,train
+1904,15,South,105.pkl,train
+1905,15,South,106.pkl,val
+1906,15,South,107.pkl,train
+1907,15,South,108.pkl,train
+1908,15,South,109.pkl,train
+1909,15,South,110.pkl,train
+1910,15,South,111.pkl,train
+1911,15,South,112.pkl,train
+1912,15,South,113.pkl,val
+1913,15,South,114.pkl,train
+1914,15,South,115.pkl,test
+1915,15,South,116.pkl,train
+1916,15,South,117.pkl,val
+1917,15,South,118.pkl,train
+1918,15,South,119.pkl,train
+1919,15,South,120.pkl,train
+1920,16,Teacher,1.pkl,train
+1921,16,Teacher,2.pkl,train
+1922,16,Teacher,3.pkl,train
+1923,16,Teacher,4.pkl,train
+1924,16,Teacher,5.pkl,train
+1925,16,Teacher,6.pkl,train
+1926,16,Teacher,7.pkl,test
+1927,16,Teacher,8.pkl,train
+1928,16,Teacher,9.pkl,train
+1929,16,Teacher,10.pkl,train
+1930,16,Teacher,11.pkl,train
+1931,16,Teacher,12.pkl,train
+1932,16,Teacher,13.pkl,train
+1933,16,Teacher,14.pkl,test
+1934,16,Teacher,15.pkl,train
+1935,16,Teacher,16.pkl,train
+1936,16,Teacher,17.pkl,val
+1937,16,Teacher,18.pkl,test
+1938,16,Teacher,19.pkl,train
+1939,16,Teacher,20.pkl,test
+1940,16,Teacher,21.pkl,train
+1941,16,Teacher,22.pkl,val
+1942,16,Teacher,23.pkl,test
+1943,16,Teacher,24.pkl,val
+1944,16,Teacher,25.pkl,train
+1945,16,Teacher,26.pkl,test
+1946,16,Teacher,27.pkl,train
+1947,16,Teacher,28.pkl,train
+1948,16,Teacher,29.pkl,train
+1949,16,Teacher,30.pkl,train
+1950,16,Teacher,31.pkl,train
+1951,16,Teacher,32.pkl,train
+1952,16,Teacher,33.pkl,train
+1953,16,Teacher,34.pkl,test
+1954,16,Teacher,35.pkl,train
+1955,16,Teacher,36.pkl,train
+1956,16,Teacher,37.pkl,train
+1957,16,Teacher,38.pkl,train
+1958,16,Teacher,39.pkl,train
+1959,16,Teacher,40.pkl,train
+1960,16,Teacher,41.pkl,train
+1961,16,Teacher,42.pkl,val
+1962,16,Teacher,43.pkl,train
+1963,16,Teacher,44.pkl,train
+1964,16,Teacher,45.pkl,train
+1965,16,Teacher,46.pkl,train
+1966,16,Teacher,47.pkl,val
+1967,16,Teacher,48.pkl,train
+1968,16,Teacher,49.pkl,train
+1969,16,Teacher,50.pkl,train
+1970,16,Teacher,51.pkl,val
+1971,16,Teacher,52.pkl,train
+1972,16,Teacher,53.pkl,train
+1973,16,Teacher,54.pkl,train
+1974,16,Teacher,55.pkl,train
+1975,16,Teacher,56.pkl,test
+1976,16,Teacher,57.pkl,train
+1977,16,Teacher,58.pkl,train
+1978,16,Teacher,59.pkl,train
+1979,16,Teacher,60.pkl,train
+1980,16,Teacher,61.pkl,train
+1981,16,Teacher,62.pkl,train
+1982,16,Teacher,63.pkl,val
+1983,16,Teacher,64.pkl,train
+1984,16,Teacher,65.pkl,train
+1985,16,Teacher,66.pkl,train
+1986,16,Teacher,67.pkl,train
+1987,16,Teacher,68.pkl,test
+1988,16,Teacher,69.pkl,train
+1989,16,Teacher,70.pkl,val
+1990,16,Teacher,71.pkl,train
+1991,16,Teacher,72.pkl,train
+1992,16,Teacher,73.pkl,train
+1993,16,Teacher,74.pkl,train
+1994,16,Teacher,75.pkl,train
+1995,16,Teacher,76.pkl,train
+1996,16,Teacher,77.pkl,train
+1997,16,Teacher,78.pkl,val
+1998,16,Teacher,79.pkl,train
+1999,16,Teacher,80.pkl,train
+2000,16,Teacher,81.pkl,train
+2001,16,Teacher,82.pkl,train
+2002,16,Teacher,83.pkl,train
+2003,16,Teacher,84.pkl,train
+2004,16,Teacher,85.pkl,train
+2005,16,Teacher,86.pkl,train
+2006,16,Teacher,87.pkl,train
+2007,16,Teacher,88.pkl,train
+2008,16,Teacher,89.pkl,train
+2009,16,Teacher,90.pkl,train
+2010,16,Teacher,91.pkl,train
+2011,16,Teacher,92.pkl,train
+2012,16,Teacher,93.pkl,train
+2013,16,Teacher,94.pkl,train
+2014,16,Teacher,95.pkl,test
+2015,16,Teacher,96.pkl,train
+2016,16,Teacher,97.pkl,train
+2017,16,Teacher,98.pkl,train
+2018,16,Teacher,99.pkl,train
+2019,16,Teacher,100.pkl,train
+2020,16,Teacher,101.pkl,train
+2021,16,Teacher,102.pkl,train
+2022,16,Teacher,103.pkl,test
+2023,16,Teacher,104.pkl,val
+2024,16,Teacher,105.pkl,train
+2025,16,Teacher,106.pkl,train
+2026,16,Teacher,107.pkl,train
+2027,16,Teacher,108.pkl,train
+2028,16,Teacher,109.pkl,train
+2029,16,Teacher,110.pkl,train
+2030,16,Teacher,111.pkl,train
+2031,16,Teacher,112.pkl,test
+2032,16,Teacher,113.pkl,train
+2033,16,Teacher,114.pkl,val
+2034,16,Teacher,115.pkl,train
+2035,16,Teacher,116.pkl,train
+2036,16,Teacher,117.pkl,val
+2037,16,Teacher,118.pkl,train
+2038,16,Teacher,119.pkl,train
+2039,16,Teacher,120.pkl,train
+2040,17,Technology,1.pkl,train
+2041,17,Technology,2.pkl,train
+2042,17,Technology,3.pkl,train
+2043,17,Technology,4.pkl,val
+2044,17,Technology,5.pkl,val
+2045,17,Technology,6.pkl,train
+2046,17,Technology,7.pkl,train
+2047,17,Technology,8.pkl,train
+2048,17,Technology,9.pkl,test
+2049,17,Technology,10.pkl,train
+2050,17,Technology,11.pkl,train
+2051,17,Technology,12.pkl,train
+2052,17,Technology,13.pkl,train
+2053,17,Technology,14.pkl,train
+2054,17,Technology,15.pkl,train
+2055,17,Technology,16.pkl,train
+2056,17,Technology,17.pkl,train
+2057,17,Technology,18.pkl,train
+2058,17,Technology,19.pkl,test
+2059,17,Technology,20.pkl,train
+2060,17,Technology,21.pkl,train
+2061,17,Technology,22.pkl,test
+2062,17,Technology,23.pkl,test
+2063,17,Technology,24.pkl,train
+2064,17,Technology,25.pkl,train
+2065,17,Technology,26.pkl,train
+2066,17,Technology,27.pkl,train
+2067,17,Technology,28.pkl,train
+2068,17,Technology,29.pkl,train
+2069,17,Technology,30.pkl,train
+2070,17,Technology,31.pkl,train
+2071,17,Technology,32.pkl,train
+2072,17,Technology,33.pkl,train
+2073,17,Technology,34.pkl,train
+2074,17,Technology,35.pkl,train
+2075,17,Technology,36.pkl,train
+2076,17,Technology,37.pkl,train
+2077,17,Technology,38.pkl,train
+2078,17,Technology,39.pkl,train
+2079,17,Technology,40.pkl,train
+2080,17,Technology,41.pkl,train
+2081,17,Technology,42.pkl,train
+2082,17,Technology,43.pkl,train
+2083,17,Technology,44.pkl,val
+2084,17,Technology,45.pkl,train
+2085,17,Technology,46.pkl,train
+2086,17,Technology,47.pkl,train
+2087,17,Technology,48.pkl,train
+2088,17,Technology,49.pkl,train
+2089,17,Technology,50.pkl,val
+2090,17,Technology,51.pkl,train
+2091,17,Technology,52.pkl,train
+2092,17,Technology,53.pkl,train
+2093,17,Technology,54.pkl,test
+2094,17,Technology,55.pkl,train
+2095,17,Technology,56.pkl,train
+2096,17,Technology,57.pkl,train
+2097,17,Technology,58.pkl,train
+2098,17,Technology,59.pkl,train
+2099,17,Technology,60.pkl,train
+2100,17,Technology,61.pkl,train
+2101,17,Technology,62.pkl,train
+2102,17,Technology,63.pkl,test
+2103,17,Technology,64.pkl,test
+2104,17,Technology,65.pkl,train
+2105,17,Technology,66.pkl,train
+2106,17,Technology,67.pkl,train
+2107,17,Technology,68.pkl,train
+2108,17,Technology,69.pkl,train
+2109,17,Technology,70.pkl,test
+2110,17,Technology,71.pkl,train
+2111,17,Technology,72.pkl,test
+2112,17,Technology,73.pkl,test
+2113,17,Technology,74.pkl,train
+2114,17,Technology,75.pkl,train
+2115,17,Technology,76.pkl,train
+2116,17,Technology,77.pkl,train
+2117,17,Technology,78.pkl,train
+2118,17,Technology,79.pkl,train
+2119,17,Technology,80.pkl,train
+2120,17,Technology,81.pkl,train
+2121,17,Technology,82.pkl,train
+2122,17,Technology,83.pkl,test
+2123,17,Technology,84.pkl,train
+2124,17,Technology,85.pkl,val
+2125,17,Technology,86.pkl,val
+2126,17,Technology,87.pkl,train
+2127,17,Technology,88.pkl,train
+2128,17,Technology,89.pkl,train
+2129,17,Technology,90.pkl,test
+2130,17,Technology,91.pkl,train
+2131,17,Technology,92.pkl,train
+2132,17,Technology,93.pkl,train
+2133,17,Technology,94.pkl,train
+2134,17,Technology,95.pkl,train
+2135,17,Technology,96.pkl,train
+2136,17,Technology,97.pkl,train
+2137,17,Technology,98.pkl,train
+2138,17,Technology,99.pkl,train
+2139,17,Technology,100.pkl,train
+2140,17,Technology,101.pkl,train
+2141,17,Technology,102.pkl,val
+2142,17,Technology,103.pkl,val
+2143,17,Technology,104.pkl,train
+2144,17,Technology,105.pkl,train
+2145,17,Technology,106.pkl,train
+2146,17,Technology,107.pkl,val
+2147,17,Technology,108.pkl,train
+2148,17,Technology,109.pkl,train
+2149,17,Technology,110.pkl,train
+2150,17,Technology,111.pkl,train
+2151,17,Technology,112.pkl,val
+2152,17,Technology,113.pkl,train
+2153,17,Technology,114.pkl,val
+2154,17,Technology,115.pkl,train
+2155,17,Technology,116.pkl,val
+2156,17,Technology,117.pkl,train
+2157,17,Technology,118.pkl,train
+2158,17,Technology,119.pkl,train
+2159,17,Technology,120.pkl,train
+2160,18,Television,1.pkl,train
+2161,18,Television,2.pkl,train
+2162,18,Television,3.pkl,train
+2163,18,Television,4.pkl,train
+2164,18,Television,5.pkl,train
+2165,18,Television,6.pkl,val
+2166,18,Television,7.pkl,train
+2167,18,Television,8.pkl,train
+2168,18,Television,9.pkl,train
+2169,18,Television,10.pkl,train
+2170,18,Television,11.pkl,train
+2171,18,Television,12.pkl,test
+2172,18,Television,13.pkl,train
+2173,18,Television,14.pkl,train
+2174,18,Television,15.pkl,train
+2175,18,Television,16.pkl,train
+2176,18,Television,17.pkl,train
+2177,18,Television,18.pkl,train
+2178,18,Television,19.pkl,train
+2179,18,Television,20.pkl,test
+2180,18,Television,21.pkl,train
+2181,18,Television,22.pkl,train
+2182,18,Television,23.pkl,train
+2183,18,Television,24.pkl,train
+2184,18,Television,25.pkl,train
+2185,18,Television,26.pkl,train
+2186,18,Television,27.pkl,train
+2187,18,Television,28.pkl,train
+2188,18,Television,29.pkl,train
+2189,18,Television,30.pkl,train
+2190,18,Television,31.pkl,val
+2191,18,Television,32.pkl,train
+2192,18,Television,33.pkl,train
+2193,18,Television,34.pkl,train
+2194,18,Television,35.pkl,test
+2195,18,Television,36.pkl,train
+2196,18,Television,37.pkl,train
+2197,18,Television,38.pkl,train
+2198,18,Television,39.pkl,train
+2199,18,Television,40.pkl,val
+2200,18,Television,41.pkl,train
+2201,18,Television,42.pkl,train
+2202,18,Television,43.pkl,train
+2203,18,Television,44.pkl,test
+2204,18,Television,45.pkl,train
+2205,18,Television,46.pkl,train
+2206,18,Television,47.pkl,val
+2207,18,Television,48.pkl,train
+2208,18,Television,49.pkl,test
+2209,18,Television,50.pkl,train
+2210,18,Television,51.pkl,train
+2211,18,Television,52.pkl,train
+2212,18,Television,53.pkl,train
+2213,18,Television,54.pkl,test
+2214,18,Television,55.pkl,train
+2215,18,Television,56.pkl,train
+2216,18,Television,57.pkl,train
+2217,18,Television,58.pkl,train
+2218,18,Television,59.pkl,train
+2219,18,Television,60.pkl,train
+2220,18,Television,61.pkl,train
+2221,18,Television,62.pkl,test
+2222,18,Television,63.pkl,train
+2223,18,Television,64.pkl,train
+2224,18,Television,65.pkl,train
+2225,18,Television,66.pkl,train
+2226,18,Television,67.pkl,train
+2227,18,Television,68.pkl,train
+2228,18,Television,69.pkl,train
+2229,18,Television,70.pkl,train
+2230,18,Television,71.pkl,train
+2231,18,Television,72.pkl,train
+2232,18,Television,73.pkl,train
+2233,18,Television,74.pkl,val
+2234,18,Television,75.pkl,test
+2235,18,Television,76.pkl,train
+2236,18,Television,77.pkl,train
+2237,18,Television,78.pkl,test
+2238,18,Television,79.pkl,train
+2239,18,Television,80.pkl,train
+2240,18,Television,81.pkl,train
+2241,18,Television,82.pkl,train
+2242,18,Television,83.pkl,train
+2243,18,Television,84.pkl,train
+2244,18,Television,85.pkl,test
+2245,18,Television,86.pkl,val
+2246,18,Television,87.pkl,val
+2247,18,Television,88.pkl,train
+2248,18,Television,89.pkl,train
+2249,18,Television,90.pkl,test
+2250,18,Television,91.pkl,train
+2251,18,Television,92.pkl,train
+2252,18,Television,93.pkl,train
+2253,18,Television,94.pkl,train
+2254,18,Television,95.pkl,train
+2255,18,Television,96.pkl,train
+2256,18,Television,97.pkl,val
+2257,18,Television,98.pkl,train
+2258,18,Television,99.pkl,val
+2259,18,Television,100.pkl,train
+2260,18,Television,101.pkl,train
+2261,18,Television,102.pkl,train
+2262,18,Television,103.pkl,val
+2263,18,Television,104.pkl,train
+2264,18,Television,105.pkl,train
+2265,18,Television,106.pkl,train
+2266,18,Television,107.pkl,train
+2267,18,Television,108.pkl,train
+2268,18,Television,109.pkl,train
+2269,18,Television,110.pkl,train
+2270,18,Television,111.pkl,test
+2271,18,Television,112.pkl,val
+2272,18,Television,113.pkl,train
+2273,18,Television,114.pkl,train
+2274,18,Television,115.pkl,train
+2275,18,Television,116.pkl,train
+2276,18,Television,117.pkl,train
+2277,18,Television,118.pkl,train
+2278,18,Television,119.pkl,train
+2279,18,Television,120.pkl,val
+2280,19,Thanks,1.pkl,train
+2281,19,Thanks,2.pkl,train
+2282,19,Thanks,3.pkl,train
+2283,19,Thanks,4.pkl,train
+2284,19,Thanks,5.pkl,test
+2285,19,Thanks,6.pkl,val
+2286,19,Thanks,7.pkl,train
+2287,19,Thanks,8.pkl,train
+2288,19,Thanks,9.pkl,train
+2289,19,Thanks,10.pkl,train
+2290,19,Thanks,11.pkl,test
+2291,19,Thanks,12.pkl,train
+2292,19,Thanks,13.pkl,test
+2293,19,Thanks,14.pkl,test
+2294,19,Thanks,15.pkl,train
+2295,19,Thanks,16.pkl,train
+2296,19,Thanks,17.pkl,val
+2297,19,Thanks,18.pkl,train
+2298,19,Thanks,19.pkl,val
+2299,19,Thanks,20.pkl,train
+2300,19,Thanks,21.pkl,train
+2301,19,Thanks,22.pkl,val
+2302,19,Thanks,23.pkl,train
+2303,19,Thanks,24.pkl,train
+2304,19,Thanks,25.pkl,val
+2305,19,Thanks,26.pkl,train
+2306,19,Thanks,27.pkl,train
+2307,19,Thanks,28.pkl,train
+2308,19,Thanks,29.pkl,train
+2309,19,Thanks,30.pkl,train
+2310,19,Thanks,31.pkl,train
+2311,19,Thanks,32.pkl,train
+2312,19,Thanks,33.pkl,train
+2313,19,Thanks,34.pkl,train
+2314,19,Thanks,35.pkl,train
+2315,19,Thanks,36.pkl,train
+2316,19,Thanks,37.pkl,train
+2317,19,Thanks,38.pkl,train
+2318,19,Thanks,39.pkl,train
+2319,19,Thanks,40.pkl,train
+2320,19,Thanks,41.pkl,train
+2321,19,Thanks,42.pkl,train
+2322,19,Thanks,43.pkl,train
+2323,19,Thanks,44.pkl,train
+2324,19,Thanks,45.pkl,train
+2325,19,Thanks,46.pkl,train
+2326,19,Thanks,47.pkl,train
+2327,19,Thanks,48.pkl,train
+2328,19,Thanks,49.pkl,train
+2329,19,Thanks,50.pkl,test
+2330,19,Thanks,51.pkl,train
+2331,19,Thanks,52.pkl,train
+2332,19,Thanks,53.pkl,train
+2333,19,Thanks,54.pkl,train
+2334,19,Thanks,55.pkl,train
+2335,19,Thanks,56.pkl,train
+2336,19,Thanks,57.pkl,test
+2337,19,Thanks,58.pkl,train
+2338,19,Thanks,59.pkl,train
+2339,19,Thanks,60.pkl,val
+2340,19,Thanks,61.pkl,train
+2341,19,Thanks,62.pkl,test
+2342,19,Thanks,63.pkl,train
+2343,19,Thanks,64.pkl,test
+2344,19,Thanks,65.pkl,train
+2345,19,Thanks,66.pkl,train
+2346,19,Thanks,67.pkl,train
+2347,19,Thanks,68.pkl,train
+2348,19,Thanks,69.pkl,val
+2349,19,Thanks,70.pkl,train
+2350,19,Thanks,71.pkl,train
+2351,19,Thanks,72.pkl,test
+2352,19,Thanks,73.pkl,train
+2353,19,Thanks,74.pkl,test
+2354,19,Thanks,75.pkl,train
+2355,19,Thanks,76.pkl,train
+2356,19,Thanks,77.pkl,train
+2357,19,Thanks,78.pkl,val
+2358,19,Thanks,79.pkl,train
+2359,19,Thanks,80.pkl,val
+2360,19,Thanks,81.pkl,test
+2361,19,Thanks,82.pkl,train
+2362,19,Thanks,83.pkl,train
+2363,19,Thanks,84.pkl,train
+2364,19,Thanks,85.pkl,train
+2365,19,Thanks,86.pkl,train
+2366,19,Thanks,87.pkl,train
+2367,19,Thanks,88.pkl,train
+2368,19,Thanks,89.pkl,train
+2369,19,Thanks,90.pkl,train
+2370,19,Thanks,91.pkl,val
+2371,19,Thanks,92.pkl,train
+2372,19,Thanks,93.pkl,train
+2373,19,Thanks,94.pkl,train
+2374,19,Thanks,95.pkl,train
+2375,19,Thanks,96.pkl,train
+2376,19,Thanks,97.pkl,train
+2377,19,Thanks,98.pkl,train
+2378,19,Thanks,99.pkl,test
+2379,19,Thanks,100.pkl,train
+2380,19,Thanks,101.pkl,train
+2381,19,Thanks,102.pkl,train
+2382,19,Thanks,103.pkl,train
+2383,19,Thanks,104.pkl,val
+2384,19,Thanks,105.pkl,train
+2385,19,Thanks,106.pkl,val
+2386,19,Thanks,107.pkl,train
+2387,19,Thanks,108.pkl,train
+2388,19,Thanks,109.pkl,train
+2389,19,Thanks,110.pkl,train
+2390,19,Thanks,111.pkl,train
+2391,19,Thanks,112.pkl,train
+2392,19,Thanks,113.pkl,train
+2393,19,Thanks,114.pkl,train
+2394,19,Thanks,115.pkl,train
+2395,19,Thanks,116.pkl,train
+2396,19,Thanks,117.pkl,train
+2397,19,Thanks,118.pkl,train
+2398,19,Thanks,119.pkl,train
+2399,19,Thanks,120.pkl,train
+2400,20,Time,1.pkl,train
+2401,20,Time,2.pkl,train
+2402,20,Time,3.pkl,train
+2403,20,Time,4.pkl,train
+2404,20,Time,5.pkl,train
+2405,20,Time,6.pkl,test
+2406,20,Time,7.pkl,test
+2407,20,Time,8.pkl,test
+2408,20,Time,9.pkl,train
+2409,20,Time,10.pkl,train
+2410,20,Time,11.pkl,val
+2411,20,Time,12.pkl,val
+2412,20,Time,13.pkl,train
+2413,20,Time,14.pkl,train
+2414,20,Time,15.pkl,test
+2415,20,Time,16.pkl,test
+2416,20,Time,17.pkl,train
+2417,20,Time,18.pkl,val
+2418,20,Time,19.pkl,train
+2419,20,Time,20.pkl,train
+2420,20,Time,21.pkl,val
+2421,20,Time,22.pkl,train
+2422,20,Time,23.pkl,train
+2423,20,Time,24.pkl,test
+2424,20,Time,25.pkl,train
+2425,20,Time,26.pkl,train
+2426,20,Time,27.pkl,train
+2427,20,Time,28.pkl,train
+2428,20,Time,29.pkl,train
+2429,20,Time,30.pkl,train
+2430,20,Time,31.pkl,train
+2431,20,Time,32.pkl,train
+2432,20,Time,33.pkl,train
+2433,20,Time,34.pkl,val
+2434,20,Time,35.pkl,train
+2435,20,Time,36.pkl,train
+2436,20,Time,37.pkl,train
+2437,20,Time,38.pkl,train
+2438,20,Time,39.pkl,train
+2439,20,Time,40.pkl,train
+2440,20,Time,41.pkl,train
+2441,20,Time,42.pkl,val
+2442,20,Time,43.pkl,train
+2443,20,Time,44.pkl,train
+2444,20,Time,45.pkl,train
+2445,20,Time,46.pkl,train
+2446,20,Time,47.pkl,train
+2447,20,Time,48.pkl,train
+2448,20,Time,49.pkl,train
+2449,20,Time,50.pkl,train
+2450,20,Time,51.pkl,train
+2451,20,Time,52.pkl,val
+2452,20,Time,53.pkl,train
+2453,20,Time,54.pkl,train
+2454,20,Time,55.pkl,train
+2455,20,Time,56.pkl,train
+2456,20,Time,57.pkl,val
+2457,20,Time,58.pkl,train
+2458,20,Time,59.pkl,train
+2459,20,Time,60.pkl,train
+2460,20,Time,61.pkl,train
+2461,20,Time,62.pkl,train
+2462,20,Time,63.pkl,train
+2463,20,Time,64.pkl,train
+2464,20,Time,65.pkl,train
+2465,20,Time,66.pkl,train
+2466,20,Time,67.pkl,train
+2467,20,Time,68.pkl,train
+2468,20,Time,69.pkl,train
+2469,20,Time,70.pkl,train
+2470,20,Time,71.pkl,train
+2471,20,Time,72.pkl,train
+2472,20,Time,73.pkl,train
+2473,20,Time,74.pkl,train
+2474,20,Time,75.pkl,train
+2475,20,Time,76.pkl,train
+2476,20,Time,77.pkl,train
+2477,20,Time,78.pkl,train
+2478,20,Time,79.pkl,val
+2479,20,Time,80.pkl,train
+2480,20,Time,81.pkl,train
+2481,20,Time,82.pkl,train
+2482,20,Time,83.pkl,train
+2483,20,Time,84.pkl,train
+2484,20,Time,85.pkl,train
+2485,20,Time,86.pkl,test
+2486,20,Time,87.pkl,train
+2487,20,Time,88.pkl,train
+2488,20,Time,89.pkl,train
+2489,20,Time,90.pkl,test
+2490,20,Time,91.pkl,test
+2491,20,Time,92.pkl,train
+2492,20,Time,93.pkl,train
+2493,20,Time,94.pkl,test
+2494,20,Time,95.pkl,val
+2495,20,Time,96.pkl,train
+2496,20,Time,97.pkl,train
+2497,20,Time,98.pkl,train
+2498,20,Time,99.pkl,train
+2499,20,Time,100.pkl,train
+2500,20,Time,101.pkl,train
+2501,20,Time,102.pkl,val
+2502,20,Time,103.pkl,train
+2503,20,Time,104.pkl,test
+2504,20,Time,105.pkl,train
+2505,20,Time,106.pkl,train
+2506,20,Time,107.pkl,train
+2507,20,Time,108.pkl,train
+2508,20,Time,109.pkl,train
+2509,20,Time,110.pkl,train
+2510,20,Time,111.pkl,test
+2511,20,Time,112.pkl,train
+2512,20,Time,113.pkl,train
+2513,20,Time,114.pkl,train
+2514,20,Time,115.pkl,train
+2515,20,Time,116.pkl,train
+2516,20,Time,117.pkl,val
+2517,20,Time,118.pkl,train
+2518,20,Time,119.pkl,train
+2519,20,Time,120.pkl,train
+2520,21,Tomorrow,1.pkl,train
+2521,21,Tomorrow,2.pkl,train
+2522,21,Tomorrow,3.pkl,train
+2523,21,Tomorrow,4.pkl,train
+2524,21,Tomorrow,5.pkl,train
+2525,21,Tomorrow,6.pkl,train
+2526,21,Tomorrow,7.pkl,train
+2527,21,Tomorrow,8.pkl,train
+2528,21,Tomorrow,9.pkl,train
+2529,21,Tomorrow,10.pkl,test
+2530,21,Tomorrow,11.pkl,train
+2531,21,Tomorrow,12.pkl,train
+2532,21,Tomorrow,13.pkl,train
+2533,21,Tomorrow,14.pkl,val
+2534,21,Tomorrow,15.pkl,train
+2535,21,Tomorrow,16.pkl,train
+2536,21,Tomorrow,17.pkl,train
+2537,21,Tomorrow,18.pkl,val
+2538,21,Tomorrow,19.pkl,train
+2539,21,Tomorrow,20.pkl,train
+2540,21,Tomorrow,21.pkl,train
+2541,21,Tomorrow,22.pkl,test
+2542,21,Tomorrow,23.pkl,train
+2543,21,Tomorrow,24.pkl,train
+2544,21,Tomorrow,25.pkl,train
+2545,21,Tomorrow,26.pkl,train
+2546,21,Tomorrow,27.pkl,train
+2547,21,Tomorrow,28.pkl,train
+2548,21,Tomorrow,29.pkl,train
+2549,21,Tomorrow,30.pkl,train
+2550,21,Tomorrow,31.pkl,train
+2551,21,Tomorrow,32.pkl,val
+2552,21,Tomorrow,33.pkl,val
+2553,21,Tomorrow,34.pkl,train
+2554,21,Tomorrow,35.pkl,train
+2555,21,Tomorrow,36.pkl,train
+2556,21,Tomorrow,37.pkl,train
+2557,21,Tomorrow,38.pkl,train
+2558,21,Tomorrow,39.pkl,train
+2559,21,Tomorrow,40.pkl,train
+2560,21,Tomorrow,41.pkl,train
+2561,21,Tomorrow,42.pkl,train
+2562,21,Tomorrow,43.pkl,train
+2563,21,Tomorrow,44.pkl,train
+2564,21,Tomorrow,45.pkl,train
+2565,21,Tomorrow,46.pkl,train
+2566,21,Tomorrow,47.pkl,train
+2567,21,Tomorrow,48.pkl,train
+2568,21,Tomorrow,49.pkl,train
+2569,21,Tomorrow,50.pkl,train
+2570,21,Tomorrow,51.pkl,train
+2571,21,Tomorrow,52.pkl,train
+2572,21,Tomorrow,53.pkl,val
+2573,21,Tomorrow,54.pkl,train
+2574,21,Tomorrow,55.pkl,train
+2575,21,Tomorrow,56.pkl,train
+2576,21,Tomorrow,57.pkl,train
+2577,21,Tomorrow,58.pkl,test
+2578,21,Tomorrow,59.pkl,test
+2579,21,Tomorrow,60.pkl,val
+2580,21,Tomorrow,61.pkl,train
+2581,21,Tomorrow,62.pkl,train
+2582,21,Tomorrow,63.pkl,train
+2583,21,Tomorrow,64.pkl,train
+2584,21,Tomorrow,65.pkl,train
+2585,21,Tomorrow,66.pkl,train
+2586,21,Tomorrow,67.pkl,train
+2587,21,Tomorrow,68.pkl,train
+2588,21,Tomorrow,69.pkl,train
+2589,21,Tomorrow,70.pkl,train
+2590,21,Tomorrow,71.pkl,test
+2591,21,Tomorrow,72.pkl,train
+2592,21,Tomorrow,73.pkl,train
+2593,21,Tomorrow,74.pkl,test
+2594,21,Tomorrow,75.pkl,train
+2595,21,Tomorrow,76.pkl,train
+2596,21,Tomorrow,77.pkl,val
+2597,21,Tomorrow,78.pkl,train
+2598,21,Tomorrow,79.pkl,train
+2599,21,Tomorrow,80.pkl,train
+2600,21,Tomorrow,81.pkl,train
+2601,21,Tomorrow,82.pkl,train
+2602,21,Tomorrow,83.pkl,train
+2603,21,Tomorrow,84.pkl,train
+2604,21,Tomorrow,85.pkl,train
+2605,21,Tomorrow,86.pkl,train
+2606,21,Tomorrow,87.pkl,train
+2607,21,Tomorrow,88.pkl,train
+2608,21,Tomorrow,89.pkl,test
+2609,21,Tomorrow,90.pkl,val
+2610,21,Tomorrow,91.pkl,train
+2611,21,Tomorrow,92.pkl,test
+2612,21,Tomorrow,93.pkl,train
+2613,21,Tomorrow,94.pkl,train
+2614,21,Tomorrow,95.pkl,test
+2615,21,Tomorrow,96.pkl,train
+2616,21,Tomorrow,97.pkl,train
+2617,21,Tomorrow,98.pkl,val
+2618,21,Tomorrow,99.pkl,train
+2619,21,Tomorrow,100.pkl,train
+2620,21,Tomorrow,101.pkl,train
+2621,21,Tomorrow,102.pkl,train
+2622,21,Tomorrow,103.pkl,test
+2623,21,Tomorrow,104.pkl,train
+2624,21,Tomorrow,105.pkl,val
+2625,21,Tomorrow,106.pkl,train
+2626,21,Tomorrow,107.pkl,train
+2627,21,Tomorrow,108.pkl,train
+2628,21,Tomorrow,109.pkl,train
+2629,21,Tomorrow,110.pkl,test
+2630,21,Tomorrow,111.pkl,val
+2631,21,Tomorrow,112.pkl,train
+2632,21,Tomorrow,113.pkl,train
+2633,21,Tomorrow,114.pkl,train
+2634,21,Tomorrow,115.pkl,train
+2635,21,Tomorrow,116.pkl,train
+2636,21,Tomorrow,117.pkl,train
+2637,21,Tomorrow,118.pkl,test
+2638,21,Tomorrow,119.pkl,train
+2639,21,Tomorrow,120.pkl,val
+2640,22,University,1.pkl,train
+2641,22,University,2.pkl,train
+2642,22,University,3.pkl,train
+2643,22,University,4.pkl,train
+2644,22,University,5.pkl,train
+2645,22,University,6.pkl,train
+2646,22,University,7.pkl,train
+2647,22,University,8.pkl,train
+2648,22,University,9.pkl,test
+2649,22,University,10.pkl,train
+2650,22,University,11.pkl,val
+2651,22,University,12.pkl,train
+2652,22,University,13.pkl,train
+2653,22,University,14.pkl,train
+2654,22,University,15.pkl,train
+2655,22,University,16.pkl,train
+2656,22,University,17.pkl,train
+2657,22,University,18.pkl,train
+2658,22,University,19.pkl,train
+2659,22,University,20.pkl,train
+2660,22,University,21.pkl,train
+2661,22,University,22.pkl,train
+2662,22,University,23.pkl,train
+2663,22,University,24.pkl,train
+2664,22,University,25.pkl,train
+2665,22,University,26.pkl,train
+2666,22,University,27.pkl,train
+2667,22,University,28.pkl,train
+2668,22,University,29.pkl,test
+2669,22,University,30.pkl,train
+2670,22,University,31.pkl,test
+2671,22,University,32.pkl,test
+2672,22,University,33.pkl,train
+2673,22,University,34.pkl,test
+2674,22,University,35.pkl,train
+2675,22,University,36.pkl,val
+2676,22,University,37.pkl,train
+2677,22,University,38.pkl,val
+2678,22,University,39.pkl,test
+2679,22,University,40.pkl,train
+2680,22,University,41.pkl,test
+2681,22,University,42.pkl,val
+2682,22,University,43.pkl,train
+2683,22,University,44.pkl,train
+2684,22,University,45.pkl,train
+2685,22,University,46.pkl,train
+2686,22,University,47.pkl,train
+2687,22,University,48.pkl,train
+2688,22,University,49.pkl,train
+2689,22,University,50.pkl,train
+2690,22,University,51.pkl,train
+2691,22,University,52.pkl,train
+2692,22,University,53.pkl,train
+2693,22,University,54.pkl,train
+2694,22,University,55.pkl,train
+2695,22,University,56.pkl,test
+2696,22,University,57.pkl,val
+2697,22,University,58.pkl,test
+2698,22,University,59.pkl,train
+2699,22,University,60.pkl,train
+2700,22,University,61.pkl,train
+2701,22,University,62.pkl,train
+2702,22,University,63.pkl,train
+2703,22,University,64.pkl,train
+2704,22,University,65.pkl,train
+2705,22,University,66.pkl,train
+2706,22,University,67.pkl,train
+2707,22,University,68.pkl,val
+2708,22,University,69.pkl,train
+2709,22,University,70.pkl,train
+2710,22,University,71.pkl,val
+2711,22,University,72.pkl,train
+2712,22,University,73.pkl,train
+2713,22,University,74.pkl,train
+2714,22,University,75.pkl,train
+2715,22,University,76.pkl,train
+2716,22,University,77.pkl,val
+2717,22,University,78.pkl,train
+2718,22,University,79.pkl,train
+2719,22,University,80.pkl,train
+2720,22,University,81.pkl,train
+2721,22,University,82.pkl,train
+2722,22,University,83.pkl,train
+2723,22,University,84.pkl,test
+2724,22,University,85.pkl,train
+2725,22,University,86.pkl,train
+2726,22,University,87.pkl,train
+2727,22,University,88.pkl,train
+2728,22,University,89.pkl,train
+2729,22,University,90.pkl,val
+2730,22,University,91.pkl,train
+2731,22,University,92.pkl,train
+2732,22,University,93.pkl,train
+2733,22,University,94.pkl,val
+2734,22,University,95.pkl,train
+2735,22,University,96.pkl,train
+2736,22,University,97.pkl,train
+2737,22,University,98.pkl,train
+2738,22,University,99.pkl,train
+2739,22,University,100.pkl,train
+2740,22,University,101.pkl,val
+2741,22,University,102.pkl,train
+2742,22,University,103.pkl,train
+2743,22,University,104.pkl,train
+2744,22,University,105.pkl,val
+2745,22,University,106.pkl,train
+2746,22,University,107.pkl,test
+2747,22,University,108.pkl,train
+2748,22,University,109.pkl,train
+2749,22,University,110.pkl,train
+2750,22,University,111.pkl,train
+2751,22,University,112.pkl,train
+2752,22,University,113.pkl,train
+2753,22,University,114.pkl,train
+2754,22,University,115.pkl,train
+2755,22,University,116.pkl,train
+2756,22,University,117.pkl,test
+2757,22,University,118.pkl,train
+2758,22,University,119.pkl,train
+2759,22,University,120.pkl,train
+2760,23,Weather,1.pkl,train
+2761,23,Weather,2.pkl,train
+2762,23,Weather,3.pkl,val
+2763,23,Weather,4.pkl,train
+2764,23,Weather,5.pkl,test
+2765,23,Weather,6.pkl,train
+2766,23,Weather,7.pkl,train
+2767,23,Weather,8.pkl,train
+2768,23,Weather,9.pkl,train
+2769,23,Weather,10.pkl,train
+2770,23,Weather,11.pkl,test
+2771,23,Weather,12.pkl,train
+2772,23,Weather,13.pkl,val
+2773,23,Weather,14.pkl,train
+2774,23,Weather,15.pkl,train
+2775,23,Weather,16.pkl,val
+2776,23,Weather,17.pkl,train
+2777,23,Weather,18.pkl,train
+2778,23,Weather,19.pkl,train
+2779,23,Weather,20.pkl,train
+2780,23,Weather,21.pkl,train
+2781,23,Weather,22.pkl,train
+2782,23,Weather,23.pkl,train
+2783,23,Weather,24.pkl,train
+2784,23,Weather,25.pkl,train
+2785,23,Weather,26.pkl,train
+2786,23,Weather,27.pkl,train
+2787,23,Weather,28.pkl,val
+2788,23,Weather,29.pkl,train
+2789,23,Weather,30.pkl,train
+2790,23,Weather,31.pkl,train
+2791,23,Weather,32.pkl,train
+2792,23,Weather,33.pkl,train
+2793,23,Weather,34.pkl,train
+2794,23,Weather,35.pkl,train
+2795,23,Weather,36.pkl,train
+2796,23,Weather,37.pkl,test
+2797,23,Weather,38.pkl,train
+2798,23,Weather,39.pkl,train
+2799,23,Weather,40.pkl,train
+2800,23,Weather,41.pkl,val
+2801,23,Weather,42.pkl,val
+2802,23,Weather,43.pkl,train
+2803,23,Weather,44.pkl,train
+2804,23,Weather,45.pkl,train
+2805,23,Weather,46.pkl,val
+2806,23,Weather,47.pkl,train
+2807,23,Weather,48.pkl,train
+2808,23,Weather,49.pkl,val
+2809,23,Weather,50.pkl,train
+2810,23,Weather,51.pkl,train
+2811,23,Weather,52.pkl,train
+2812,23,Weather,53.pkl,train
+2813,23,Weather,54.pkl,test
+2814,23,Weather,55.pkl,train
+2815,23,Weather,56.pkl,train
+2816,23,Weather,57.pkl,train
+2817,23,Weather,58.pkl,train
+2818,23,Weather,59.pkl,test
+2819,23,Weather,60.pkl,train
+2820,23,Weather,61.pkl,train
+2821,23,Weather,62.pkl,test
+2822,23,Weather,63.pkl,train
+2823,23,Weather,64.pkl,train
+2824,23,Weather,65.pkl,test
+2825,23,Weather,66.pkl,train
+2826,23,Weather,67.pkl,train
+2827,23,Weather,68.pkl,train
+2828,23,Weather,69.pkl,train
+2829,23,Weather,70.pkl,train
+2830,23,Weather,71.pkl,train
+2831,23,Weather,72.pkl,train
+2832,23,Weather,73.pkl,train
+2833,23,Weather,74.pkl,train
+2834,23,Weather,75.pkl,train
+2835,23,Weather,76.pkl,train
+2836,23,Weather,77.pkl,train
+2837,23,Weather,78.pkl,test
+2838,23,Weather,79.pkl,test
+2839,23,Weather,80.pkl,train
+2840,23,Weather,81.pkl,train
+2841,23,Weather,82.pkl,train
+2842,23,Weather,83.pkl,train
+2843,23,Weather,84.pkl,train
+2844,23,Weather,85.pkl,train
+2845,23,Weather,86.pkl,train
+2846,23,Weather,87.pkl,train
+2847,23,Weather,88.pkl,train
+2848,23,Weather,89.pkl,test
+2849,23,Weather,90.pkl,val
+2850,23,Weather,91.pkl,train
+2851,23,Weather,92.pkl,train
+2852,23,Weather,93.pkl,train
+2853,23,Weather,94.pkl,test
+2854,23,Weather,95.pkl,train
+2855,23,Weather,96.pkl,train
+2856,23,Weather,97.pkl,train
+2857,23,Weather,98.pkl,train
+2858,23,Weather,99.pkl,train
+2859,23,Weather,100.pkl,train
+2860,23,Weather,101.pkl,val
+2861,23,Weather,102.pkl,train
+2862,23,Weather,103.pkl,train
+2863,23,Weather,104.pkl,val
+2864,23,Weather,105.pkl,train
+2865,23,Weather,106.pkl,train
+2866,23,Weather,107.pkl,train
+2867,23,Weather,108.pkl,val
+2868,23,Weather,109.pkl,train
+2869,23,Weather,110.pkl,train
+2870,23,Weather,111.pkl,train
+2871,23,Weather,112.pkl,train
+2872,23,Weather,113.pkl,test
+2873,23,Weather,114.pkl,train
+2874,23,Weather,115.pkl,train
+2875,23,Weather,116.pkl,train
+2876,23,Weather,117.pkl,train
+2877,23,Weather,118.pkl,train
+2878,23,Weather,119.pkl,train
+2879,23,Weather,120.pkl,train

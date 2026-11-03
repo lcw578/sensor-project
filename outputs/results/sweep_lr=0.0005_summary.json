@@ -1,0 +1,22 @@
+{
+  "tag": "sweep_lr=0.0005",
+  "model": "bilstm",
+  "modality": "both",
+  "n_params": 16151320,
+  "best_epoch": 30,
+  "best_val_acc": 0.9826388888888888,
+  "test_accuracy": 0.9791666666666666,
+  "test_precision_macro": 0.9809600122100122,
+  "test_recall_macro": 0.9791666666666666,
+  "test_f1_macro": 0.9790802253302253,
+  "test_precision_weighted": 0.9809600122100122,
+  "train_time_sec": 1400.7263514995575,
+  "config": {
+    "batch_size": 50,
+    "epochs": 40,
+    "lr": 0.0005,
+    "weight_decay": 0.005,
+    "dropout": 0.3,
+    "augment": false
+  }
+}

@@ -1,0 +1,55 @@
+# 24 类多模态手语识别 —— 全局配置
+# 阶段1：数据预处理 / 阶段2：模型训练
+
+project:
+  name: signlang24
+  seed: 42
+  device: cuda            # cuda | cpu
+
+paths:
+  # 以下均为相对仓库根目录的路径；也可用环境变量覆盖为绝对路径：
+  #   SIGNLANG_DATA_ROOT / SIGNLANG_CACHE_DIR / SIGNLANG_CKPT_DIR / SIGNLANG_FIG_DIR / SIGNLANG_RES_DIR
+  # 注意：数据集本体不入库，使用前需自行放置到 24手语数据/data/（结构见 README）
+  data_root: 24手语数据/data
+  cache_dir: outputs/cache
+  ckpt_dir:  outputs/checkpoints
+  fig_dir:   outputs/figures
+  res_dir:   outputs/results
+
+data:
+  keys: [res1, res2, muscle1, muscle2]      # 左手应变压力 / 右手应变压力 / 左手sEMG / 右手sEMG
+  # 模态组装：左右手在“通道维”拼接（对齐论文 400x40 / 1950x20）
+  glove: [res1, res2]                        # -> (400, 40)
+  semg:  [muscle1, muscle2]                  # -> (1950, 20)
+  split_ratio: [0.8, 0.1, 0.1]               # 训练/验证/测试，按 .pkl 文件为单位分层划分
+  clip_quantile: [0.01, 0.99]                # 逐通道分位截断，抑制离群尖峰
+  norm_mode: global_train                    # global_train | per_sample | robust_train
+  std_eps: 1.0e-6                            # 恒定通道的 std 阈值，低于此值视为死通道并置零
+
+train:
+  batch_size: 50                             # 论文：50（8GB 卡需开 AMP 才放得下）
+  accum: 1                                   # 梯度累积步数（等效放大 batch）
+  amp: true                                  # 混合精度 fp16，显著降显存（实测 batch50: 10.7GB->5.5GB）
+  epochs: 100
+  lr: 0.001                                  # 论文：0.001
+  weight_decay: 0.005
+  optimizer: AdamW                           # 论文：AdamW
+  dropout: 0.3                               # 论文：0.3
+  early_stop_patience: 20
+  lr_scheduler: cosine
+
+model:
+  name: bilstm_fusion                        # 主模型：双分支 Bi-LSTM 特征融合
+  glove:
+    input_dim: 40
+    hidden: 128                              # 论文：手套分支 128
+    num_layers: 3                            # 论文：3 层堆叠
+    fc: [256, 128]
+  semg:
+    input_dim: 20
+    hidden: 512                              # 论文：sEMG 分支 512
+    num_layers: 3
+    fc: [256, 128]
+  fusion:
+    mode: concat
+  num_classes: 24

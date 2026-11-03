@@ -1,0 +1,22 @@
+{
+  "tag": "abl_A2_uni_lstm",
+  "model": "bilstm",
+  "modality": "both",
+  "n_params": 5883672,
+  "best_epoch": 57,
+  "best_val_acc": 0.5798611111111112,
+  "test_accuracy": 0.5868055555555556,
+  "test_precision_macro": 0.5597875356442334,
+  "test_recall_macro": 0.5868055555555555,
+  "test_f1_macro": 0.547842329444833,
+  "test_precision_weighted": 0.5597875356442334,
+  "train_time_sec": 1697.2983684539795,
+  "config": {
+    "batch_size": 50,
+    "epochs": 60,
+    "lr": 0.001,
+    "weight_decay": 0.005,
+    "dropout": 0.3,
+    "augment": false
+  }
+}

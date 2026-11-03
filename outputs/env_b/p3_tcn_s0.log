@@ -1,0 +1,29 @@
+[p3_tcn_s0] model=tcn modality=both 参数量=295,576 设备=cuda train/val/test=2304/288/288
+  ep  1 | train_loss 2.0565 acc 0.4488 | val_loss 0.5510 acc 0.8715 *best
+  ep  2 | train_loss 0.4011 acc 0.9045 | val_loss 0.1243 acc 0.9792 *best
+  ep  3 | train_loss 0.1246 acc 0.9792 | val_loss 0.0328 acc 0.9965 *best
+  ep  4 | train_loss 0.0674 acc 0.9857 | val_loss 0.0103 acc 0.9965
+  ep  5 | train_loss 0.0394 acc 0.9939 | val_loss 0.0032 acc 1.0000 *best
+  ep  6 | train_loss 0.0329 acc 0.9931 | val_loss 0.0145 acc 0.9931
+  ep  7 | train_loss 0.0388 acc 0.9935 | val_loss 0.0055 acc 1.0000
+  ep  8 | train_loss 0.0310 acc 0.9922 | val_loss 0.0107 acc 0.9965
+  ep  9 | train_loss 0.0283 acc 0.9926 | val_loss 0.0018 acc 1.0000
+  ep 10 | train_loss 0.0252 acc 0.9944 | val_loss 0.0009 acc 1.0000
+  ep 11 | train_loss 0.0183 acc 0.9961 | val_loss 0.0008 acc 1.0000
+  ep 12 | train_loss 0.0214 acc 0.9935 | val_loss 0.0006 acc 1.0000
+  ep 13 | train_loss 0.0102 acc 0.9987 | val_loss 0.0003 acc 1.0000
+  ep 14 | train_loss 0.0095 acc 0.9991 | val_loss 0.0006 acc 1.0000
+  ep 15 | train_loss 0.0076 acc 0.9974 | val_loss 0.0005 acc 1.0000
+  ep 16 | train_loss 0.0064 acc 0.9983 | val_loss 0.0007 acc 1.0000
+  ep 17 | train_loss 0.0128 acc 0.9957 | val_loss 0.0072 acc 0.9965
+  ep 18 | train_loss 0.0137 acc 0.9961 | val_loss 0.0005 acc 1.0000
+  ep 19 | train_loss 0.0038 acc 0.9987 | val_loss 0.0002 acc 1.0000
+  ep 20 | train_loss 0.0038 acc 0.9991 | val_loss 0.0001 acc 1.0000
+  ep 21 | train_loss 0.0030 acc 0.9996 | val_loss 0.0002 acc 1.0000
+  ep 22 | train_loss 0.0044 acc 0.9996 | val_loss 0.0001 acc 1.0000
+  ep 23 | train_loss 0.0024 acc 0.9991 | val_loss 0.0030 acc 0.9965
+  ep 24 | train_loss 0.0023 acc 0.9996 | val_loss 0.0001 acc 1.0000
+  ep 25 | train_loss 0.0027 acc 0.9996 | val_loss 0.0001 acc 1.0000
+  早停于 epoch 25（20 轮无提升）
+
+[p3_tcn_s0] 测试集 Accuracy=0.9965 Precision(macro)=0.9968 F1(macro)=0.9965 | 最优epoch=5 用时=62.0s

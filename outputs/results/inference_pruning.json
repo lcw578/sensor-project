@@ -1,0 +1,9 @@
+{
+  "both": 0.9861111111111112,
+  "prune_to_glove": 0.9861111111111112,
+  "prune_to_semg": 0.041666666666666664,
+  "indep_glove": 0.9826388888888888,
+  "indep_semg": 0.9131944444444444,
+  "prune_glove_gap_to_paper_pp": 14.861111111111114,
+  "prune_semg_gap_to_paper_pp": 83.85333333333332
+}

@@ -1,0 +1,289 @@
+﻿y_true,y_pred,y_true_name,y_pred_name
+0,3,Afternoon,Delight
+0,2,Afternoon,China
+0,18,Afternoon,Television
+0,18,Afternoon,Television
+0,18,Afternoon,Television
+0,12,Afternoon,Never mind
+0,2,Afternoon,China
+0,18,Afternoon,Television
+0,2,Afternoon,China
+0,2,Afternoon,China
+0,16,Afternoon,Teacher
+0,2,Afternoon,China
+1,13,Always,Run
+1,18,Always,Television
+1,20,Always,Time
+1,13,Always,Run
+1,13,Always,Run
+1,12,Always,Never mind
+1,13,Always,Run
+1,13,Always,Run
+1,13,Always,Run
+1,13,Always,Run
+1,13,Always,Run
+1,13,Always,Run
+2,6,China,Friend
+2,16,China,Teacher
+2,18,China,Television
+2,3,China,Delight
+2,2,China,China
+2,16,China,Teacher
+2,2,China,China
+2,16,China,Teacher
+2,16,China,Teacher
+2,5,China,Drink
+2,16,China,Teacher
+2,16,China,Teacher
+3,17,Delight,Technology
+3,3,Delight,Delight
+3,3,Delight,Delight
+3,3,Delight,Delight
+3,5,Delight,Drink
+3,16,Delight,Teacher
+3,16,Delight,Teacher
+3,3,Delight,Delight
+3,3,Delight,Delight
+3,2,Delight,China
+3,2,Delight,China
+3,5,Delight,Drink
+4,22,Dine,University
+4,16,Dine,Teacher
+4,2,Dine,China
+4,16,Dine,Teacher
+4,16,Dine,Teacher
+4,3,Dine,Delight
+4,16,Dine,Teacher
+4,16,Dine,Teacher
+4,16,Dine,Teacher
+4,2,Dine,China
+4,16,Dine,Teacher
+4,16,Dine,Teacher
+5,16,Drink,Teacher
+5,16,Drink,Teacher
+5,3,Drink,Delight
+5,3,Drink,Delight
+5,12,Drink,Never mind
+5,16,Drink,Teacher
+5,22,Drink,University
+5,3,Drink,Delight
+5,16,Drink,Teacher
+5,3,Drink,Delight
+5,3,Drink,Delight
+5,2,Drink,China
+6,11,Friend,Love
+6,5,Friend,Drink
+6,22,Friend,University
+6,1,Friend,Always
+6,18,Friend,Television
+6,5,Friend,Drink
+6,20,Friend,Time
+6,1,Friend,Always
+6,1,Friend,Always
+6,16,Friend,Teacher
+6,13,Friend,Run
+6,20,Friend,Time
+7,12,Go,Never mind
+7,18,Go,Television
+7,12,Go,Never mind
+7,7,Go,Go
+7,18,Go,Television
+7,1,Go,Always
+7,5,Go,Drink
+7,12,Go,Never mind
+7,12,Go,Never mind
+7,12,Go,Never mind
+7,1,Go,Always
+7,1,Go,Always
+8,20,Go home,Time
+8,20,Go home,Time
+8,20,Go home,Time
+8,8,Go home,Go home
+8,20,Go home,Time
+8,20,Go home,Time
+8,8,Go home,Go home
+8,8,Go home,Go home
+8,20,Go home,Time
+8,8,Go home,Go home
+8,8,Go home,Go home
+8,20,Go home,Time
+9,16,Good bye,Teacher
+9,5,Good bye,Drink
+9,2,Good bye,China
+9,3,Good bye,Delight
+9,2,Good bye,China
+9,2,Good bye,China
+9,2,Good bye,China
+9,3,Good bye,Delight
+9,3,Good bye,Delight
+9,3,Good bye,Delight
+9,2,Good bye,China
+9,3,Good bye,Delight
+10,3,Like,Delight
+10,3,Like,Delight
+10,3,Like,Delight
+10,3,Like,Delight
+10,5,Like,Drink
+10,16,Like,Teacher
+10,16,Like,Teacher
+10,22,Like,University
+10,3,Like,Delight
+10,3,Like,Delight
+10,5,Like,Drink
+10,8,Like,Go home
+11,8,Love,Go home
+11,5,Love,Drink
+11,5,Love,Drink
+11,3,Love,Delight
+11,5,Love,Drink
+11,3,Love,Delight
+11,5,Love,Drink
+11,5,Love,Drink
+11,3,Love,Delight
+11,3,Love,Delight
+11,3,Love,Delight
+11,3,Love,Delight
+12,8,Never mind,Go home
+12,18,Never mind,Television
+12,12,Never mind,Never mind
+12,3,Never mind,Delight
+12,5,Never mind,Drink
+12,12,Never mind,Never mind
+12,1,Never mind,Always
+12,3,Never mind,Delight
+12,18,Never mind,Television
+12,3,Never mind,Delight
+12,12,Never mind,Never mind
+12,18,Never mind,Television
+13,13,Run,Run
+13,13,Run,Run
+13,13,Run,Run
+13,13,Run,Run
+13,13,Run,Run
+13,13,Run,Run
+13,13,Run,Run
+13,13,Run,Run
+13,13,Run,Run
+13,13,Run,Run
+13,13,Run,Run
+13,13,Run,Run
+14,1,Sorry,Always
+14,16,Sorry,Teacher
+14,1,Sorry,Always
+14,12,Sorry,Never mind
+14,12,Sorry,Never mind
+14,18,Sorry,Television
+14,18,Sorry,Television
+14,1,Sorry,Always
+14,1,Sorry,Always
+14,3,Sorry,Delight
+14,3,Sorry,Delight
+14,16,Sorry,Teacher
+15,16,South,Teacher
+15,3,South,Delight
+15,3,South,Delight
+15,12,South,Never mind
+15,16,South,Teacher
+15,3,South,Delight
+15,3,South,Delight
+15,16,South,Teacher
+15,16,South,Teacher
+15,5,South,Drink
+15,3,South,Delight
+15,16,South,Teacher
+16,16,Teacher,Teacher
+16,22,Teacher,University
+16,22,Teacher,University
+16,16,Teacher,Teacher
+16,16,Teacher,Teacher
+16,16,Teacher,Teacher
+16,16,Teacher,Teacher
+16,16,Teacher,Teacher
+16,16,Teacher,Teacher
+16,16,Teacher,Teacher
+16,22,Teacher,University
+16,22,Teacher,University
+17,8,Technology,Go home
+17,16,Technology,Teacher
+17,16,Technology,Teacher
+17,16,Technology,Teacher
+17,16,Technology,Teacher
+17,16,Technology,Teacher
+17,3,Technology,Delight
+17,22,Technology,University
+17,16,Technology,Teacher
+17,16,Technology,Teacher
+17,16,Technology,Teacher
+17,16,Technology,Teacher
+18,18,Television,Television
+18,18,Television,Television
+18,18,Television,Television
+18,5,Television,Drink
+18,18,Television,Television
+18,22,Television,University
+18,18,Television,Television
+18,1,Television,Always
+18,18,Television,Television
+18,18,Television,Television
+18,3,Television,Delight
+18,18,Television,Television
+19,19,Thanks,Thanks
+19,19,Thanks,Thanks
+19,19,Thanks,Thanks
+19,19,Thanks,Thanks
+19,19,Thanks,Thanks
+19,19,Thanks,Thanks
+19,19,Thanks,Thanks
+19,19,Thanks,Thanks
+19,19,Thanks,Thanks
+19,19,Thanks,Thanks
+19,19,Thanks,Thanks
+19,19,Thanks,Thanks
+20,20,Time,Time
+20,8,Time,Go home
+20,20,Time,Time
+20,20,Time,Time
+20,20,Time,Time
+20,8,Time,Go home
+20,20,Time,Time
+20,8,Time,Go home
+20,8,Time,Go home
+20,8,Time,Go home
+20,8,Time,Go home
+20,8,Time,Go home
+21,22,Tomorrow,University
+21,16,Tomorrow,Teacher
+21,16,Tomorrow,Teacher
+21,16,Tomorrow,Teacher
+21,16,Tomorrow,Teacher
+21,16,Tomorrow,Teacher
+21,16,Tomorrow,Teacher
+21,22,Tomorrow,University
+21,22,Tomorrow,University
+21,16,Tomorrow,Teacher
+21,22,Tomorrow,University
+21,16,Tomorrow,Teacher
+22,22,University,University
+22,22,University,University
+22,22,University,University
+22,22,University,University
+22,22,University,University
+22,22,University,University
+22,22,University,University
+22,22,University,University
+22,22,University,University
+22,22,University,University
+22,22,University,University
+22,22,University,University
+23,12,Weather,Never mind
+23,12,Weather,Never mind
+23,16,Weather,Teacher
+23,16,Weather,Teacher
+23,16,Weather,Teacher
+23,18,Weather,Television
+23,16,Weather,Teacher
+23,16,Weather,Teacher
+23,19,Weather,Thanks
+23,19,Weather,Thanks
+23,5,Weather,Drink
+23,22,Weather,University

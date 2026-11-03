@@ -1,0 +1,22 @@
+{
+  "tag": "p3_bilstm_s2",
+  "model": "bilstm",
+  "modality": "both",
+  "n_params": 16151320,
+  "best_epoch": 36,
+  "best_val_acc": 0.9861111111111112,
+  "test_accuracy": 0.9861111111111112,
+  "test_precision_macro": 0.9869123931623932,
+  "test_recall_macro": 0.986111111111111,
+  "test_f1_macro": 0.9860929951690821,
+  "test_precision_weighted": 0.9869123931623931,
+  "train_time_sec": 3450.1912021636963,
+  "config": {
+    "batch_size": 50,
+    "epochs": 60,
+    "lr": 0.001,
+    "weight_decay": 0.005,
+    "dropout": 0.3,
+    "augment": false
+  }
+}

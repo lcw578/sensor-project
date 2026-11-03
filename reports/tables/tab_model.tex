@@ -1,0 +1,14 @@
+\begin{table}[htbp]\centering
+\caption{不同模型性能对比（均为多模态融合输入，8:1:1 划分）}
+\label{tab:model}
+\begin{tabular}{lccccc}
+\toprule
+模型 & Accuracy(\%) & Precision(\%) & F1(\%) & 参数量(M) & 收敛轮次 \\
+\midrule
+TCN & 99.65 & 99.68 & 99.65 & 0.30 & 6 \\
+1D-CNN & 99.31 & 99.33 & 99.30 & 0.25 & 4 \\
+Bi-LSTM（主模型） & 98.96 & 99.01 & 98.96 & 16.15 & 29 \\
+Bi-GRU & 98.61 & 98.69 & 98.62 & 11.98 & 16 \\
+\bottomrule
+\end{tabular}
+\end{table}

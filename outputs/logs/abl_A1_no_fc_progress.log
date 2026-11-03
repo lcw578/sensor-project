@@ -1,0 +1,39 @@
+# tag=abl_A1_no_fc model=bilstm modality=both started=2026-10-14 22:39:07
+ep  1 train_loss=2.7578 train_acc=0.1979 val_loss=2.4430 val_acc=0.2500 *best
+ep  2 train_loss=1.8602 train_acc=0.4219 val_loss=1.8618 val_acc=0.4097 *best
+ep  3 train_loss=1.3538 train_acc=0.5768 val_loss=1.1185 val_acc=0.6632 *best
+ep  4 train_loss=0.8681 train_acc=0.7274 val_loss=0.7840 val_acc=0.7569 *best
+ep  5 train_loss=0.6765 train_acc=0.7882 val_loss=0.8190 val_acc=0.7431
+ep  6 train_loss=0.4145 train_acc=0.8789 val_loss=0.4257 val_acc=0.8854 *best
+ep  7 train_loss=0.2750 train_acc=0.9245 val_loss=0.4514 val_acc=0.8472
+ep  8 train_loss=0.3127 train_acc=0.9132 val_loss=0.5856 val_acc=0.7778
+ep  9 train_loss=0.3906 train_acc=0.8780 val_loss=0.3891 val_acc=0.8958 *best
+ep 10 train_loss=0.2073 train_acc=0.9423 val_loss=0.3255 val_acc=0.9062 *best
+ep 11 train_loss=0.0994 train_acc=0.9757 val_loss=0.2404 val_acc=0.9167 *best
+ep 12 train_loss=0.0642 train_acc=0.9865 val_loss=0.2038 val_acc=0.9375 *best
+ep 13 train_loss=0.0492 train_acc=0.9891 val_loss=0.3091 val_acc=0.8993
+ep 14 train_loss=0.0658 train_acc=0.9818 val_loss=0.2017 val_acc=0.9444 *best
+ep 15 train_loss=0.0194 train_acc=0.9991 val_loss=0.1912 val_acc=0.9375
+ep 16 train_loss=0.0335 train_acc=0.9926 val_loss=0.1837 val_acc=0.9444
+ep 17 train_loss=0.0149 train_acc=0.9978 val_loss=0.1346 val_acc=0.9618 *best
+ep 18 train_loss=0.0071 train_acc=1.0000 val_loss=0.1454 val_acc=0.9653 *best
+ep 19 train_loss=0.0043 train_acc=0.9996 val_loss=0.1442 val_acc=0.9549
+ep 20 train_loss=0.0037 train_acc=1.0000 val_loss=0.1463 val_acc=0.9583
+ep 21 train_loss=0.0028 train_acc=1.0000 val_loss=0.1463 val_acc=0.9549
+ep 22 train_loss=0.0027 train_acc=1.0000 val_loss=0.1428 val_acc=0.9549
+ep 23 train_loss=0.0021 train_acc=1.0000 val_loss=0.1343 val_acc=0.9549
+ep 24 train_loss=0.0020 train_acc=1.0000 val_loss=0.1419 val_acc=0.9618
+ep 25 train_loss=0.0018 train_acc=1.0000 val_loss=0.1379 val_acc=0.9618
+ep 26 train_loss=0.0018 train_acc=1.0000 val_loss=0.1375 val_acc=0.9583
+ep 27 train_loss=0.0015 train_acc=1.0000 val_loss=0.1381 val_acc=0.9583
+ep 28 train_loss=0.0015 train_acc=1.0000 val_loss=0.1419 val_acc=0.9583
+ep 29 train_loss=0.0014 train_acc=1.0000 val_loss=0.1437 val_acc=0.9583
+ep 30 train_loss=0.0013 train_acc=1.0000 val_loss=0.1399 val_acc=0.9583
+ep 31 train_loss=0.0012 train_acc=1.0000 val_loss=0.1469 val_acc=0.9618
+ep 32 train_loss=0.0012 train_acc=1.0000 val_loss=0.1475 val_acc=0.9549
+ep 33 train_loss=0.0010 train_acc=1.0000 val_loss=0.1460 val_acc=0.9583
+ep 34 train_loss=0.0010 train_acc=1.0000 val_loss=0.1456 val_acc=0.9583
+ep 35 train_loss=0.0010 train_acc=1.0000 val_loss=0.1487 val_acc=0.9583
+ep 36 train_loss=0.0009 train_acc=1.0000 val_loss=0.1480 val_acc=0.9583
+ep 37 train_loss=0.0010 train_acc=1.0000 val_loss=0.1447 val_acc=0.9618
+ep 38 train_loss=0.0010 train_acc=1.0000 val_loss=0.1456 val_acc=0.9618

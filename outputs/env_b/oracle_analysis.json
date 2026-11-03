@@ -1,0 +1,47 @@
+[
+  {
+    "model": "local_bilstm",
+    "baseline": 0.9861111111111112,
+    "semg_only": 0.9131944444444444,
+    "oracle": 0.9895833333333334,
+    "headroom": 0.00347222222222221,
+    "both_wrong": 3,
+    "semg_hurts": 22
+  },
+  {
+    "model": "local_tcn",
+    "baseline": 0.9965277777777778,
+    "semg_only": 0.9131944444444444,
+    "oracle": 0.9965277777777778,
+    "headroom": 0.0,
+    "both_wrong": 1,
+    "semg_hurts": 24
+  },
+  {
+    "model": "local_cnn",
+    "baseline": 0.9930555555555556,
+    "semg_only": 0.9131944444444444,
+    "oracle": 0.9930555555555556,
+    "headroom": 0.0,
+    "both_wrong": 2,
+    "semg_hurts": 23
+  },
+  {
+    "model": "remote_bilstm",
+    "baseline": 0.9930555555555556,
+    "semg_only": 0.8923611111111112,
+    "oracle": 0.9930555555555556,
+    "headroom": 0.0,
+    "both_wrong": 2,
+    "semg_hurts": 29
+  },
+  {
+    "model": "remote_tcn",
+    "baseline": 0.9965277777777778,
+    "semg_only": 0.8923611111111112,
+    "oracle": 0.9965277777777778,
+    "headroom": 0.0,
+    "both_wrong": 1,
+    "semg_hurts": 30
+  }
+]

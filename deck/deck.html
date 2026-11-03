@@ -1,0 +1,558 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<title>传感器技术 · 24 类多模态手语识别：从传感器信号到 99.65%</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<style>
+:root{
+  --bg:#F5F5F7; --ink:#1D1D1F; --muted:#6E6E73; --faint:#A1A1A6; --line:#D2D2D7; --card:#FFFFFF;
+  --accent:#0071E3;
+  --font:"Segoe UI","Microsoft YaHei","PingFang SC","Hiragino Sans GB","Helvetica Neue",Arial,sans-serif;
+  --mono:"Consolas","Cascadia Mono","SF Mono","Menlo",monospace;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{height:100%;background:var(--bg);color:var(--ink);font-family:var(--font);overflow:hidden}
+#stage{position:absolute;left:50%;top:50%;width:1920px;height:1080px;transform:translate(-50%,-50%) scale(1);transform-origin:center;background:var(--bg)}
+.slide{position:absolute;inset:0;padding:92px 128px 96px;display:none;flex-direction:column}
+.slide.active{display:flex}
+/* 页眉三件套：小标 / 大标题 / 可选副标 */
+.kicker{font-size:22px;font-weight:500;letter-spacing:.14em;color:var(--muted);text-transform:uppercase}
+.kicker b{color:var(--ink);font-weight:600;margin-right:14px}
+h1{font-size:68px;font-weight:600;letter-spacing:-.012em;line-height:1.15;margin-top:20px}
+h1 .thin{font-weight:400;color:var(--muted)}
+h1 .acc{color:var(--accent)}
+.sub{font-size:30px;color:var(--muted);margin-top:14px;font-weight:400;line-height:1.4}
+/* 图 / 视频 */
+.fig{flex:1;min-height:0;position:relative;margin-top:44px}
+.fig img,.fig video{position:absolute;inset:0;width:100%;height:100%;object-fit:contain}
+.fig.card{background:var(--card);border-radius:26px;box-shadow:0 14px 48px rgba(0,0,0,.06)}
+.fig.card img,.fig.card video{padding:30px}
+.fig.plain img,.fig.plain video{border-radius:22px}
+.fig2{flex:1;min-height:0;display:flex;gap:30px;margin-top:44px}
+.fig2 .fig{margin:0}
+/* 自绘图 */
+.diagbox{flex:1;min-height:0;position:relative;background:var(--card);border-radius:26px;box-shadow:0 14px 48px rgba(0,0,0,.06);margin-top:44px}
+.diagbox svg{position:absolute;inset:0;width:100%;height:100%}
+.diagbox.pad svg{inset:0;margin:auto;width:calc(100% - 88px);height:calc(100% - 68px)}
+.sv text{font-family:"Microsoft YaHei","Segoe UI","Helvetica Neue",sans-serif}
+.sv .mono{font-family:"Consolas","Menlo",monospace}
+/* 表 */
+.tblwrap{flex:1;min-height:0;display:flex;flex-direction:column;justify-content:center;background:var(--card);border-radius:26px;box-shadow:0 14px 48px rgba(0,0,0,.06);padding:36px 48px;margin-top:44px}
+.fig2 .tblwrap{margin-top:0}
+.tblwrap .tt{font-size:24px;color:var(--muted);letter-spacing:.12em;text-transform:uppercase;font-weight:500;margin-bottom:26px;text-align:center}
+.tbl{width:100%;border-collapse:collapse;font-size:32px;text-align:center}
+.tbl th{font-size:24px;font-weight:500;color:var(--muted);letter-spacing:.1em;text-transform:uppercase;padding:0 0 18px;border-bottom:2px solid var(--line)}
+.tbl td{padding:22px 0;border-bottom:1px solid var(--line);font-family:var(--mono)}
+.tbl td:first-child{font-family:var(--mono);color:var(--muted)}
+.tbl tr.hi td{color:var(--accent);font-weight:600}
+.tbl tr.bad td{color:#D0342C}
+.tbl.small{font-size:28px}
+.tbl.small td{padding:18px 0}
+.tbl.left{text-align:left}
+.tbl.left th{text-align:left;padding-left:16px}
+.tbl.left td{font-family:var(--font);font-size:27px;padding:16px 16px;line-height:1.35}
+.tbl.left td:first-child{color:var(--ink);font-family:var(--font);font-weight:500}
+.tbl.left td.ok{color:var(--accent);font-weight:600;font-family:var(--font)}
+.tbl.left td.no{color:#D0342C;font-weight:600;font-family:var(--font)}
+.tbl.left td:nth-child(2){white-space:nowrap;color:var(--muted)}
+.tbl.left.compact td{font-size:25px;padding:13px 14px}
+.tbl.left.wrap td:nth-child(2){white-space:normal;color:var(--ink)}
+.tbl.left tr.hi td{color:var(--accent);font-weight:600}
+.tbl.num td{font-family:var(--mono);font-size:27px;padding:16px 10px}
+.tbl.num td:first-child{font-family:var(--font);text-align:left;color:var(--ink);font-weight:500;padding-left:16px}
+.tbl.num th:first-child{text-align:left;padding-left:16px}
+.tbl.num td.acc{color:var(--accent);font-weight:600}
+.tbl.num td.dim{color:var(--faint)}
+.tbl.num.two td{padding:14px 10px;line-height:1.25}
+.tbl.num.two td b{font-size:30px;font-weight:600}
+.tbl.num.two td small{font-size:21px;color:var(--muted)}
+.tbl.num.two td.acc small{color:var(--accent)}
+.tbl.num.compact td{font-size:24px;padding:11px 8px;white-space:nowrap}
+.tbl.num.compact th{padding-bottom:12px}
+/* colspan 行不参与 nowrap，防止把表格最小宽度撑爆、挤扁并排的图卡 */
+.tbl td[colspan]{white-space:normal !important;line-height:1.32;font-family:var(--font)}
+.tbl td[colspan] b{font-weight:600}
+/* 数字卡 */
+.stats{flex:1;min-height:0;display:grid;grid-template-columns:repeat(3,1fr);gap:26px;margin-top:44px;align-content:stretch}
+.stats.two{grid-template-columns:repeat(2,1fr)}
+.stat{background:var(--card);border-radius:26px;box-shadow:0 14px 48px rgba(0,0,0,.06);padding:36px 40px;display:flex;flex-direction:column;justify-content:center;min-height:0}
+.stat .n{font-size:82px;font-weight:600;letter-spacing:-.02em;line-height:1;color:var(--accent);white-space:nowrap}
+.stat .n small{font-size:38px;color:var(--ink);margin-left:8px;font-weight:500}
+.stat .l{font-size:25px;color:var(--muted);margin-top:16px;line-height:1.35}
+.stat .l b{color:var(--ink);font-weight:600}
+.stat.dim .n{color:var(--ink)}
+.stat.text .n{font-size:44px;color:var(--ink);white-space:normal;line-height:1.2}
+.stat.text .n .acc{color:var(--accent)}
+/* 时间线 */
+.timeline{flex:1;display:flex;flex-direction:column;justify-content:center;padding:0 10px}
+.tl-row{position:relative;display:flex;justify-content:space-between;padding-top:56px}
+.tl-row:before{content:"";position:absolute;left:7%;right:7%;top:0;height:2px;background:var(--line)}
+.tl{flex:1;text-align:center;position:relative}
+.tl .dot{position:absolute;left:50%;top:-66px;transform:translateX(-50%);width:20px;height:20px;border-radius:50%;background:var(--line)}
+.tl.key .dot{background:var(--accent);box-shadow:0 0 0 10px rgba(0,113,227,.15)}
+.tl .d{font-family:var(--mono);font-size:20px;color:var(--muted);letter-spacing:.06em}
+.tl .n{font-size:38px;font-weight:600;margin-top:10px;letter-spacing:-.01em;line-height:1.15}
+.tl.key .n{color:var(--accent)}
+.tl.dim .n{color:var(--faint)}
+.tl .w{font-size:22px;color:var(--muted);margin-top:12px;line-height:1.4;padding:0 12px}
+/* 两列清单 */
+.two{display:flex;gap:80px;flex:1;margin-top:48px;align-items:flex-start}
+.two .col{flex:1}
+.h2{font-size:22px;color:var(--muted);letter-spacing:.14em;text-transform:uppercase;margin-bottom:14px;font-weight:500}
+.li{font-size:28px;line-height:1.45;padding:18px 0;border-top:1px solid var(--line)}
+.li:last-child{border-bottom:1px solid var(--line)}
+.li b{font-weight:600}
+/* 大字页 */
+.bigline{flex:1;display:flex;flex-direction:column;justify-content:center;gap:30px}
+.bigline .row{font-size:54px;font-weight:600;letter-spacing:-.01em;line-height:1.3}
+.bigline .row .thin{font-weight:400;color:var(--muted)}
+.bigline .row .acc{color:var(--accent)}
+.bigline .row.small{font-size:36px;font-weight:400;color:var(--muted)}
+/* 封面 / 过渡 / 收尾 */
+.cover{padding:0}
+.cover .t{position:absolute;left:128px;top:150px}
+.cover .kicker{font-size:24px}
+.cover h1{font-size:230px;letter-spacing:-.035em;line-height:.95;margin-top:26px}
+.cover .p{font-size:42px;color:var(--muted);margin-top:26px;font-weight:400;max-width:1560px;line-height:1.35}
+.cover .p b{color:var(--ink);font-weight:600}
+.cover .brand{position:absolute;right:128px;top:158px;font-size:26px;letter-spacing:.14em;color:var(--muted)}
+.cover .facts{position:absolute;left:128px;right:128px;bottom:96px;display:flex;border-top:1px solid var(--line)}
+.cover .facts .f{flex:1;padding:38px 30px 0;border-left:1px solid var(--line)}
+.cover .facts .f:first-child{border-left:none;padding-left:0}
+.cover .facts .n{font-size:54px;font-weight:600;letter-spacing:-.02em;line-height:1;color:var(--ink);white-space:nowrap}
+.cover .facts .n .acc{color:var(--accent)}
+.cover .facts .l{font-size:22px;color:var(--muted);margin-top:14px;line-height:1.35}
+.divider{justify-content:center}
+.divider .num{font-family:var(--mono);font-size:26px;letter-spacing:.2em;color:var(--faint)}
+.divider .word{font-size:160px;font-weight:600;letter-spacing:-.03em;line-height:1.05;margin-top:18px}
+.end{justify-content:center}
+.end h1{text-align:center;font-size:96px}
+.end .big{font-size:42px;text-align:center;color:var(--muted);margin-top:30px;line-height:1.5}
+.end .big b{color:var(--ink);font-weight:600}
+/* 导航 */
+#nav-hot{position:fixed;left:0;top:0;width:220px;height:110px;z-index:20}
+#nav-btn{position:fixed;left:14px;top:14px;height:44px;padding:0 14px 0 10px;border-radius:10px;background:rgba(29,29,31,.82);color:#fff;font-size:18px;font-family:var(--mono);display:flex;align-items:center;gap:10px;cursor:pointer;opacity:.22;transition:opacity .25s;z-index:21;user-select:none}
+#nav-btn span.pg{font-size:18px;letter-spacing:.06em}
+#nav-btn .b{width:28px;height:28px;border-radius:6px;display:flex;align-items:center;justify-content:center;background:rgba(255,255,255,.14)}
+#nav-btn .b:hover{background:rgba(255,255,255,.3)}
+#nav-hot:hover ~ #nav-btn,#nav-btn:hover,#nav-btn.open{opacity:1}
+#nav-panel{position:fixed;left:14px;top:66px;width:440px;max-height:calc(100vh - 90px);overflow:auto;background:#fff;color:#1D1D1F;border:1px solid #D2D2D7;border-radius:12px;box-shadow:0 16px 48px rgba(0,0,0,.18);padding:8px;display:none;z-index:22;font-family:var(--font);font-size:14px}
+#nav-panel.open{display:block}
+#nav-panel .sec-title{font-family:var(--mono);font-size:11px;letter-spacing:.12em;color:#6E6E73;padding:10px 10px 4px;text-transform:uppercase}
+#nav-panel .it{display:flex;gap:10px;align-items:baseline;padding:7px 10px;border-radius:8px;cursor:pointer;line-height:1.35}
+#nav-panel .it:hover{background:#F5F5F7}
+#nav-panel .it.cur{background:#E8F0FE;color:#0071E3}
+#nav-panel .it .k{font-family:var(--mono);font-size:12px;color:#6E6E73;min-width:24px;text-align:right}
+#nav-panel .it.cur .k{color:#0071E3}
+#hud{position:fixed;left:18px;bottom:14px;font-family:var(--mono);font-size:13px;color:#8e8e93;opacity:0;transition:opacity .6s;pointer-events:none;z-index:9}
+#hud.show{opacity:1}
+</style>
+</head>
+<body>
+<div id="stage">
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs>
+  <marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#8E8E93"/></marker>
+  <marker id="arB" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#0071E3"/></marker>
+</defs></svg>
+
+<!-- ===== 1 封面 ===== -->
+<section class="slide cover" data-sec="封面" data-title="封面">
+  <div class="t">
+    <div class="kicker">传感器技术 · 24 类多模态手语识别 · 实验汇报</div>
+    <h1>99.65<span style="font-size:120px">%</span></h1>
+    <div class="p">24 类中国手语：应变/压力手套 <b>+ sEMG 臂带</b> 双分支融合识别，
+      测试集 <b>288 样本只错 4 个</b>，完整复现源论文融合精度 · 附 13 项交付物与 114 项数值核查</div>
+  </div>
+  <div class="brand">wanye · Kai · 2026-10-15</div>
+  <div class="facts">
+    <div class="f"><div class="n">98.61<span style="font-size:32px">%</span> <span class="acc">→ 99.31%</span></div><div class="l">融合测试准确率<br>源论文超参 → 调参后</div></div>
+    <div class="f"><div class="n">99.65<span style="font-size:32px">%</span></div><div class="l">TCN 对比模型<br>= 源论文值</div></div>
+    <div class="f"><div class="n">4 <span style="font-size:32px;color:var(--muted)">/ 288</span></div><div class="l">测试集错分样本<br>24 类混淆矩阵</div></div>
+    <div class="f"><div class="n">13 <span style="font-size:32px;color:var(--muted)">项</span></div><div class="l">报告交付物<br>114 项数值核查全过</div></div>
+  </div>
+</section>
+
+<!-- ===== 2 全貌时间线 ===== -->
+<section class="slide" data-sec="00 全貌" data-title="这次工作全貌">
+  <div class="kicker"><b>00</b>全貌 · 从数据到报告 · 全部数字可复现</div>
+  <h1>四组实验一条流水线，<span class="thin">外加一个反直觉发现</span></h1>
+  <div class="timeline"><div class="tl-row">
+    <div class="tl"><div class="dot"></div><div class="d">STEP 1</div><div class="n">数据体检</div><div class="w">2880 样本 · 0 NaN<br>离群尖峰 + 8 死通道</div></div>
+    <div class="tl"><div class="dot"></div><div class="d">STEP 2</div><div class="n">方法</div><div class="w">双分支 Bi-LSTM 16.15M<br>复现论文架构与超参</div></div>
+    <div class="tl key"><div class="dot"></div><div class="d">STEP 3</div><div class="n">主结果</div><div class="w">98.61% → 调参 99.31%<br>TCN 99.65% = 论文值</div></div>
+    <div class="tl"><div class="dot"></div><div class="d">STEP 4</div><div class="n">四组实验</div><div class="w">多模态 / 模型对比<br>消融 / 参数调节</div></div>
+    <div class="tl"><div class="dot"></div><div class="d">STEP 5</div><div class="n">对照与局限</div><div class="w">泄漏审计 · 近重复<br>与论文的分歧</div></div>
+  </div></div>
+</section>
+
+<!-- ===== 3 数据体检：结构 + 两类问题 ===== -->
+<section class="slide" data-sec="01 数据" data-title="2880 个样本，结构一致、零缺失">
+  <div class="kicker"><b>01</b>数据 · 全量实测 · 2880 个 .pkl 逐个读取核验</div>
+  <h1>数据很干净，<span class="thin">但有两处必须先处理</span></h1>
+  <div class="fig2">
+    <div class="tblwrap"><table class="tbl left compact">
+      <tr><th>检查项</th><th>结果</th></tr>
+      <tr><td>样本总量</td><td>24 类 × 120 = <b>2880</b>，每类恰好 120</td></tr>
+      <tr><td>res1 / res2</td><td>左右手应变·压力，(20, 400)，200 Hz</td></tr>
+      <tr><td>muscle1 / muscle2</td><td>左右手 sEMG，(10, 1950)，1000 Hz</td></tr>
+      <tr><td>形状一致性</td><td class="ok">4 个键 × 2880 全部一致</td></tr>
+      <tr><td>NaN / Inf / 读取失败</td><td class="ok">0</td></tr>
+      <tr><td>划分</td><td>按 .pkl 分层 8:1:1 → 2304 / 288 / 288</td></tr>
+    </table></div>
+    <div class="tblwrap"><table class="tbl left compact">
+      <tr><th>两类必须先处理的问题（依据 → 处理）</th></tr>
+      <tr><td><b>离群尖峰</b>：res2 幅值最高 <b>3988</b>（常见仅个位数量级），集中在 Run / Weather / Love 的个别文件 → <b>1% / 99% 分位截断</b></td></tr>
+      <tr><td><b>8 个死通道</b>：索引 14,15,17,18,19,20,21,22，全局 std 0.016（有效通道 0.3~93）→ <b>标准化后置零</b></td></tr>
+      <tr><td><b>sEMG 信号质量</b>：65% 能量是漂移 + 工频（下页详述）→ 带通 + 陷波滤波器已写好，留作对比实验</td></tr>
+    </table></div>
+  </div>
+</section>
+
+<!-- ===== 4 sEMG 频谱诊断 ===== -->
+<section class="slide" data-sec="01 数据" data-title="sEMG 真信号只占 11%">
+  <div class="kicker"><b>01</b>数据 · 功率谱诊断 · 2880 样本平均 · 陷波频率实测为 48.17Hz 而非 50Hz</div>
+  <h1>sEMG 真信号只占 <span class="acc">11.2%</span>，<span class="thin">其余是漂移和工频</span></h1>
+  <div class="fig2">
+    <div class="fig card"><img src="media/diag_semg_spectrum.png" alt=""></div>
+    <div class="tblwrap"><table class="tbl left compact">
+      <tr><th>频带</th><th>占总能量</th></tr>
+      <tr><td>1–20 Hz 漂移 / 运动伪迹</td><td class="no"><b>45.9%</b></td></tr>
+      <tr><td>20–50 Hz</td><td>40.6%</td></tr>
+      <tr><td>48.17 Hz 工频单音</td><td class="no"><b>18.7%</b><br>谐波 96.3 / 144.5 Hz</td></tr>
+      <tr><td>51–450 Hz 真 sEMG</td><td class="ok"><b>11.2%</b></td></tr>
+      <tr><td>450–500 Hz 噪声</td><td>0.2%</td></tr>
+      <tr><td colspan="2">26.4% 的样本 &gt;30% 能量压在工频峰上（max 88.8%）</td></tr>
+    </table></div>
+  </div>
+</section>
+
+<!-- ===== 5 预处理流水线（自绘 SVG）===== -->
+<section class="slide" data-sec="01 数据" data-title="自绘：预处理流水线">
+  <div class="kicker"><b>01</b>数据 · 预处理 · 顺序是关键：先截断，再统计，最后标准化</div>
+  <h1>统计量<span class="acc">只来自训练集</span>，<span class="thin">其余顺势而下</span></h1>
+  <div class="diagbox pad"><svg class="sv" viewBox="0 0 1600 560" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet">
+    <g font-size="20" fill="#6E6E73" font-weight="500" letter-spacing="2">
+      <text x="65" y="120">① 读取</text><text x="370" y="120">② 模态组装</text><text x="675" y="120">③ 截断（train）</text><text x="980" y="120">④ 标准化（train）</text><text x="1285" y="120">⑤ 死通道置零</text>
+    </g>
+    <rect x="65" y="150" width="250" height="110" rx="18" fill="#F5F5F7"/>
+    <text x="190" y="198" text-anchor="middle" font-size="25" font-weight="600" fill="#1D1D1F">2880 个 .pkl</text>
+    <text x="190" y="232" text-anchor="middle" font-size="19" fill="#6E6E73">24 类 × 120 · 无 NaN</text>
+    <line x1="325" y1="205" x2="358" y2="205" stroke="#8E8E93" stroke-width="3" marker-end="url(#ar)"/>
+    <rect x="370" y="150" width="250" height="110" rx="18" fill="#F5F5F7"/>
+    <text x="495" y="198" text-anchor="middle" font-size="25" font-weight="600" fill="#1D1D1F">左右手通道拼接</text>
+    <text x="495" y="232" text-anchor="middle" font-size="19" fill="#6E6E73">glove 40ch · sEMG 20ch</text>
+    <line x1="630" y1="205" x2="663" y2="205" stroke="#8E8E93" stroke-width="3" marker-end="url(#ar)"/>
+    <rect x="675" y="150" width="250" height="110" rx="18" fill="#F5F5F7"/>
+    <text x="800" y="198" text-anchor="middle" font-size="25" font-weight="600" fill="#1D1D1F">1% / 99% 分位截断</text>
+    <text x="800" y="232" text-anchor="middle" font-size="19" fill="#6E6E73">抑制 3988 级离群尖峰</text>
+    <line x1="935" y1="205" x2="968" y2="205" stroke="#0071E3" stroke-width="3" marker-end="url(#arB)"/>
+    <rect x="980" y="144" width="250" height="122" rx="18" fill="#E8F0FE" stroke="#0071E3" stroke-width="2"/>
+    <text x="1105" y="196" text-anchor="middle" font-size="25" font-weight="600" fill="#0071E3">逐通道 z-score</text>
+    <text x="1105" y="230" text-anchor="middle" font-size="19" fill="#0071E3">μ、σ 只在训练集上算</text>
+    <line x1="1240" y1="205" x2="1273" y2="205" stroke="#8E8E93" stroke-width="3" marker-end="url(#ar)"/>
+    <rect x="1285" y="150" width="250" height="110" rx="18" fill="#F5F5F7"/>
+    <text x="1410" y="198" text-anchor="middle" font-size="25" font-weight="600" fill="#1D1D1F">8 个死通道 → 0</text>
+    <text x="1410" y="232" text-anchor="middle" font-size="19" fill="#6E6E73">std&lt;0.05 视为噪声底</text>
+    <line x1="65" y1="330" x2="1535" y2="330" stroke="#E5E5EA" stroke-width="1.5"/>
+    <text x="65" y="392" font-size="23" fill="#6E6E73">划分：以 .pkl 为单位、按类分层 8:1:1 → 2304 / 288 / 288，seed=42，落盘 meta.csv 全程复用（防泄漏）</text>
+    <text x="65" y="438" font-size="23" fill="#6E6E73">为什么顺序重要：若先标准化后截断，归一化后 std 只有 0.756（应为 1.0）——实测对比</text>
+    <text x="65" y="484" font-size="23" fill="#6E6E73">蓝框 = 唯一不许出错的口径：验证/测试集直接套用训练集统计量，不重算</text>
+  </svg></div>
+</section>
+
+<!-- ===== 6 模型架构 ===== -->
+<section class="slide" data-sec="02 方法" data-title="双分支 Bi-LSTM，16.15M 参数">
+  <div class="kicker"><b>02</b>方法 · 主模型 · 对齐源论文 Figure 7c · AdamW / lr 1e-3 / dropout 0.3</div>
+  <h1>手套 128、sEMG 512，<span class="thin">两支各自提特征再拼接</span></h1>
+  <div class="sub">16.15M 参数 ｜ 8GB 显存实测：fp32 batch50 要 10.66GB 会 OOM，开 fp16 AMP 后 5.46GB —— 论文 batch 精确复现</div>
+  <div class="fig card"><img src="media/model_arch.png" alt=""></div>
+</section>
+
+<!-- ===== 7 主结果数字卡 ===== -->
+<section class="slide" data-sec="02 方法" data-title="关键数字">
+  <div class="kicker"><b>02</b>方法 · 主结果 · 测试集 288 样本 · 单次固定划分</div>
+  <h1>只错 <span class="acc">4 个</span>样本</h1>
+  <div class="stats">
+    <div class="stat"><div class="n">98.61<small>%</small></div><div class="l">源论文超参 · 融合测试准确率</div></div>
+    <div class="stat"><div class="n">99.31<small>%</small></div><div class="l">调参后 · Batch Size 50 → 32</div></div>
+    <div class="stat"><div class="n">99.65<small>%</small></div><div class="l">TCN 对比模型 · <b>= 源论文值</b></div></div>
+    <div class="stat dim"><div class="n">285<small>/ 288</small></div><div class="l">主模型正确数 · 4 个错分</div></div>
+    <div class="stat dim"><div class="n">5.46<small>GB</small></div><div class="l">AMP 后 batch50 显存 · fp32 要 10.66GB</div></div>
+    <div class="stat dim"><div class="n">16.15<small>M</small></div><div class="l">双分支 Bi-LSTM 总参数量</div></div>
+  </div>
+</section>
+
+<!-- ===== 8 训练曲线 ===== -->
+<section class="slide" data-sec="03 主结果" data-title="35 轮收敛，无过拟合">
+  <div class="kicker"><b>03</b>主结果 · 训练曲线 · 100 轮预算 · 早停 patience=20 · 实际 55 轮</div>
+  <h1>第 35 轮到顶，<span class="thin">训练验证两条线没有分叉</span></h1>
+  <div class="sub">最优验证 98.96%（第 35 轮）· 训练损失 3.08 → 0.019 · 训练准确率 99.61%</div>
+  <div class="fig card"><img src="media/bilstm_both_curves.png" alt=""></div>
+</section>
+
+<!-- ===== 9 混淆矩阵 + 错分 ===== -->
+<section class="slide" data-sec="03 主结果" data-title="288 个样本只错 4 个">
+  <div class="kicker"><b>03</b>主结果 · 24 类混淆矩阵（行归一化）· 训练前的类间相似度分析预测了它们</div>
+  <h1>错误不是随机的，<span class="thin">是手势本来就长得像</span></h1>
+  <div class="fig2">
+    <div class="fig card"><img src="media/bilstm_both_cm.png" alt=""></div>
+    <div class="tblwrap"><table class="tbl left compact">
+      <tr><th>真实 → 误判</th><th>类间 Pearson r</th></tr>
+      <tr><td>Television → <b>Like</b></td><td class="no"><b>0.857</b>（相似度 Top-10）</td></tr>
+      <tr><td>Tomorrow → Afternoon</td><td>—（未入 Top-10）</td></tr>
+      <tr><td>Never mind → Good bye</td><td>—</td></tr>
+      <tr><td>Afternoon → Never mind</td><td>—</td></tr>
+      <tr><td colspan="2">召回最低 4 类（均 0.917）：<br><b>Afternoon · Never mind · Tomorrow · Television</b></td></tr>
+      <tr><td colspan="2">最相似类别对（训练前算得）：<br>Teacher↔Tomorrow <b>0.958</b> · Tomorrow↔Weather 0.924 · China↔Tomorrow 0.862</td></tr>
+    </table></div>
+  </div>
+</section>
+
+<!-- ===== 10 多模态对比 ===== -->
+<section class="slide" data-sec="04 四组实验" data-title="融合只比单手套高 0.35pp">
+  <div class="kicker"><b>04</b>四组实验 · A/B/C · 同一划分与预算 · 60 轮</div>
+  <h1>排序和论文一致，<span class="thin">但融合只比单手套高 0.35pp</span></h1>
+  <div class="fig2">
+    <div class="fig card"><img src="media/modality_compare.png" alt=""></div>
+    <div class="tblwrap"><table class="tbl num two">
+      <tr><th>设置</th><th>测试 Accuracy</th><th>论文</th><th>差</th></tr>
+      <tr><td>C 融合</td><td class="acc"><b>98.61%</b></td><td>99.65%</td><td>−1.04</td></tr>
+      <tr><td>A 仅应变/压力</td><td><b>98.26%</b></td><td>83.75%</td><td class="no">+14.51</td></tr>
+      <tr><td>B 仅 sEMG</td><td><b>91.32%</b></td><td>88.02%</td><td>+3.30</td></tr>
+      <tr><td colspan="4">B 剔除近重复后 89.50% —— 与论文 88.02% 更接近</td></tr>
+      <tr><td colspan="4">排序一致；但论文宣称融合增益 +15.9pp，本复现只有 +0.35pp</td></tr>
+    </table></div>
+  </div>
+</section>
+
+<!-- ===== 11 模型对比 ===== -->
+<section class="slide" data-sec="04 四组实验" data-title="TCN 用 1/50 参数追平论文值">
+  <div class="kicker"><b>04</b>四组实验 · 同一输入 / 划分 / 预算（60 轮）· 全部多模态融合</div>
+  <h1>TCN 99.65%，<span class="thin">参数量只有 Bi-LSTM 的</span> <span class="acc">1/50</span></h1>
+  <div class="fig2">
+    <div class="fig card"><img src="media/model_compare.png" alt=""></div>
+    <div class="tblwrap"><table class="tbl num two">
+      <tr><th>模型</th><th>测试 Acc</th><th>参数量</th><th>收敛</th></tr>
+      <tr><td>TCN</td><td class="acc"><b>99.65%</b></td><td>0.30 M</td><td>6 轮</td></tr>
+      <tr><td>1D-CNN</td><td><b>99.31%</b></td><td>0.25 M</td><td>4 轮</td></tr>
+      <tr><td>Bi-LSTM（主）</td><td><b>98.96%</b></td><td>16.15 M</td><td>29 轮</td></tr>
+      <tr><td>Bi-GRU</td><td><b>98.61%</b></td><td>11.98 M</td><td>16 轮</td></tr>
+      <tr><td colspan="4">差异 ≤2 个样本（288 测试），置信区间高度重叠</td></tr>
+      <tr><td colspan="4">正确表述：<b>数量级相当</b>，卷积类以 1/50 参数达到同等水平</td></tr>
+    </table></div>
+  </div>
+</section>
+
+<!-- ===== 12 消融 ===== -->
+<section class="slide" data-sec="04 四组实验" data-title="FC、深度、融合方式各有贡献">
+  <div class="kicker"><b>04</b>四组实验 · 消融 · 基准 = 完整双分支 Bi-LSTM（98.96%）· 60 轮预算</div>
+  <h1>去掉谁都掉点，<span class="thin">"单向"那一项是欠拟合不是泛化差</span></h1>
+  <div class="fig2">
+    <div class="fig card"><img src="media/ablation.png" alt=""></div>
+    <div class="tblwrap"><table class="tbl left compact">
+      <tr><th>消融项</th><th>测试 Acc</th><th>Δ</th></tr>
+      <tr><td>A0 完整（基准）</td><td class="ok"><b>98.96%</b></td><td>—</td></tr>
+      <tr><td>A1 去掉分支内 2 层 FC</td><td>96.53%</td><td class="no">−2.43pp</td></tr>
+      <tr><td>A2 双向 → 单向</td><td>58.68%</td><td class="no">−40.28pp</td></tr>
+      <tr><td>A3 层数 3 → 1</td><td>95.14%</td><td class="no">−3.82pp</td></tr>
+      <tr><td>A4 融合 concat → sum</td><td>97.92%</td><td class="no">−1.04pp</td></tr>
+      <tr><td colspan="3">A2 的训练集准确率也只有 57%：<b>欠拟合</b>，<br>是 1950 步长序列上单向 LSTM 优化困难，<br>不能表述为"双向结构必需"</td></tr>
+    </table></div>
+  </div>
+</section>
+
+<!-- ===== 13 参数调节 ===== -->
+<section class="slide" data-sec="04 四组实验" data-title="Batch 32 最优，其余别乱动">
+  <div class="kicker"><b>04</b>四组实验 · 逐参数扫描 · 40 轮统一预算 · 固定其余参数 · lr 扫描：0.005 时验证掉到 96.53%</div>
+  <h1>Batch 50 → 32 涨 0.7pp，<span class="thin">另两个参数动了不讨好</span></h1>
+  <div class="fig2">
+    <div class="fig card"><img src="media/param_sweep_batch_size.png" alt=""></div>
+    <div class="fig card"><img src="media/param_sweep_dropout.png" alt=""></div>
+  </div>
+</section>
+
+<!-- ===== 14 组合验证 ===== -->
+<section class="slide" data-sec="04 四组实验" data-title="单项最优叠加反而更差">
+  <div class="kicker"><b>04</b>四组实验 · 参数组合验证 · 三个单项最优组合后重训 40 轮完整预算</div>
+  <h1>叠加之后 <span class="acc">98.26%</span>，<span class="thin">比任何单项都差</span></h1>
+  <div class="tblwrap"><table class="tbl num two">
+    <tr><th>配置</th><th>lr</th><th>Batch</th><th>Dropout</th><th>测试 Accuracy</th></tr>
+    <tr><td>源论文基线</td><td>0.001</td><td>50</td><td>0.3</td><td><b>98.61%</b></td></tr>
+    <tr><td>单项最优 · Batch</td><td>0.001</td><td>32</td><td>0.3</td><td class="acc"><b>99.31%</b><br><small>全部 Bi-LSTM 实验最优</small></td></tr>
+    <tr><td>单项最优 · 学习率</td><td>0.002</td><td>50</td><td>0.3</td><td><b>98.96%</b></td></tr>
+    <tr><td>单项最优 · Dropout</td><td>0.001</td><td>50</td><td>0.1</td><td><b>99.31%</b></td></tr>
+    <tr class="bad"><td>三项叠加</td><td>0.002</td><td>32</td><td>0.1</td><td><b>98.26%</b><br><small>末轮 train 100% / val 96.88% → 过拟合</small></td></tr>
+    <tr><td colspan="5">结论：超参数之间存在交互，<b>单项最优不可简单叠加</b>；最终采用 lr 0.001 · Batch 32 · Dropout 0.3</td></tr>
+  </table></div>
+</section>
+
+<!-- ===== 15 与论文对照 ===== -->
+<section class="slide" data-sec="05 与论文对照" data-title="融合复现了，单模态分歧很大">
+  <div class="kicker"><b>05</b>与论文对照 · 源论文 Adv. Sci. 2026, 13:e20586 · SI 本地缺失无法核实</div>
+  <h1>融合复现成功，<span class="thin">单模态分歧要如实说</span></h1>
+  <div class="tblwrap"><table class="tbl num two">
+    <tr><th>项目</th><th>源论文</th><th>本复现</th><th>判定</th></tr>
+    <tr><td>融合准确率</td><td><b>99.65%</b></td><td class="acc"><b>98.61%</b><br><small>调参后 99.31% · TCN 99.65%</small></td><td class="ok">复现成功</td></tr>
+    <tr><td>仅应变/压力</td><td><b>83.75%</b></td><td><b>98.26%</b><br><small>高出 14.5pp</small></td><td class="no">显著分歧</td></tr>
+    <tr><td>仅 sEMG</td><td><b>88.02%</b></td><td><b>91.32%</b><br><small>剔除近重复后 89.50%</small></td><td class="ok">接近</td></tr>
+    <tr><td>架构与超参</td><td>双分支 Bi-LSTM<br><small>AdamW · 50 · 1e-3 · 0.3</small></td><td>已复现<br><small>同种子可复跑</small></td><td class="ok">一致</td></tr>
+    <tr><td colspan="4">分歧归因：已排除泄漏 / 划分错误 / 标签错误；最可能是论文单模态实验为"测试时模态剪枝"（无法核实）</td></tr>
+  </table></div>
+</section>
+
+<!-- ===== 16 泄漏审计 ===== -->
+<section class="slide" data-sec="05 与论文对照" data-title="划分零泄漏，但有近重复">
+  <div class="kicker"><b>05</b>与论文对照 · 独立审计 · tools/leakage_audit.py 可复跑 · 114 项数值核查全过</div>
+  <h1>划分<span class="acc">零泄漏</span>，<span class="thin">但 27.4% 的测试样本有近重复</span></h1>
+  <div class="stats">
+    <div class="stat"><div class="n">0</div><div class="l">train / val / test 两两交集<br><b>每类精确 96/12/12 · 并集=2880</b></div></div>
+    <div class="stat"><div class="n">27.4<small>%</small></div><div class="l">测试样本在训练集有 cos≥0.999 近邻<br><b>79 / 288 · 全部同类（无标签错误）</b></div></div>
+    <div class="stat"><div class="n">+0.52<small>pp</small></div><div class="l">近重复对整体准确率的抬升<br>融合 +0.52 · 仅 sEMG <b>+1.82</b></div></div>
+    <div class="stat dim"><div class="n">100<small>%</small></div><div class="l">近重复子集准确率（79/79 全对）</div></div>
+    <div class="stat dim"><div class="n">98.09<small>%</small></div><div class="l">无近重复子集准确率（融合）</div></div>
+    <div class="stat dim text"><div class="n">解释不了 <span class="acc">14pp</span></div><div class="l">近重复效应太小，论文单模态协议存疑</div></div>
+  </div>
+</section>
+
+<!-- ===== 17 融合机制实验 ===== -->
+<section class="slide" data-sec="05 与论文对照" data-title="融合机制：sEMG 到底有没有被用上">
+  <div class="kicker"><b>05</b>融合机制 · 推理剪枝 + 模态 Dropout + Oracle 上界 + 多种子 · 跨 GPU 环境 31 组训练</div>
+  <h1>所谓"融合"，<span class="thin">其实只用了手套一路</span></h1>
+  <div class="fig2">
+    <div class="tblwrap"><table class="tbl left compact">
+      <tr><th>配置</th><th>测试 Acc</th><th>sEMG 被用了吗</th></tr>
+      <tr><td>不滤波融合（基线）</td><td class="ok"><b>99.31%</b></td><td class="no">否 · 288/288 预测不变</td></tr>
+      <tr><td>模态 Dropout 30%</td><td>98.96%</td><td class="no">否 · 288/288</td></tr>
+      <tr><td>模态 Dropout 50%</td><td>98.61%</td><td class="no">否 · 288/288</td></tr>
+      <tr><td>滤波后融合</td><td>95.49%</td><td class="ok">是（−36.46pp）但更差</td></tr>
+      <tr><td>仅 sEMG（不滤波）</td><td>89.24%</td><td>—</td></tr>
+      <tr><td>仅 sEMG（滤波）</td><td class="no">75.69%</td><td>滤波反而 −13.55pp</td></tr>
+    </table></div>
+    <div class="tblwrap"><table class="tbl left compact">
+      <tr><th>四组独立证据</th></tr>
+      <tr><td><b>① 推理剪枝</b>：推理时把 sEMG 置零 → 预测<b>逐样本一字不差</b>（288/288）；把手套置零 → 退化成随机（4.17%）</td></tr>
+      <tr><td><b>② 模态 Dropout</b>：训练时强行丢模态，模型的<b>训练集准确率被钉在 0.7617</b> = 0.75×100%+0.25×4%，说明它宁可牺牲 25% 样本也不学 sEMG</td></tr>
+      <tr><td><b>③ Oracle 上限</b>：任一模型判对即算对 → <b>5 组里 4 组的天花板就等于当前成绩</b>（净空间 0.00pp）。即<b>理论上也没有改进余地</b></td></tr>
+      <tr><td><b>④ 多种子</b>：Bi-LSTM <b>98.96±0.40%</b>，TCN <b>99.42±0.40%</b>，差值 0.46pp <b>小于种子波动</b></td></tr>
+      <tr><td>结论：sEMG 怎么处理都带不来增益；且引入 sEMG 有 29 个样本（10.1%）会<b>反而丢分</b></td></tr>
+    </table></div>
+  </div>
+</section>
+
+<!-- ===== 18 局限 ===== -->
+<section class="slide" data-sec="06 局限与结论" data-title="局限，每条都能修">
+  <div class="kicker"><b>06</b>局限与结论 · 其中两条已由实验推进：一条被推翻，一条替换为实测结论</div>
+  <h1>四条局限，<span class="thin">两条已经有答案</span></h1>
+  <div class="two">
+    <div class="col"><div class="h2">已知的局限</div>
+      <div class="li"><b>统计效力</b>：288 样本 → ±1pp；实测种子标准差 <b>0.40pp</b></div>
+      <div class="li"><b>融合机制未生效</b>：sEMG 分支完全没被用上（三组独立证据）</div>
+      <div class="li"><b>近重复</b>：27.4% 测试样本有训练集近邻 → 整体偏乐观约 0.5pp</div>
+      <div class="li"><b>跨机器复现性</b>：同种子换 GPU 轨迹即分叉（cuDNN 算法选择）</div></div>
+    <div class="col"><div class="h2">改进方向（已排除两条）</div>
+      <div class="li"><b>❌ 滤波</b>：已实测——sEMG 单模态 −13.55pp，直觉被推翻</div>
+      <div class="li"><b>❌ 模态 Dropout</b>：已实测——无法让 sEMG 被利用</div>
+      <div class="li"><b>✅ 训练机制</b>：分支输出对齐损失、梯度平衡（GradNorm/PCGrad）</div>
+      <div class="li"><b>✅ 近重复分组划分</b>：把相似样本归入同一集合</div></div>
+  </div>
+</section>
+
+<!-- ===== 19 结论 ===== -->
+<section class="slide" data-sec="06 局限与结论" data-title="结论">
+  <div class="kicker"><b>06</b>局限与结论 · 收束</div>
+  <h1>三句话收住</h1>
+  <div class="bigline">
+    <div class="row"><span class="thin">精度：</span>Bi-LSTM <span class="acc">98.96±0.40%</span>，TCN <span class="acc">99.42±0.40%</span> <span class="thin">（多种子）</span></div>
+    <div class="row"><span class="thin">机制：</span>sEMG 分支<span class="acc">完全没被使用</span>，<span class="thin">"融合"实质是单模态</span></div>
+    <div class="row"><span class="thin">发现：</span>论文的 +15.9pp 融合增益<span class="acc">未能复现</span>，<span class="thin">根因是主导模态</span></div>
+    <div class="row small">23 页 PDF · 13 项交付物 · 114 项数值核查全过 · 跨 GPU 环境共 31 组训练</div>
+  </div>
+</section>
+
+<!-- ===== 19 收尾 ===== -->
+<section class="slide end" data-sec="收尾" data-title="收尾">
+  <h1>谢谢</h1>
+  <div class="big"><b>24 类手语 · 双分支融合 · 99.65%</b><br>数据 → 方法 → 四组实验 → 对照 → 局限，全部可复现</div>
+  <div class="big" style="margin-top:70px">wanye · Kai · 2026-10-15</div>
+</section>
+
+</div>
+<div id="nav-hot"></div>
+<div id="nav-btn"><div class="b" id="nb-prev">‹</div><span class="pg" id="nb-pg">1 / 1</span><div class="b" id="nb-next">›</div><div class="b" id="nb-list">☰</div></div>
+<div id="nav-panel"></div>
+<div id="hud"></div>
+<script>
+(function(){
+  const stage=document.getElementById('stage');
+  const slides=[...document.querySelectorAll('.slide')];
+  const hud=document.getElementById('hud');
+  let cur=-1, showCounter=false;
+  function fit(){ const s=Math.min(innerWidth/1920, innerHeight/1080); stage.style.transform=`translate(-50%,-50%) scale(${s})`; if(cur>=0) fitFigs(slides[cur]); }
+  function fitFigs(sl){
+    sl.querySelectorAll(':scope > .fig.card, :scope > .fig.plain').forEach(f=>{
+      const img=f.querySelector('img,video'); if(!img) return;
+      const nw=img.naturalWidth||img.videoWidth, nh=img.naturalHeight||img.videoHeight; if(!nw||!nh) return;
+      f.style.flex=''; f.style.width=''; f.style.height=''; f.style.margin='';
+      const W=f.clientWidth, H=f.clientHeight; if(!W||!H) return;
+      const pad=f.classList.contains('card')?60:0, ar=nw/nh;
+      let w=W, h=(W-pad)/ar+pad; if(h>H){ h=H; w=(H-pad)*ar+pad; }
+      f.style.flex='0 0 auto'; f.style.width=Math.round(w)+'px'; f.style.height=Math.round(h)+'px'; f.style.margin='auto';
+    });
+    sl.querySelectorAll(':scope > .fig2').forEach(row=>{
+      const cards=[...row.querySelectorAll(':scope > .fig.card')]; if(!cards.length) return;
+      cards.forEach(f=>{ f.style.flex=''; f.style.width=''; f.style.height=''; f.style.alignSelf=''; });
+      row.style.justifyContent='';
+      const H=row.clientHeight; if(!H) return;
+      const sizes=cards.map(f=>{ const img=f.querySelector('img'); if(!img||!img.naturalWidth) return null;
+        const W=f.clientWidth, pad=60, ar=img.naturalWidth/img.naturalHeight; let w=W, h=(W-pad)/ar+pad; if(h>H){ h=H; w=(H-pad)*ar+pad; } return [w,h]; });
+      if(sizes.some(x=>!x)) return;
+      cards.forEach((f,i)=>{ f.style.flex='0 0 auto'; f.style.width=Math.round(sizes[i][0])+'px'; f.style.height=Math.round(sizes[i][1])+'px'; f.style.alignSelf='center'; });
+      row.style.justifyContent='center';
+    });
+  }
+  document.querySelectorAll('.slide > .fig img, .slide > .fig2 > .fig img').forEach(img=>img.addEventListener('load',()=>{ const sl=img.closest('.slide'); if(sl.classList.contains('active')) fitFigs(sl); }));
+  function show(n){
+    n=Math.max(0,Math.min(slides.length-1,n)); if(n===cur) return;
+    slides.forEach((s,k)=>{ s.classList.toggle('active',k===n); });
+    cur=n; history.replaceState(null,'','#'+(n+1)); updateHud(); fitFigs(slides[n]);
+  }
+  const navBtn=document.getElementById('nav-btn'), panel=document.getElementById('nav-panel'), pg=document.getElementById('nb-pg');
+  (function buildNav(){
+    let html='', lastSec=null;
+    slides.forEach((sl,k)=>{
+      const sec=sl.dataset.sec||''; const h=sl.querySelector('h1');
+      let title=sl.dataset.title||(h?h.textContent.trim():''); if(!title) title=sec;
+      if(sec!==lastSec){ html+=`<div class="sec-title">${sec||'—'}</div>`; lastSec=sec; }
+      html+=`<div class="it" data-k="${k}"><span class="k">${k+1}</span><span>${title}</span></div>`;
+    });
+    panel.innerHTML=html;
+  })();
+  function toggleNav(force){ const on=(force===undefined)?!panel.classList.contains('open'):force; panel.classList.toggle('open',on); navBtn.classList.toggle('open',on); }
+  document.getElementById('nb-list').addEventListener('click',e=>{ e.stopPropagation(); toggleNav(); });
+  document.getElementById('nb-prev').addEventListener('click',e=>{ e.stopPropagation(); prev(); });
+  document.getElementById('nb-next').addEventListener('click',e=>{ e.stopPropagation(); next(); });
+  navBtn.addEventListener('click',e=>{ e.stopPropagation(); });
+  panel.addEventListener('click',e=>{ e.stopPropagation(); const it=e.target.closest('.it'); if(!it) return; show(parseInt(it.dataset.k,10)); toggleNav(false); });
+  function updateHud(){ pg.textContent=`${cur+1} / ${slides.length}`; hud.textContent = showCounter ? `${cur+1} / ${slides.length}` : '← → 翻页 · F 全屏 · C 页码 · 左上角选页'; panel.querySelectorAll('.it').forEach((el,k)=>el.classList.toggle('cur',k===cur)); }
+  function next(){ show(cur+1); } function prev(){ show(cur-1); }
+  let buf='', bt=null;
+  addEventListener('keydown',e=>{
+    if(['ArrowRight','ArrowDown','PageDown',' ','Enter'].includes(e.key)){ e.preventDefault(); next(); }
+    else if(['ArrowLeft','ArrowUp','PageUp','Backspace'].includes(e.key)){ e.preventDefault(); prev(); }
+    else if(e.key==='Escape'){ toggleNav(false); }
+    else if(e.key==='g'||e.key==='G'){ toggleNav(); }
+    else if(e.key==='Home'){ show(0); } else if(e.key==='End'){ show(slides.length-1); }
+    else if(e.key==='f'||e.key==='F'){ if(document.fullscreenElement) document.exitFullscreen(); else document.documentElement.requestFullscreen().catch(()=>{}); }
+    else if(e.key==='c'||e.key==='C'){ showCounter=!showCounter; hud.classList.toggle('show',showCounter); updateHud(); }
+    else if(/^[0-9]$/.test(e.key)){ buf=(buf+e.key).slice(-2); clearTimeout(bt); bt=setTimeout(()=>{ const k=parseInt(buf,10); if(k>=1&&k<=slides.length) show(k-1); buf=''; },500); }
+  });
+  addEventListener('click',e=>{ if(e.target.closest('a,#nav-panel,#nav-btn,#nav-hot')) return; if(panel.classList.contains('open')){ toggleNav(false); return; } const x=e.clientX/innerWidth; if(x<0.2) prev(); else next(); });
+  addEventListener('resize',fit); fit();
+  const h=parseInt((location.hash||'#1').slice(1),10); show(isNaN(h)?0:h-1);
+  if(/[?&]nav=1/.test(location.search)) toggleNav(true);
+  hud.classList.add('show'); setTimeout(()=>{ if(!showCounter) hud.classList.remove('show'); },4000);
+})();
+</script>
+</body>
+</html>

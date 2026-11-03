@@ -1,0 +1,26 @@
+# tag=p3_tcn_s0 model=tcn modality=both started=2026-10-15 18:02:24
+ep  1 train_loss=2.0565 train_acc=0.4488 val_loss=0.5510 val_acc=0.8715 *best
+ep  2 train_loss=0.4011 train_acc=0.9045 val_loss=0.1243 val_acc=0.9792 *best
+ep  3 train_loss=0.1246 train_acc=0.9792 val_loss=0.0328 val_acc=0.9965 *best
+ep  4 train_loss=0.0674 train_acc=0.9857 val_loss=0.0103 val_acc=0.9965
+ep  5 train_loss=0.0394 train_acc=0.9939 val_loss=0.0032 val_acc=1.0000 *best
+ep  6 train_loss=0.0329 train_acc=0.9931 val_loss=0.0145 val_acc=0.9931
+ep  7 train_loss=0.0388 train_acc=0.9935 val_loss=0.0055 val_acc=1.0000
+ep  8 train_loss=0.0310 train_acc=0.9922 val_loss=0.0107 val_acc=0.9965
+ep  9 train_loss=0.0283 train_acc=0.9926 val_loss=0.0018 val_acc=1.0000
+ep 10 train_loss=0.0252 train_acc=0.9944 val_loss=0.0009 val_acc=1.0000
+ep 11 train_loss=0.0183 train_acc=0.9961 val_loss=0.0008 val_acc=1.0000
+ep 12 train_loss=0.0214 train_acc=0.9935 val_loss=0.0006 val_acc=1.0000
+ep 13 train_loss=0.0102 train_acc=0.9987 val_loss=0.0003 val_acc=1.0000
+ep 14 train_loss=0.0095 train_acc=0.9991 val_loss=0.0006 val_acc=1.0000
+ep 15 train_loss=0.0076 train_acc=0.9974 val_loss=0.0005 val_acc=1.0000
+ep 16 train_loss=0.0064 train_acc=0.9983 val_loss=0.0007 val_acc=1.0000
+ep 17 train_loss=0.0128 train_acc=0.9957 val_loss=0.0072 val_acc=0.9965
+ep 18 train_loss=0.0137 train_acc=0.9961 val_loss=0.0005 val_acc=1.0000
+ep 19 train_loss=0.0038 train_acc=0.9987 val_loss=0.0002 val_acc=1.0000
+ep 20 train_loss=0.0038 train_acc=0.9991 val_loss=0.0001 val_acc=1.0000
+ep 21 train_loss=0.0030 train_acc=0.9996 val_loss=0.0002 val_acc=1.0000
+ep 22 train_loss=0.0044 train_acc=0.9996 val_loss=0.0001 val_acc=1.0000
+ep 23 train_loss=0.0024 train_acc=0.9991 val_loss=0.0030 val_acc=0.9965
+ep 24 train_loss=0.0023 train_acc=0.9996 val_loss=0.0001 val_acc=1.0000
+ep 25 train_loss=0.0027 train_acc=0.9996 val_loss=0.0001 val_acc=1.0000
